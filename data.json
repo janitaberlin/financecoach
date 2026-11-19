@@ -1,5 +1,5 @@
 {
- "stand": "19.11.2026, 17:15 Uhr MEZ",
+ "stand": "19.11.2026, 18:45 Uhr MEZ",
  "tabellen": {
   "regionen": [
    {
@@ -764,6 +764,12 @@
   "neu": [
    {
     "datum": "19.11.2026",
+    "bereich": "Anthropic",
+    "aenderung": "ANT-Handelsstart ergänzt: erster Kurs 111,50 USD (17:48 MEZ), Hoch/Tief, Stand 18:30 MEZ, Volumen, Amazon/Alphabet und Marktumfeld intraday",
+    "quelle": "StockAnalysis, StockTitan, Yahoo Finance"
+   },
+   {
+    "datum": "19.11.2026",
     "bereich": "Diagramme, Top-Bewegungen",
     "aenderung": "Neu: Top-Aktienbewegungen (Indizes, Mag7, Gewinner/Verlierer), Leitzinsen, Mag7-Gewicht; Diagramme zu ETF-Flüssen, Gold-ETFs, Lipper vs. Durchschnitt, Big Three, Märkten",
     "quelle": "CNBC/Stocktitan, Motley Fool, Trefis, EZB, investingLive, CaixaBank"
@@ -936,21 +942,24 @@
   "ueberblick_text": [
    {
     "ebene": "Anthropic-Börsengang",
-    "zeitraum": "heute, Do. 19.11.2026, ab 15:30 Uhr MEZ",
-    "kernsatz": "Erster Handelstag von Anthropic heute, Donnerstag 19.11.2026, ab 15:30 Uhr MEZ an der Nasdaq unter dem Kürzel ANT; Ausgabepreis 83 USD.",
+    "zeitraum": "Do. 19.11.2026, Stand 18:30 Uhr MEZ (intraday)",
+    "kernsatz": "ANT an der Nasdaq seit 17:48 Uhr MEZ gehandelt: erster Kurs 111,50 USD, zuletzt rund 100 USD; Ausgabepreis 83 USD.",
     "punkte": [
-     "Erster Handelstag: Do. 19.11.2026",
-     "Uhrzeit: ab 15:30 Uhr MEZ",
-     "Börse und Kürzel: Nasdaq, ANT",
-     "Ausgabepreis: 83 USD (Spanne 70–78 USD)",
-     "Bewertung: rund 1,5 Bio. USD",
-     "Kurse: morgen früh im Dashboard"
+     "Erster Kurs: 111,50 USD (17:48 MEZ)",
+     "Hoch 115,10 / Tief 98,24 USD",
+     "18:30 MEZ: ca. 100,2–100,5 USD",
+     "+21 % zum Ausgabepreis 83 USD",
+     "Volumen: ca. 473 Mio. Aktien",
+     "Börsenwert: ca. 1,33 Bio. USD"
     ],
-    "quelle": "AP via Boston Globe, 19.11.2026",
-    "quelle_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-trading-nasdaq/",
+    "quelle": "StockAnalysis (CBOE) 18:28 MEZ; StockTitan; Yahoo Finance 18:31 MEZ",
+    "quelle_url": "https://stockanalysis.com/stocks/ant/",
     "hinweise": [
-     "Anteil eines Einzeltitels am Depot prüfen",
-     "ANT notiert in USD: EUR/USD-Risiko"
+     "Erster Handelstag: Spanne Tief–Hoch ca. 17 %",
+     "Limit-Order begrenzt den Ausführungspreis",
+     "Nach 22:00 MEZ oft breitere Spreads in DE",
+     "ANT notiert in USD: EUR/USD-Risiko",
+     "Anteil eines Einzeltitels am Depot prüfen"
     ]
    },
    {
@@ -1308,35 +1317,51 @@
    },
    {
     "kennzahl": "Eröffnungskurs ANT (19.11.)",
-    "wert": "ausstehend",
-    "vergleich": "Ausgabepreis 83 USD",
-    "quelle": "Handelsstart Nasdaq 19.11., 15:30 Uhr MEZ",
-    "quelle_url": "",
-    "status": "ausstehend"
+    "wert": "111,50 USD (erster Handel 17:48 MEZ)",
+    "vergleich": "+34,3 % zum Ausgabepreis 83 USD",
+    "quelle": "StockTitan Live-Blog, 19.11.2026",
+    "quelle_url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+    "status": "beobachtet"
    },
    {
     "kennzahl": "Schlusskurs ANT (19.11.)",
-    "wert": "ausstehend",
-    "vergleich": "Ausgabepreis 83 USD",
-    "quelle": "wird nach US-Börsenschluss ergänzt",
-    "quelle_url": "",
-    "status": "ausstehend"
+    "wert": "ausstehend; 18:28 MEZ: 100,23 USD (Hoch 115,10, Tief 98,24)",
+    "vergleich": "+20,8 % zum Ausgabepreis 83 USD",
+    "quelle": "StockAnalysis (CBOE), 19.11. 18:28 MEZ",
+    "quelle_url": "https://stockanalysis.com/stocks/ant/",
+    "status": "intraday"
+   },
+   {
+    "kennzahl": "Handelsvolumen ANT (19.11.)",
+    "wert": "ca. 473 Mio. Aktien bis 18:28 MEZ",
+    "vergleich": "980 Mio. Aktien platziert",
+    "quelle": "StockAnalysis (CBOE)",
+    "quelle_url": "https://stockanalysis.com/stocks/ant/",
+    "status": "intraday"
+   },
+   {
+    "kennzahl": "Marktumfeld 19.11. (18:31 MEZ)",
+    "wert": "Dow −1,23 %, S&P 500 −0,62 %, Nasdaq −0,31 %, VIX 28,39 (+15,6 %)",
+    "vergleich": "VIX vorbörslich 22,32; AMD ca. −8 % (Hunterbrook-Short)",
+    "quelle": "Yahoo Finance Markets-Blog",
+    "quelle_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+    "status": "intraday"
    },
    {
     "kennzahl": "Amazon am 19.11.",
-    "wert": "ausstehend",
+    "wert": "−0,9 % (ca. 18:05 MEZ, intraday)",
     "vergleich": "18.11.: +3,8 %; hält 14,7 % an Anthropic",
-    "quelle": "wird nach US-Börsenschluss ergänzt",
-    "quelle_url": "",
-    "status": "ausstehend"
+    "quelle": "Yahoo Finance Markets-Blog, 19.11.",
+    "quelle_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+    "status": "intraday"
    },
    {
     "kennzahl": "Alphabet am 19.11.",
-    "wert": "ausstehend",
+    "wert": "+0,7 % (ca. 18:05 MEZ, intraday)",
     "vergleich": "hält 13,7 % an Anthropic",
-    "quelle": "wird nach US-Börsenschluss ergänzt",
-    "quelle_url": "",
-    "status": "ausstehend"
+    "quelle": "Yahoo Finance Markets-Blog, 19.11.",
+    "quelle_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+    "status": "intraday"
    },
    {
     "kennzahl": "Umsatz",
@@ -2371,12 +2396,12 @@
     "richtung": "Tagesveränderung",
     "name": "Anthropic",
     "ticker": "ANT",
-    "veraenderung_pct": null,
-    "grund": "Erster Handelstag 19.11., ab 15:30 MEZ; Kurse ab nächstem Lauf",
+    "veraenderung_pct": 20.76,
+    "grund": "Erster Handelstag: erster Kurs 111,50 USD (17:48 MEZ), Hoch 115,10, Tief 98,24; 18:28 MEZ 100,23 USD; % zum Ausgabepreis 83 USD (intraday, kein Schlusskurs)",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Börsengang-Termin laut Dashboard (Abschnitt Anthropic)",
-    "quelle_url": ""
+    "boersenschluss": "19.11.2026 (intraday 18:28 MEZ)",
+    "quelle": "StockAnalysis (CBOE)",
+    "quelle_url": "https://stockanalysis.com/stocks/ant/"
    },
    {
     "nr": 12,
