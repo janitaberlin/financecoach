@@ -118,7 +118,7 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
   <header class="head" id="kopf">
     <h1 class="marke">Finance Coach</h1>
     <p class="unterzeile">Global Smart Money · ETFs &amp; Aktien · täglich 06:37</p>
-    <p class="muted">Stand der Daten: <span data-draw="stand">—</span> · täglich morgens aktualisiert · Research, keine Anlageberatung</p>
+    <p class="muted"><strong>Zuletzt aktualisiert:</strong> <span data-draw="stand">—</span> · <strong>Nächste Aktualisierung:</strong> <span id="naechste">Di.–Sa. 06:37 Uhr</span> · Research, keine Anlageberatung</p>
     <p class="lead" data-draw="kernsatz">—</p>
   </header>
 
@@ -685,6 +685,15 @@ dash.draw('termine_tab', function (tb) {
   var r = KT.ok('termine'); tb.replaceChildren(); if (!r) return;
   r.forEach(function (x) { var tr = document.createElement('tr'); KT.td(tr, x.reihe); KT.td(tr, x.rhythmus); KT.td(tr, x.deckt_ab); KT.td(tr, x.quelle); tb.appendChild(tr); });
 });
+</script>
+<script>
+(function(){try{
+var d=new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Berlin'}));
+var t=new Date(d); t.setHours(6,37,0,0); if(d>=t) t.setDate(t.getDate()+1);
+while(t.getDay()===0||t.getDay()===1) t.setDate(t.getDate()+1);
+var tage=['So.','Mo.','Di.','Mi.','Do.','Fr.','Sa.'];
+document.getElementById('naechste').textContent=tage[t.getDay()]+' '+('0'+t.getDate()).slice(-2)+'.'+('0'+(t.getMonth()+1)).slice(-2)+'., 06:37 Uhr (Di.–Sa.)';
+}catch(e){}})();
 </script>
 </div>
 </body>
