@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Finance Coach</title>
+<meta name="description" content="Global Smart Money · ETFs & Aktien · täglich 06:37. Research, keine Anlageberatung.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Finance Coach">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171614" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+:root{--font-anthropic-serif:'Cormorant Garamond',Georgia,serif;--bg:#f7f5f0;--color-bg:#fffdf8;--color-panel:#fffdf8;--color-fg:#1c1b19;--color-fg-muted:#6b675f;--color-border-line:#e3dfd6;
+--color-ok:#2f7d4f;--color-bad:#b23b2e;--color-warn:#a8711a;
+--cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:12px;--cds-gap-xl:28px;--cds-pad-md:14px;--cds-radius:10px;
+--cds-font-size-title:34px;--cds-font-size-heading:19px;--cds-font-size-body:15px;--cds-font-size-caption:13px;--cds-font-weight-medium:600;
+--cds-surface-popover:#fffdf8;--cds-border:#d8d3c8;--cds-shadow-popover:0 4px 16px rgba(0,0,0,.12);--cds-text-secondary:#6b675f;--cds-chart-axis:#cfc9bd}
+@media (prefers-color-scheme: dark){:root{--bg:#171614;--color-bg:#211f1c;--color-panel:#211f1c;--color-fg:#ede9e1;--color-fg-muted:#a39e94;--color-border-line:#36332e;
+--color-ok:#6cc08b;--color-bad:#ec7a6b;--color-warn:#e0b25a;--cds-surface-popover:#2a2824;--cds-border:#45413a;--cds-text-secondary:#a39e94;--cds-chart-axis:#4a463f}}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-apple-system,system-ui,sans-serif;font-size:15px;line-height:1.45}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px calc(40px + env(safe-area-inset-bottom))}
+.kt #etf td:nth-child(3){min-width:90px}
+.foot{margin-top:32px;font-size:12px;color:var(--color-fg-muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<script>
+(function(){
+  var L={},C={},D={},R={},S={};
+  window.dash={colors:['#8a6d3b','#3d6b8f','#2f7d4f','#b23b2e'],
+    loader:function(n,o){L[n]=o},calc:function(n,o){C[n]=o},draw:function(n,f){D[n]=f},
+    data:function(id){return R[id]?{status:'ok',data:R[id]}:{status:S.err?'error':'loading',data:[]}},
+    onData:function(){},params:function(){return{}}};
+  function draw(){document.querySelectorAll('[data-draw]').forEach(function(el){var f=D[el.dataset.draw];if(f){try{f(el)}catch(e){console.error(el.dataset.draw,e)}}});}
+  window.addEventListener('DOMContentLoaded',function(){
+    fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(T){
+      Object.keys(L).forEach(function(k){R[k]=L[k].fn({answer:T})});
+      Object.keys(C).forEach(function(c){R[c]=C[c].fn.apply(null,C[c].inputs.map(function(i){return R[i]||[]}))});
+      draw(); var w=0; window.addEventListener('resize',function(){if(Math.abs(window.innerWidth-w)>40){w=window.innerWidth;draw();}});
+    }).catch(function(e){S.err=1;console.error(e);draw();});
+  });
+})();
+</script>
+<style>
+.kt { display:flex; flex-direction:column; gap:var(--cds-gap-xl); }
+.kt h1 { font-family:var(--font-anthropic-serif); font-weight:400; font-size:var(--cds-font-size-title); margin:0; text-wrap:balance; }
+.kt h2 { font-size:var(--cds-font-size-heading); font-weight:var(--cds-font-weight-medium); margin:0; text-wrap:balance; }
+.kt .lead { font-size:var(--cds-font-size-body); max-width:70ch; margin:0; line-height:1.5; }
+.kt .muted, .kt .note { color:var(--color-fg-muted); font-size:var(--cds-font-size-caption); }
+.kt .note { margin:0; max-width:75ch; line-height:1.45; }
+.kt section { display:flex; flex-direction:column; gap:var(--cds-gap-sm); min-width:0; }
+.kt .head { display:flex; flex-direction:column; gap:var(--cds-gap-xs); }
+.kt .tw { overflow-x:auto; }
+.kt table { border-collapse:collapse; width:100%; font-size:var(--cds-font-size-caption); font-variant-numeric:tabular-nums; }
+.kt th { text-align:left; font-weight:var(--cds-font-weight-medium); color:var(--color-fg-muted); padding:6px 8px; border-bottom:1px solid var(--color-border-line); white-space:nowrap; }
+.kt td { padding:6px 8px; border-bottom:1px solid var(--color-border-line); vertical-align:top; }
+.kt td.n, .kt th.n { text-align:right; white-space:nowrap; }
+.kt a { color:inherit; }
+.kt .pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:var(--cds-font-size-caption); white-space:nowrap; border:1px solid currentColor; }
+.kt .ok { color:var(--color-ok); } .kt .bad { color:var(--color-bad); } .kt .warn { color:var(--color-warn); }
+.kt .chart { position:relative; min-height:420px; }
+.kt .tip { position:absolute; pointer-events:none; background:var(--cds-surface-popover); border:1px solid var(--cds-border); box-shadow:var(--cds-shadow-popover); border-radius:var(--cds-radius); padding:6px 10px; font-size:var(--cds-font-size-caption); max-width:260px; z-index:2; }
+.kt .legend { display:flex; flex-wrap:wrap; gap:var(--cds-gap-md); font-size:var(--cds-font-size-caption); color:var(--color-fg-muted); align-items:center; }
+.kt .sw { display:inline-block; width:12px; height:10px; vertical-align:middle; margin-right:4px; }
+.kt .tick { display:inline-block; width:2px; height:12px; vertical-align:middle; margin-right:4px; background:var(--color-fg); }
+.kt .dia { display:inline-block; width:8px; height:8px; transform:rotate(45deg); vertical-align:middle; margin-right:6px; border:1.5px solid var(--color-fg-muted); }
+.kt .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:var(--cds-gap-md); }
+.kt .card { background:var(--color-panel); border:1px solid var(--color-border-line); border-radius:var(--cds-radius); padding:var(--cds-pad-md); display:flex; flex-direction:column; gap:4px; min-width:0; }
+.kt .big { font-family:var(--font-anthropic-serif); font-size:28px; font-weight:400; font-variant-numeric:tabular-nums; }
+.kt .axis text { fill:var(--cds-text-secondary); font-size:11px; }
+.kt .axis path, .kt .axis line { stroke:var(--cds-chart-axis); }
+.kt details summary { cursor:pointer; font-weight:var(--cds-font-weight-medium); }
+.kt .ceo { display:flex; flex-direction:column; gap:var(--cds-gap-sm); margin:0; padding:0; list-style:none; counter-reset:c; }
+.kt .ceo li { background:var(--color-panel); border:1px solid var(--color-border-line); border-radius:var(--cds-radius); padding:var(--cds-pad-md); display:grid; grid-template-columns:28px 1fr; gap:4px 10px; }
+.kt .ceo .nr { font-family:var(--font-anthropic-serif); font-size:22px; line-height:1; grid-row:span 4; color:var(--color-fg-muted); }
+.kt .ceo .t { font-weight:var(--cds-font-weight-medium); }
+.kt .ceo p { margin:0; line-height:1.5; max-width:80ch; }
+.kt .ebenen { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:var(--cds-gap-md); }
+.kt .ebene { background:var(--color-panel); border:1px solid var(--color-border-line); border-radius:var(--cds-radius); padding:var(--cds-pad-md); display:flex; flex-direction:column; gap:var(--cds-gap-sm); min-width:0; }
+.kt .ebene h3 { margin:0; font-size:var(--cds-font-size-body); font-weight:var(--cds-font-weight-medium); display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; }
+.kt .ebene p { margin:0; line-height:1.5; }
+.kt .items { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; font-size:var(--cds-font-size-caption); }
+.kt .items li { display:flex; flex-direction:column; gap:1px; border-top:1px solid var(--color-border-line); padding-top:6px; }
+.kt .items .w { font-variant-numeric:tabular-nums; font-weight:var(--cds-font-weight-medium); }
+.kt .tag-e { font-size:var(--cds-font-size-caption); color:var(--color-warn); border:1px solid currentColor; border-radius:999px; padding:0 6px; }
+.kt .themen { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:var(--cds-gap-md); }
+.kt .thema { border:1px solid var(--color-border-line); border-radius:var(--cds-radius); padding:var(--cds-pad-md); display:flex; flex-direction:column; gap:6px; min-width:0; }
+.kt .thema h3 { margin:0; font-size:var(--cds-font-size-body); font-weight:var(--cds-font-weight-medium); }
+.kt .thema p { margin:0; line-height:1.45; }
+.kt .teil { display:flex; flex-direction:column; gap:4px; border-top:2px solid var(--color-fg); padding-top:var(--cds-gap-sm); }
+.kt .kicker { font-size:var(--cds-font-size-caption); color:var(--color-fg-muted); text-transform:uppercase; letter-spacing:.06em; }
+.kt .teil-h { font-family:var(--font-anthropic-serif); font-weight:400; font-size:26px; }
+.kt .punkte { margin:0; padding-left:1.1em; display:flex; flex-direction:column; gap:4px; line-height:1.45; }
+.kt .hinweis { margin:0; padding:6px 10px; border-left:3px solid var(--color-warn); background:var(--color-bg); font-size:var(--cds-font-size-caption); line-height:1.45; }
+.kt .hinweis summary { font-weight:var(--cds-font-weight-medium); }
+.kt .hinweis[open] summary { margin-bottom:4px; }
+.kt .bar { height:10px; border-radius:2px; min-width:1px; }
+.kt .grp td { font-weight:var(--cds-font-weight-medium); color:var(--color-fg-muted); padding-top:12px; }
+.kt h1.marke { font-family:var(--font-anthropic-serif); font-weight:400; text-transform:uppercase; letter-spacing:.22em; font-size:clamp(26px,5vw,40px); line-height:1.1; }
+.kt .unterzeile { margin:0; font-size:var(--cds-font-size-caption); text-transform:uppercase; letter-spacing:.14em; color:var(--color-fg-muted); padding-bottom:var(--cds-gap-xs); border-bottom:1px solid var(--color-border-line); }
+.kt .ereignisse { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:var(--cds-gap-md); }
+.kt .ereignis { background:var(--color-panel); border:1px solid var(--color-border-line); border-radius:var(--cds-radius); padding:var(--cds-pad-md); display:flex; flex-direction:column; gap:var(--cds-gap-sm); min-width:0; }
+.kt .ereignis h3 { margin:0; font-size:var(--cds-font-size-body); font-weight:var(--cds-font-weight-medium); }
+.kt .ereignis .zeile { display:flex; gap:8px; align-items:center; flex-wrap:wrap; font-size:var(--cds-font-size-caption); color:var(--color-fg-muted); }
+.kt .ereignis .wer { margin:0; padding:8px 10px; border-left:3px solid var(--color-fg-muted); background:var(--color-bg); }
+.kt .ereignis .wer b, .kt .ereignis summary { font-size:var(--cds-font-size-caption); font-weight:var(--cds-font-weight-medium); }
+.kt .ereignis .quellen { margin:0; padding-left:1.1em; font-size:var(--cds-font-size-caption); }
+</style>
+
+<div class="kt" lang="de" data-read>
+  <header class="head" id="kopf">
+    <h1 class="marke">Finance Coach</h1>
+    <p class="unterzeile">Global Smart Money · ETFs &amp; Aktien · täglich 06:37</p>
+    <p class="muted">Stand der Daten: <span data-draw="stand">—</span> · täglich morgens aktualisiert · Research, keine Anlageberatung</p>
+    <p class="lead" data-draw="kernsatz">—</p>
+  </header>
+
+  <div class="teil"><span class="kicker">Frage 1</span><h2 class="teil-h">Was passiert an den Finanzmärkten?</h2><p class="note">Tag, Woche, Monat, Jahr, Anthropic-Börsengang, Ausblick und deine Themen.</p></div>
+
+  <section id="auf-einen-blick">
+    <div class="head">
+      <h2>Auf einen Blick: Anthropic, Tag, Woche, Monat, Jahr, Ausblick</h2>
+      <p class="note">Stichpunkte mit beobachteten Daten; Zahlen mit Vergleichswert und Quelle zum Aufklappen. „Unverbindlicher Hinweis“: allgemeiner Prüfpunkt aus den Daten, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung für einzelne Wertpapiere.</p>
+    </div>
+    <div class="ebenen" data-source="ueberblick_text ueberblick" data-draw="ebenen"></div>
+  </section>
+
+  <section id="ereignisse">
+    <div class="head">
+      <h2>Ereignisse und wer dahinter steht</h2>
+      <p class="note">Wichtige Ereignisse der letzten Tage, jeweils geprüft mit Quelle. Je Ereignis: was passiert ist, wer dahinter steht (Eigentümer, größte Investoren) und welche Aktien und ETFs betroffen sind. Nicht belegte Angaben stehen als „nicht erhoben“.</p>
+    </div>
+    <div class="ereignisse" data-source="ereignisse" data-draw="ereignisse"></div>
+  </section>
+
+  <section id="big-three">
+    <div class="head">
+      <h2>Big Three: Vanguard, BlackRock und State Street als größte Aktionäre</h2>
+      <p class="note">Geprüft: Angaben aus einem Instagram-Video (@cashunate) gegen öffentliche Daten. Einordnung: Diese Anteile liegen überwiegend in passiven Indexfonds und ETFs, die die Gesellschaften im Auftrag ihrer Anleger halten, auch in den ETFs von Privatanlegern. Sie entscheiden nicht frei über Kauf und Verkauf einzelner Firmen, üben aber die Stimmrechte aus, wenn Anleger keine eigene Vorgabe machen. Die Zahlen haben unterschiedliche Stichtage.</p>
+    </div>
+    <div class="tw">
+      <table data-source="big_three" data-row-key="firma">
+        <thead><tr><th data-field="firma">Firma</th><th data-field="ereignis">Ereignis</th><th data-field="behauptung">Instagram</th><th data-field="geprueft">Geprüft</th><th data-field="status">Status</th><th data-field="rechnung">Rechnung</th><th data-field="quelle">Quelle, Stand</th></tr></thead>
+        <tbody data-draw="big_three_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="ausblick">
+    <div class="head">
+      <h2>Ausblick: heute bis 12 Monate</h2>
+      <p class="note">Spalte „Einschätzung“ ist Interpretation auf Basis von Terminen und veröffentlichten Prognosen Dritter, keine Beobachtung und keine eigene Wahrscheinlichkeit.</p>
+    </div>
+    <div class="tw">
+      <table data-source="ausblick" data-row-key="zeitraum">
+        <thead><tr><th data-field="zeitraum">Zeitraum</th><th data-field="termine">Termine und Daten</th><th data-field="einschaetzung">Einschätzung</th></tr></thead>
+        <tbody data-draw="ausblick_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="anthropic">
+    <div class="head">
+      <h2>Anthropic-Börsengang (ANT, Nasdaq)</h2>
+      <p class="note">Transparenzhinweis: Dieses Dashboard wird mit Claude erstellt, einem KI-Modell von Anthropic. Alle Angaben stammen aus den genannten öffentlichen Quellen. Werte mit Status „ausstehend“ werden nach dem ersten Handelstag ergänzt.</p>
+    </div>
+    <div class="tw">
+      <table data-source="anthropic" data-row-key="kennzahl">
+        <thead><tr><th data-field="kennzahl">Kennzahl</th><th data-field="wert">Wert</th><th data-field="vergleich">Vergleich</th><th data-field="status">Status</th><th data-field="quelle">Quelle</th></tr></thead>
+        <tbody data-draw="anthropic_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="ceo-zusammenfassung">
+    <div class="head">
+      <h2>CEO-Zusammenfassung: fünf Punkte, die sich zuletzt bewegt haben</h2>
+      <p class="note">Beobachtete Daten mit Vergleichswert. Keine Anlageempfehlung. Wird bei jeder täglichen Aktualisierung neu geschrieben.</p>
+    </div>
+    <ol class="ceo" data-source="ceo" data-draw="ceo_liste"></ol>
+  </section>
+
+  <section id="meine-themen">
+    <div class="head">
+      <h2>Meine Themen</h2>
+      <p class="note">Acht Themen, die du regelmäßig verfolgst: aktueller Stand, Vergleichswert, nächster Termin und Quelle. Täglich morgens aktualisiert.</p>
+    </div>
+    <div class="themen" data-source="themen" data-draw="themen"></div>
+  </section>
+
+  <div class="teil"><span class="kicker">Frage 2</span><h2 class="teil-h">Wo fließt das Geld hin, und wo lege ich an?</h2><p class="note">ETF-Flüsse nach Anlageklasse, Region und Sektor, Fondsflüsse nach Regionen, weitere Signale.</p></div>
+
+  <section id="etf">
+    <div class="head">
+      <h2>ETF-Flüsse im Oktober: das meiste Geld ging in US-Aktien- und Anleihe-ETFs</h2>
+      <p class="note">Netto-Zuflüsse in Mrd. USD, Oktober 2026, nach Anlageklasse, Region, Sektor sowie Gold und Krypto. Gruppen überschneiden sich teilweise und dürfen nicht addiert werden. Vorjahresmonat nicht erhoben, wo nicht anders angegeben.</p>
+    </div>
+    <div class="tw">
+      <table data-source="etf" data-row-key="segment">
+        <thead><tr><th data-field="segment">Segment</th><th data-field="mrd_usd" class="n">Mrd. USD</th><th></th><th data-field="vergleich">Vergleich</th><th data-field="notiz">Notiz</th><th data-field="quelle">Quelle</th></tr></thead>
+        <tbody data-draw="etf_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="wochenfluesse">
+    <div class="head">
+      <h2 data-draw="woche_titel">—</h2>
+      <p class="note">LSEG Lipper, Fonds und ETFs weltweit, Netto-Fluss in Mrd. USD, <span data-draw="woche_zeitraum">—</span>. Teilkategorien überschneiden sich (z. B. Asien und Schwellenländer) und dürfen nicht addiert werden.</p>
+    </div>
+    <div class="legend">
+      <span><span class="sw" style="background:var(--color-ok)"></span>Zufluss</span>
+      <span><span class="sw" style="background:var(--color-bad)"></span>Abfluss</span>
+      <span><span class="tick"></span>Vorwoche</span>
+      <span><span class="dia"></span>gleiche Woche Vorjahr</span>
+    </div>
+    <div class="chart" data-source="woche" data-draw="woche_chart"></div>
+  </section>
+
+  <section id="regionen">
+    <div class="head">
+      <h2>Regionen: neuester Netto-Fluss gegen Vorperiode, Durchschnitt und Vorjahr</h2>
+      <p class="note">Grün = Netto-Zufluss, Rot = Netto-Abfluss. Die Zeilen messen Unterschiedliches (Fondsflüsse in USD, japanische Ministeriumsdaten in JPY, Southbound in HKD) und werden nicht addiert.</p>
+    </div>
+    <div class="tw">
+      <table data-source="regionen regionen_vergleich" data-row-key="region">
+        <thead><tr>
+          <th data-field="region">Region</th>
+          <th data-field="messgroesse">Messgröße</th>
+          <th class="n" data-field="wert">Neuester Wert</th>
+          <th data-field="einheit">Einheit</th>
+          <th data-field="zeitraum">Zeitraum</th>
+          <th class="n" data-field="vorperiode">Vorperiode</th>
+          <th class="n" data-field="schnitt">Durchschnitt</th>
+          <th class="n" data-source="regionen_vergleich" data-field="faktor_schnitt">× Durchschnitt</th>
+          <th class="n" data-field="vorjahr">Vorjahr</th>
+          <th>Richtung</th>
+          <th data-field="quelle">Quelle, Stand</th>
+        </tr></thead>
+        <tbody data-draw="regionen_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="signale">
+    <div class="head">
+      <h2>Weitere Signale: Geldmarkt, ETFs, Krypto, Asien, Fondsmanager</h2>
+      <p class="note">Spalte „Art“ trennt Netto-Flüsse von Vermögensveränderungen, Handelsvolumen und Umfragen. Konfidenz „niedrig“ = nur Sekundärquelle.</p>
+    </div>
+    <div class="tw">
+      <table data-source="signale" data-row-key="signal">
+        <thead><tr>
+          <th data-field="signal">Signal</th>
+          <th data-field="art">Art</th>
+          <th class="n" data-field="wert">Wert</th>
+          <th data-field="einheit">Einheit</th>
+          <th data-field="zeitraum">Zeitraum</th>
+          <th data-field="notiz">Vergleich, Hinweis</th>
+          <th data-field="konfidenz">Konfidenz</th>
+          <th data-field="quelle">Quelle, Stand</th>
+        </tr></thead>
+        <tbody data-draw="signale_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="teil"><span class="kicker">Frage 3</span><h2 class="teil-h">Wie schütze ich mich?</h2><p class="note">Risiko-Anzeiger, Prüfpunkte für das eigene Depot und Stress-Ereignisse der letzten 30 Tage.</p></div>
+
+  <section id="maerkte">
+    <div class="head">
+      <h2>Risiko-Anzeiger täglich: Volatilität, Risikoaufschlag, Zinsen, Dollar, Yen</h2>
+      <p class="note">Steigende Werte bei VIX und Hochzins-Risikoaufschlag zeigen mehr Unsicherheit am Markt. Die Zinsen bestimmen das Kursrisiko von Anleihen, Dollar und Yen das Währungsrisiko für Euro-Anleger. Schlusswerte laut FRED; Veränderung zum vorherigen Handelstag und über alle gezeigten Tage. Vergleich mit Vorjahr: noch nicht erhoben.</p>
+    </div>
+    <div class="cards" data-source="markt markt_kennzahlen" data-draw="markt_karten"></div>
+  </section>
+
+  <section id="pruefpunkte">
+    <div class="head">
+      <h2>Zehn Prüfpunkte für das eigene Depot</h2>
+      <p class="note">Allgemeine Informationen, keine Anlageberatung. Die Prüfpunkte berücksichtigen keine persönliche Situation (Ziele, Anlagedauer, Steuern, Risikotragfähigkeit) und sind keine Kauf- oder Verkaufsempfehlung für einzelne Wertpapiere. Für konkrete Entscheidungen ist eine unabhängige Beratung sinnvoll.</p>
+    </div>
+    <div class="tw">
+      <table data-source="pruefpunkte" data-row-key="nr">
+        <thead><tr><th data-field="nr" class="n">Nr.</th><th data-field="bereich">Bereich</th><th data-field="pruefpunkt">Prüfpunkt</th><th data-field="aktueller_bezug">Aktueller Bezug</th><th data-field="pruefrage">Prüffrage</th></tr></thead>
+        <tbody data-draw="pruef_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="stress">
+    <div class="head">
+      <h2>Stress-Ereignisse der letzten 30 Tage</h2>
+      <p class="note">Bankzusammenbrüche, Lizenzentzüge, Fondsverluste und Rücknahmesperren. Größenangaben laut den genannten Quellen; widersprüchliche Angaben sind vermerkt.</p>
+    </div>
+    <div class="tw">
+      <table data-source="stress" data-row-key="ereignis">
+        <thead><tr>
+          <th data-field="ereignis">Ereignis</th>
+          <th data-field="datum">Datum</th>
+          <th data-field="groesse">Größe</th>
+          <th data-field="ursache">Ursache laut Quellen</th>
+          <th data-field="reaktion">Ansteckung, Marktreaktion</th>
+          <th data-field="quelle">Quelle</th>
+        </tr></thead>
+        <tbody data-draw="stress_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="teil"><span class="kicker">Anhang</span></div>
+
+  <section id="neu">
+    <div class="head">
+      <h2>Was sich zuletzt geändert hat</h2>
+    </div>
+    <div class="tw">
+      <table data-source="neu">
+        <thead><tr><th data-field="datum">Datum</th><th data-field="bereich">Bereich</th><th data-field="aenderung">Änderung</th><th data-field="quelle">Quelle</th></tr></thead>
+        <tbody data-draw="neu_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="termine">
+    <div class="head">
+      <h2>Wann neue Daten erscheinen</h2>
+    </div>
+    <div class="tw">
+      <table data-source="termine" data-row-key="reihe">
+        <thead><tr><th data-field="reihe">Datenreihe</th><th data-field="rhythmus">Rhythmus</th><th data-field="deckt_ab">Deckt ab</th><th data-field="quelle">Quelle</th></tr></thead>
+        <tbody data-draw="termine_tab"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details id="methodik">
+    <summary>Methodik und Grenzen</summary>
+    <p class="note">Jeder Wert steht mit Quelle, Zeitraum und Veröffentlichungsdatum in der Datei. „× Durchschnitt“ = neuester Wert geteilt durch den Durchschnitt der angegebenen Vorwochen; bei negativem Wert oder Vorzeichenwechsel ist der Faktor nicht aussagekräftig und wird nicht gezeigt. Lipper-Daten erscheinen wöchentlich; an Tagen ohne neue Veröffentlichung bleiben sie unverändert. Werte aus Sekundärquellen sind als solche markiert. Nicht abgedeckt im Tagesbild: TIC/Zahlungsbilanz, IIF-EM-Flüsse, 13F/Staatsfonds, Private Markets (siehe Wochenreport).</p>
+  </details>
+</div>
+
+<p class="foot">Allgemeine Informationen aus öffentlichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung. Erstellt mit Claude, täglich Di.–Sa. um 06:37 Uhr aktualisiert.</p>
+<script>
+['themen','etf','pruefpunkte','ereignisse','big_three','ueberblick_text','ueberblick','ausblick','anthropic','ceo','regionen','woche','markt','signale','stress','neu','termine'].forEach(function (t) {
+  dash.loader(t, { description: 'Liest die Tabelle „' + t + '“ aus der Tagesdatei.', fn: function (x) { var a = x.answer; return a.tabellen[t]; } });
+});
+</script>
+<script>
+dash.calc('regionen_vergleich', {
+  title: 'Regionen: Faktor zum Durchschnitt',
+  description: 'Neuester Wert geteilt durch den Durchschnitt; nur wenn beide positiv sind.',
+  inputs: ['regionen'],
+  fn: function (regionen) {
+    return regionen.map(function (r) {
+      var w = +r.wert, s = +r.schnitt;
+      return { region: r.region, faktor_schnitt: (r.schnitt != null && w > 0 && s > 0) ? Math.round(w / s * 10) / 10 : null };
+    });
+  }
+});
+dash.calc('markt_kennzahlen', {
+  title: 'Märkte: letzter Wert und Veränderungen',
+  description: 'Je Kennzahl der letzte Schlusswert, die Veränderung zum Vortag und über alle gezeigten Tage.',
+  inputs: ['markt'],
+  fn: function (markt) {
+    var by = {};
+    markt.forEach(function (r) { if (r.wert != null) (by[r.kennzahl] = by[r.kennzahl] || []).push(r); });
+    return Object.keys(by).map(function (k) {
+      var a = by[k].slice().sort(function (x, y) { return x.datum < y.datum ? -1 : 1; });
+      var l = a[a.length - 1], p = a[a.length - 2], f = a[0];
+      return { kennzahl: k, einheit: l.einheit, letztes_datum: l.datum, letzter_wert: l.wert,
+        aenderung_vortag: p ? Math.round((l.wert - p.wert) * 10000) / 10000 : null,
+        aenderung_zeitraum: Math.round((l.wert - f.wert) * 10000) / 10000, erstes_datum: f.datum };
+    });
+  }
+});
+</script>
+<script>
+window.KT = (function () {
+  var de = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['', ' €'] });
+  function num(v, d) { if (v == null || isNaN(v)) return '–'; return de.format(',.' + (d == null ? 2 : d) + 'f')(v); }
+  function sgn(v, d) { if (v == null || isNaN(v)) return '–'; return (v > 0 ? '+' : v < 0 ? '−' : '±') + num(Math.abs(v), d); }
+  function datum(iso) { var p = String(iso).split('-'); return p.length === 3 ? p[2] + '.' + p[1] + '.' + p[0] : iso; }
+  function td(tr, text, cls) { var c = document.createElement('td'); c.textContent = text; if (cls) c.className = cls; tr.appendChild(c); return c; }
+  function src(tr, name, url, stand) {
+    var c = document.createElement('td');
+    if (url) { var a = document.createElement('a'); a.href = url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = name; c.appendChild(a); }
+    else c.textContent = name;
+    if (stand) c.appendChild(document.createTextNode(', ' + stand));
+    tr.appendChild(c);
+  }
+  function ok(id) { var d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : null; }
+  function state(el, id) { var d = dash.data(id); if (d.status === 'error') { el.textContent = 'Daten konnten nicht geladen werden.'; } else { el.textContent = '—'; } }
+  return { num: num, sgn: sgn, datum: datum, td: td, src: src, ok: ok, state: state };
+})();
+</script>
+<script>
+dash.draw('ebenen', function (el) {
+  var t = KT.ok('ueberblick_text'), it = KT.ok('ueberblick');
+  el.replaceChildren(); if (!t) return;
+  t.forEach(function (e) {
+    var c = document.createElement('div'); c.className = 'ebene';
+    var h = document.createElement('h3'); h.textContent = e.ebene;
+    var z = document.createElement('span'); z.className = 'muted'; z.textContent = e.zeitraum; h.appendChild(z); c.appendChild(h);
+    function liste(v) { if (Array.isArray(v)) return v; if (typeof v === 'string' && v.trim().charAt(0) === '[') { try { var j = JSON.parse(v); if (Array.isArray(j)) return j; } catch (err) {} } return v ? String(v).split(/\s*\n\s*/).filter(Boolean) : []; }
+    var pk = liste(e.punkte);
+    var pl = document.createElement('ul'); pl.className = 'punkte';
+    pk.forEach(function (s) { var li = document.createElement('li'); li.textContent = s; pl.appendChild(li); });
+    c.appendChild(pl);
+    var hs = liste(e.hinweise).length ? liste(e.hinweise) : liste(e.hinweis);
+    if (hs.length) { var hw = document.createElement('details'); hw.className = 'hinweis'; var b = document.createElement('summary'); b.textContent = 'Unverbindlicher Hinweis anzeigen'; hw.appendChild(b);
+      var hl = document.createElement('ul'); hl.className = 'punkte'; hs.forEach(function (s) { var li = document.createElement('li'); li.textContent = s; hl.appendChild(li); }); hw.appendChild(hl); c.appendChild(hw); }
+    var rows = (it || []).filter(function (x) { return x.ebene === e.ebene; });
+    if (rows.length) {
+      var d = document.createElement('details'); var s = document.createElement('summary'); s.className = 'muted'; s.textContent = 'Zahlen mit Vergleich und Quelle (' + rows.length + ')'; d.appendChild(s);
+      var ul = document.createElement('ul'); ul.className = 'items';
+      rows.forEach(function (x) {
+        var li = document.createElement('li');
+        var a = document.createElement('div'); a.appendChild(document.createTextNode(x.was + ': '));
+        var w = document.createElement('span'); w.className = 'w'; w.textContent = x.wert; a.appendChild(w); li.appendChild(a);
+        var bb = document.createElement('div'); bb.className = 'muted'; bb.appendChild(document.createTextNode('Vergleich: ' + x.vergleich + ' · '));
+        if (x.quelle_url) { var l = document.createElement('a'); l.href = x.quelle_url; l.target = '_blank'; l.rel = 'noopener'; l.textContent = x.quelle; bb.appendChild(l); } else bb.appendChild(document.createTextNode(x.quelle));
+        li.appendChild(bb); ul.appendChild(li);
+      });
+      d.appendChild(ul); c.appendChild(d);
+    } else if (e.quelle) {
+      var q = document.createElement('p'); q.className = 'note';
+      if (e.quelle_url) { var l2 = document.createElement('a'); l2.href = e.quelle_url; l2.target = '_blank'; l2.rel = 'noopener'; l2.textContent = e.quelle; q.appendChild(l2); } else q.textContent = e.quelle;
+      c.appendChild(q);
+    }
+    el.appendChild(c);
+  });
+});
+dash.draw('ereignisse', function (el) {
+  var r = KT.ok('ereignisse'); el.replaceChildren(); if (!r) return;
+  function L(v) { if (Array.isArray(v)) return v; if (typeof v === 'string' && v.trim().charAt(0) === '[') { try { var j = JSON.parse(v); if (Array.isArray(j)) return j; } catch (e) {} } return v ? [String(v)] : []; }
+  function ul(items, cls) { var u = document.createElement('ul'); u.className = cls || 'punkte'; items.forEach(function (s) { var li = document.createElement('li'); if (s && typeof s === 'object') { var a = document.createElement('a'); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = s.name; li.appendChild(a); } else li.textContent = s; u.appendChild(li); }); return u; }
+  r.forEach(function (x) {
+    var c = document.createElement('div'); c.className = 'ereignis';
+    var z = document.createElement('div'); z.className = 'zeile'; z.appendChild(document.createTextNode(x.datum));
+    var p = document.createElement('span'); p.className = 'pill ' + (x.status === 'Drohung' ? 'warn' : x.status === 'bestätigt' ? 'ok' : ''); p.textContent = x.status; z.appendChild(p); c.appendChild(z);
+    var h = document.createElement('h3'); h.textContent = x.titel; c.appendChild(h);
+    c.appendChild(ul(L(x.punkte)));
+    var w = document.createElement('div'); w.className = 'wer'; var wb = document.createElement('b'); wb.textContent = 'Wer steckt dahinter?'; w.appendChild(wb); w.appendChild(ul(L(x.wer))); c.appendChild(w);
+    var m = document.createElement('details'); var ms = document.createElement('summary'); ms.textContent = 'Betroffene Aktien und ETFs'; m.appendChild(ms); m.appendChild(ul(L(x.markt))); c.appendChild(m);
+    var q = document.createElement('details'); var qs = document.createElement('summary'); qs.textContent = 'Quellen'; q.appendChild(qs); q.appendChild(ul(L(x.quellen), 'quellen')); c.appendChild(q);
+    el.appendChild(c);
+  });
+});
+dash.draw('big_three_tab', function (tb) {
+  var r = KT.ok('big_three'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var tr = document.createElement('tr'); KT.td(tr, x.firma); KT.td(tr, x.ereignis); KT.td(tr, x.behauptung); var g = KT.td(tr, x.geprueft); g.style.fontWeight = '600';
+    var c = KT.td(tr, ''); var p = document.createElement('span'); p.className = 'pill ' + (x.status === 'bestätigt' ? 'ok' : x.status === 'annähernd' ? '' : 'warn'); p.textContent = x.status; c.appendChild(p);
+    KT.td(tr, x.rechnung); KT.src(tr, x.quelle, x.quelle_url, x.stand); tb.appendChild(tr);
+  });
+});
+dash.draw('etf_tab', function (tb) {
+  var r = KT.ok('etf'); tb.replaceChildren(); if (!r) return;
+  var mx = d3.max(r, function (x) { return Math.abs(+x.mrd_usd); }) || 1, g = null;
+  r.slice().sort(function (a, b) { return a.nr - b.nr; }).forEach(function (x) {
+    if (x.gruppe !== g) { g = x.gruppe; var gr = document.createElement('tr'); gr.className = 'grp'; var gc = KT.td(gr, g); gc.colSpan = 6; tb.appendChild(gr); }
+    var tr = document.createElement('tr'); tr.dataset.key = x.segment; var v = +x.mrd_usd;
+    KT.td(tr, x.segment); KT.td(tr, KT.sgn(v, 1), 'n ' + (v > 0 ? 'ok' : v < 0 ? 'bad' : ''));
+    var bc = KT.td(tr, ''); bc.style.width = '28%'; var bar = document.createElement('div'); bar.className = 'bar';
+    bar.style.width = (Math.abs(v) / mx * 100) + '%'; bar.style.background = v >= 0 ? 'var(--color-ok)' : 'var(--color-bad)'; bc.appendChild(bar);
+    KT.td(tr, x.vergleich); KT.td(tr, x.notiz || ''); KT.src(tr, x.quelle, x.quelle_url, x.stand); tb.appendChild(tr);
+  });
+});
+dash.draw('pruef_tab', function (tb) {
+  var r = KT.ok('pruefpunkte'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var tr = document.createElement('tr'); KT.td(tr, String(x.nr), 'n');
+    var c = KT.td(tr, ''); var p = document.createElement('span'); p.className = 'pill ' + (x.bereich === 'Schützen' ? 'warn' : ''); p.textContent = x.bereich; c.appendChild(p);
+    var pc = KT.td(tr, ''); var bb = document.createElement('b'); bb.textContent = x.pruefpunkt; pc.appendChild(bb);
+    KT.td(tr, x.aktueller_bezug); KT.td(tr, x.pruefrage); tb.appendChild(tr);
+  });
+});
+dash.draw('themen', function (el) {
+  var r = KT.ok('themen'); el.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var c = document.createElement('div'); c.className = 'thema';
+    var h = document.createElement('h3'); h.textContent = x.thema; c.appendChild(h);
+    var p = document.createElement('p'); p.textContent = x.stand; c.appendChild(p);
+    var v = document.createElement('p'); v.className = 'note'; v.textContent = 'Vergleich: ' + x.vergleich; c.appendChild(v);
+    var n = document.createElement('p'); n.className = 'note'; n.textContent = 'Als Nächstes: ' + x.naechster_termin; c.appendChild(n);
+    var q = document.createElement('p'); q.className = 'note';
+    if (x.quelle_url) { var a = document.createElement('a'); a.href = x.quelle_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = x.quelle; q.appendChild(a); } else q.textContent = x.quelle;
+    c.appendChild(q); el.appendChild(c);
+  });
+});
+dash.draw('ausblick_tab', function (tb) {
+  var r = KT.ok('ausblick'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) { var tr = document.createElement('tr'); KT.td(tr, x.zeitraum); KT.td(tr, x.termine); KT.td(tr, x.einschaetzung); tb.appendChild(tr); });
+});
+dash.draw('anthropic_tab', function (tb) {
+  var r = KT.ok('anthropic'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var tr = document.createElement('tr'); KT.td(tr, x.kennzahl); KT.td(tr, x.wert); KT.td(tr, x.vergleich);
+    var c = KT.td(tr, ''); var p = document.createElement('span'); p.className = 'pill ' + (x.status === 'ausstehend' ? 'warn' : 'ok'); p.textContent = x.status; c.appendChild(p);
+    KT.src(tr, x.quelle, x.quelle_url || null); tb.appendChild(tr);
+  });
+});
+dash.draw('ceo_liste', function (ol) {
+  var r = KT.ok('ceo'); ol.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var li = document.createElement('li');
+    var n = document.createElement('span'); n.className = 'nr'; n.textContent = x.nr; li.appendChild(n);
+    var t = document.createElement('span'); t.className = 't'; t.textContent = x.thema; li.appendChild(t);
+    var a = document.createElement('p'); a.textContent = x.aussage; li.appendChild(a);
+    var b = document.createElement('p'); b.className = 'note'; b.textContent = 'Als Nächstes beobachten: ' + x.beobachten; li.appendChild(b);
+    var q = document.createElement('p'); q.className = 'note';
+    if (x.quelle_url) { var l = document.createElement('a'); l.href = x.quelle_url; l.target = '_blank'; l.rel = 'noopener'; l.textContent = x.quelle; q.appendChild(l); } else q.textContent = x.quelle;
+    li.appendChild(q);
+    ol.appendChild(li);
+  });
+});
+dash.draw('stand', function (el) {
+  var n = KT.ok('neu'); if (!n || !n.length) { el.textContent = '—'; return; }
+  el.textContent = n[0].datum;
+});
+dash.draw('kernsatz', function (el) {
+  var r = KT.ok('regionen'), v = KT.ok('regionen_vergleich');
+  if (!r || !v) { el.textContent = '—'; return; }
+  var g = r.find(function (x) { return x.region === 'Global'; });
+  var e = r.find(function (x) { return x.region === 'Europa'; });
+  var fg = v.find(function (x) { return x.region === 'Global'; });
+  el.replaceChildren();
+  function t(s) { el.appendChild(document.createTextNode(s)); }
+  function m(text, src, field, region) { var b = document.createElement('b'); b.textContent = text; b.dataset.source = src; b.dataset.field = field; b.dataset.where = 'region=' + encodeURIComponent(region); el.appendChild(b); }
+  if (!g) { el.textContent = '—'; return; }
+  t('Aktienfonds weltweit: ');
+  m(KT.sgn(g.wert) + ' Mrd. USD', 'regionen', 'wert', 'Global');
+  t(' (' + g.zeitraum + ', ' + g.quelle + ')');
+  if (fg && fg.faktor_schnitt != null) { t(', das '); m(KT.num(fg.faktor_schnitt, 1) + '-fache', 'regionen_vergleich', 'faktor_schnitt', 'Global'); t(' des ' + g.schnitt_label + 's'); }
+  t('; gleiche Woche Vorjahr: '); m(KT.sgn(g.vorjahr) + ' Mrd.', 'regionen', 'vorjahr', 'Global'); t('.');
+  if (e) { t(' Größter regionaler Posten: Europa mit '); m(KT.sgn(e.wert) + ' Mrd. USD', 'regionen', 'wert', 'Europa'); t(' (Vorjahr '); m(KT.sgn(e.vorjahr), 'regionen', 'vorjahr', 'Europa'); t(').'); }
+});
+dash.draw('regionen_tab', function (tb) {
+  var r = KT.ok('regionen'), v = KT.ok('regionen_vergleich') || [];
+  tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var f = v.find(function (y) { return y.region === x.region; }) || {};
+    var tr = document.createElement('tr');
+    KT.td(tr, x.region); KT.td(tr, x.messgroesse);
+    KT.td(tr, KT.sgn(x.wert), 'n ' + (x.wert > 0 ? 'ok' : x.wert < 0 ? 'bad' : ''));
+    KT.td(tr, x.einheit); KT.td(tr, x.zeitraum);
+    KT.td(tr, KT.sgn(x.vorperiode), 'n'); 
+    var s = KT.td(tr, KT.sgn(x.schnitt), 'n'); s.title = x.schnitt_label;
+    KT.td(tr, f.faktor_schnitt != null ? KT.num(f.faktor_schnitt, 1) + '×' : '–', 'n');
+    KT.td(tr, x.vorjahr != null ? KT.sgn(x.vorjahr) : 'nicht erhoben', 'n');
+    var c = document.createElement('td'); var p = document.createElement('span');
+    var dir = x.vorperiode == null ? '→' : (x.wert > x.vorperiode ? '↑' : x.wert < x.vorperiode ? '↓' : '→');
+    p.className = 'pill ' + (x.wert > 0 ? 'ok' : x.wert < 0 ? 'bad' : 'warn');
+    p.textContent = (x.wert > 0 ? 'Zufluss ' : x.wert < 0 ? 'Abfluss ' : 'neutral ') + dir;
+    c.appendChild(p); tr.appendChild(c);
+    KT.src(tr, x.quelle + (x.status ? ' (' + x.status + ')' : ''), x.quelle_url, x.stand);
+    tb.appendChild(tr);
+  });
+});
+dash.draw('woche_zeitraum', function (el) { var w = KT.ok('woche'); el.textContent = w && w[0] ? w[0].zeitraum + ', veröffentlicht ' + w[0].stand : '—'; });
+dash.draw('woche_titel', function (el) {
+  var w = KT.ok('woche'); if (!w || !w.length) { el.textContent = '—'; return; }
+  var mx = w.reduce(function (a, b) { return b.mrd_usd > a.mrd_usd ? b : a; });
+  var mn = w.reduce(function (a, b) { return b.mrd_usd < a.mrd_usd ? b : a; });
+  el.replaceChildren();
+  function t(s) { el.appendChild(document.createTextNode(s)); }
+  function m(row) { var b = document.createElement('span'); b.textContent = KT.sgn(row.mrd_usd) + ' Mrd. USD'; b.dataset.source = 'woche'; b.dataset.field = 'mrd_usd'; b.dataset.where = 'segment=' + encodeURIComponent(row.segment); el.appendChild(b); }
+  t('Fondsflüsse der Woche: größter Zufluss ' + mx.segment + ' '); m(mx); t(', größter Abfluss ' + mn.segment + ' '); m(mn);
+});
+dash.draw('woche_chart', function (el) {
+  var w = KT.ok('woche');
+  el.replaceChildren();
+  if (!w) { var dd = dash.data('woche'); el.textContent = dd.status === 'error' ? 'Daten konnten nicht geladen werden.' : ''; return; }
+  var rows = w.slice();
+  var W = Math.max(300, el.clientWidth), rowH = 24, top = 22, bottom = 8;
+  var H = top + rows.length * rowH + bottom;
+  var svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img')
+    .attr('aria-label', 'Netto-Fondsflüsse je Kategorie in Mrd. USD, mit Vorwoche und Vorjahr');
+  var probe = svg.append('text').attr('font-size', 12);
+  var lw = 0; rows.forEach(function (r) { probe.text(r.segment); lw = Math.max(lw, probe.node().getComputedTextLength()); });
+  probe.remove();
+  var narrow = W < 520; var labelW = Math.min(lw + 10, narrow ? W * 0.42 : 220);
+  var vals = []; rows.forEach(function (r) { vals.push(r.mrd_usd); if (r.vorwoche != null) vals.push(r.vorwoche); if (r.vorjahr != null) vals.push(r.vorjahr); });
+  var ext = d3.extent(vals.concat([0]));
+  var x = d3.scaleLinear().domain(ext).nice().range([labelW + 44, W - 52]);
+  var y = function (i) { return top + i * rowH; };
+  svg.append('g').attr('class', 'axis').attr('transform', 'translate(0,' + (top - 4) + ')').call(d3.axisTop(x).ticks(narrow ? 4 : 7).tickFormat(function (d) { return KT.num(d, 0); }).tickSizeOuter(0));
+  svg.append('g').selectAll('line').data(x.ticks(narrow ? 4 : 7)).join('line').attr('x1', x).attr('x2', x).attr('y1', top).attr('y2', H - bottom).style('stroke', 'var(--cds-chart-grid)');
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', top).attr('y2', H - bottom).style('stroke', 'var(--cds-chart-reference)');
+  var g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', function (d, i) { return 'translate(0,' + y(i) + ')'; });
+  g.append('text').attr('x', 0).attr('y', rowH / 2 + 4).attr('font-size', 12).style('fill', 'var(--color-fg)').text(function (d) { return d.segment; })
+    .each(function () { var t = d3.select(this); while (this.getComputedTextLength() > labelW && t.text().length > 4) t.text(t.text().slice(0, -2) + '…'); });
+  g.append('rect').attr('x', function (d) { return Math.min(x(0), x(d.mrd_usd)); }).attr('y', 5).attr('height', rowH - 10)
+    .attr('width', function (d) { return Math.max(1, Math.abs(x(d.mrd_usd) - x(0))); })
+    .style('fill', function (d) { return d.mrd_usd >= 0 ? 'var(--color-ok)' : 'var(--color-bad)'; });
+  g.filter(function (d) { return d.vorwoche != null; }).append('line').attr('x1', function (d) { return x(d.vorwoche); }).attr('x2', function (d) { return x(d.vorwoche); })
+    .attr('y1', 2).attr('y2', rowH - 2).style('stroke', 'var(--color-fg)').style('stroke-width', 2);
+  g.filter(function (d) { return d.vorjahr != null; }).append('rect').attr('width', 7).attr('height', 7)
+    .attr('transform', function (d) { return 'translate(' + x(d.vorjahr) + ',' + (rowH / 2 - 5) + ') rotate(45)'; })
+    .style('fill', 'var(--color-bg)').style('stroke', 'var(--color-fg-muted)').style('stroke-width', 1.5);
+  g.append('text').attr('font-size', 11).attr('y', rowH / 2 + 4).style('fill', 'var(--color-fg)').style('font-variant-numeric', 'tabular-nums')
+    .attr('x', function (d) { var e = Math.max(x(d.mrd_usd), x(0), d.vorwoche != null ? x(d.vorwoche) : 0, d.vorjahr != null ? x(d.vorjahr) + 6 : 0); return d.mrd_usd >= 0 ? e + 4 : Math.min(x(d.mrd_usd), d.vorwoche != null ? x(d.vorwoche) : 1e9, d.vorjahr != null ? x(d.vorjahr) - 6 : 1e9) - 4; })
+    .attr('text-anchor', function (d) { return d.mrd_usd >= 0 ? 'start' : 'end'; })
+    .text(function (d) { return KT.sgn(d.mrd_usd); });
+  var tip = d3.select(el).append('div').attr('class', 'tip').attr('hidden', '');
+  g.append('rect').attr('x', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+    .on('pointermove', function (ev, d) {
+      var p = d3.pointer(ev, el);
+      tip.attr('hidden', null).html('');
+      tip.append('div').append('b').text(d.segment);
+      tip.append('div').text('Woche: ' + KT.sgn(d.mrd_usd) + ' Mrd. USD');
+      tip.append('div').text('Vorwoche: ' + (d.vorwoche != null ? KT.sgn(d.vorwoche) : 'nicht erhoben'));
+      tip.append('div').text('Vorjahr: ' + (d.vorjahr != null ? KT.sgn(d.vorjahr) : 'nicht erhoben'));
+      if (d.notiz) tip.append('div').style('color', 'var(--cds-text-secondary)').text(d.notiz);
+      var tw = tip.node().offsetWidth; var lx = Math.min(p[0] + 12, el.clientWidth - tw - 4);
+      tip.style('left', Math.max(0, lx) + 'px').style('top', (p[1] + 14) + 'px');
+    })
+    .on('pointerleave', function () { tip.attr('hidden', ''); });
+});
+dash.draw('markt_karten', function (el) {
+  var k = KT.ok('markt_kennzahlen'), m = KT.ok('markt');
+  el.replaceChildren(); if (!k || !m) return;
+  k.forEach(function (r) {
+    var w = 'kennzahl=' + encodeURIComponent(r.kennzahl);
+    var c = document.createElement('div'); c.className = 'card';
+    var h = document.createElement('div'); h.className = 'muted'; h.textContent = r.kennzahl; c.appendChild(h);
+    var dec = r.einheit === 'Index' ? 2 : 2;
+    var b = document.createElement('div'); b.className = 'big'; c.appendChild(b);
+    var bv = document.createElement('span'); bv.textContent = KT.num(r.letzter_wert, dec); bv.dataset.source = 'markt_kennzahlen'; bv.dataset.field = 'letzter_wert'; bv.dataset.where = w; b.appendChild(bv);
+    b.appendChild(document.createTextNode(' ' + (r.einheit === 'Index' || r.einheit === 'Punkte' ? '' : r.einheit)));
+    var ln = document.createElement('div'); ln.className = 'muted';
+    ln.appendChild(document.createTextNode(KT.datum(r.letztes_datum) + ' · zum Vortag '));
+    var a1 = document.createElement('span'); a1.textContent = KT.sgn(r.aenderung_vortag); a1.dataset.source = 'markt_kennzahlen'; a1.dataset.field = 'aenderung_vortag'; a1.dataset.where = w; ln.appendChild(a1);
+    ln.appendChild(document.createTextNode(' · seit ' + KT.datum(r.erstes_datum) + ' '));
+    var a2 = document.createElement('span'); a2.textContent = KT.sgn(r.aenderung_zeitraum); a2.dataset.source = 'markt_kennzahlen'; a2.dataset.field = 'aenderung_zeitraum'; a2.dataset.where = w; ln.appendChild(a2);
+    c.appendChild(ln);
+    var pts = m.filter(function (x) { return x.kennzahl === r.kennzahl && x.wert != null; }).sort(function (a, b) { return a.datum < b.datum ? -1 : 1; });
+    var SW = 220, SH = 40;
+    var svg = d3.select(c).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + SW + ' ' + SH).attr('role', 'img').attr('aria-label', 'Verlauf ' + r.kennzahl);
+    var xs = d3.scalePoint().domain(pts.map(function (p) { return p.datum; })).range([4, SW - 4]);
+    var ys = d3.scaleLinear().domain(d3.extent(pts, function (p) { return p.wert; })).nice().range([SH - 4, 4]);
+    svg.append('path').datum(pts).attr('d', d3.line().x(function (p) { return xs(p.datum); }).y(function (p) { return ys(p.wert); }))
+      .style('fill', 'none').style('stroke', dash.colors[0]).style('stroke-width', 1.5);
+    svg.selectAll('circle').data(pts).join('circle').attr('cx', function (p) { return xs(p.datum); }).attr('cy', function (p) { return ys(p.wert); })
+      .attr('r', function (p, i) { return i === pts.length - 1 ? 3.5 : 2; }).style('fill', dash.colors[0])
+      .append('title').text(function (p) { return KT.datum(p.datum) + ': ' + KT.num(p.wert, 2); });
+    var s = document.createElement('div'); s.className = 'muted';
+    var a = document.createElement('a'); a.href = r0(pts).quelle_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = r0(pts).quelle; s.appendChild(a);
+    s.appendChild(document.createTextNode(', Abruf ' + r0(pts).abruf));
+    c.appendChild(s);
+    el.appendChild(c);
+  });
+  function r0(p) { return p[p.length - 1]; }
+});
+dash.draw('signale_tab', function (tb) {
+  var r = KT.ok('signale'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var tr = document.createElement('tr');
+    KT.td(tr, x.signal); KT.td(tr, x.art);
+    var v = parseFloat(x.wert);
+    var isFlow = /Fluss|Vermögens/.test(x.art);
+    KT.td(tr, isNaN(v) ? x.wert : (isFlow ? KT.sgn(v, Math.abs(v) >= 1000 ? 0 : 2) : KT.num(v, Math.abs(v) >= 100 ? 0 : 1)), 'n ' + (isFlow ? (v > 0 ? 'ok' : v < 0 ? 'bad' : '') : ''));
+    KT.td(tr, x.einheit); KT.td(tr, x.zeitraum); KT.td(tr, x.notiz || '');
+    var c = KT.td(tr, ''); var p = document.createElement('span'); p.className = 'pill ' + (x.konfidenz === 'hoch' ? 'ok' : x.konfidenz === 'niedrig' ? 'bad' : 'warn'); p.textContent = x.konfidenz; c.appendChild(p);
+    KT.src(tr, x.quelle, x.quelle_url, x.stand);
+    tb.appendChild(tr);
+  });
+});
+dash.draw('stress_tab', function (tb) {
+  var r = KT.ok('stress'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) { var tr = document.createElement('tr'); KT.td(tr, x.ereignis); KT.td(tr, x.datum); KT.td(tr, x.groesse); KT.td(tr, x.ursache); KT.td(tr, x.reaktion); KT.src(tr, x.quelle, x.quelle_url); tb.appendChild(tr); });
+});
+dash.draw('neu_tab', function (tb) {
+  var r = KT.ok('neu'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x, i) { var tr = document.createElement('tr'); tr.dataset.key = String(i); KT.td(tr, x.datum); KT.td(tr, x.bereich); KT.td(tr, x.aenderung); KT.td(tr, x.quelle); tb.appendChild(tr); });
+});
+dash.draw('termine_tab', function (tb) {
+  var r = KT.ok('termine'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) { var tr = document.createElement('tr'); KT.td(tr, x.reihe); KT.td(tr, x.rhythmus); KT.td(tr, x.deckt_ab); KT.td(tr, x.quelle); tb.appendChild(tr); });
+});
+</script>
+</div>
+</body>
+</html>

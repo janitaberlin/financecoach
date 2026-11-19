@@ -1,0 +1,2218 @@
+{
+ "stand": "19.11.2026, 14:30 Uhr MEZ",
+ "tabellen": {
+  "regionen": [
+   {
+    "reihenfolge": 1.0,
+    "region": "Global",
+    "messgroesse": "Aktienfonds, Netto-Fluss",
+    "wert": 50.99,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 11.11.2026",
+    "vorperiode": 38.63,
+    "schnitt": 16.29,
+    "schnitt_label": "Ø 14 Wochen",
+    "vorjahr": 4.11,
+    "quelle": "LSEG Lipper via Reuters",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026",
+    "status": "vorläufig"
+   },
+   {
+    "reihenfolge": 2.0,
+    "region": "USA",
+    "messgroesse": "Aktienfonds, Netto-Fluss",
+    "wert": 6.6,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 11.11.2026",
+    "vorperiode": 14.81,
+    "schnitt": 0.22,
+    "schnitt_label": "Ø 14 Wochen",
+    "vorjahr": 1.15,
+    "quelle": "LSEG Lipper via Reuters",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026",
+    "status": "vorläufig"
+   },
+   {
+    "reihenfolge": 3.0,
+    "region": "Europa",
+    "messgroesse": "Aktienfonds, Netto-Fluss",
+    "wert": 35.13,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 11.11.2026",
+    "vorperiode": 13.25,
+    "schnitt": 9.39,
+    "schnitt_label": "Ø 13 Wochen",
+    "vorjahr": -1.87,
+    "quelle": "LSEG Lipper via Reuters",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026",
+    "status": "vorläufig"
+   },
+   {
+    "reihenfolge": 4.0,
+    "region": "Asien",
+    "messgroesse": "Aktienfonds, Netto-Fluss",
+    "wert": 6.15,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 11.11.2026",
+    "vorperiode": 8.34,
+    "schnitt": 5.59,
+    "schnitt_label": "Ø 13 Wochen",
+    "vorjahr": 3.04,
+    "quelle": "LSEG Lipper via Reuters",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026",
+    "status": "vorläufig"
+   },
+   {
+    "reihenfolge": 5.0,
+    "region": "Schwellenländer",
+    "messgroesse": "Aktienfonds, Netto-Fluss",
+    "wert": 4.65,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 11.11.2026",
+    "vorperiode": 1.91,
+    "schnitt": 1.52,
+    "schnitt_label": "Ø 12 Wochen",
+    "vorjahr": 2.17,
+    "quelle": "LSEG Lipper via Reuters",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026",
+    "status": "vorläufig"
+   },
+   {
+    "reihenfolge": 6.0,
+    "region": "Japan",
+    "messgroesse": "Ausländische Käufe japanischer Aktien",
+    "wert": -105.2,
+    "einheit": "Mrd. JPY",
+    "zeitraum": "Woche 01.–07.11.2026",
+    "vorperiode": 1129.3,
+    "schnitt": 1136.9,
+    "schnitt_label": "Ø 5 Wochen",
+    "vorjahr": null,
+    "quelle": "Finanzministerium Japan via Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/foreign-stock-investment",
+    "stand": "Nov. 2026",
+    "status": "vorläufig"
+   },
+   {
+    "reihenfolge": 7.0,
+    "region": "China/Hongkong",
+    "messgroesse": "Southbound: Festland-Anleger in HK-Aktien",
+    "wert": -27.95,
+    "einheit": "Mrd. HKD",
+    "zeitraum": "Oktober 2026",
+    "vorperiode": 60.78,
+    "schnitt": 47.6,
+    "schnitt_label": "Ø Jan.–Sep. je Monat",
+    "vorjahr": null,
+    "quelle": "Wind via BigGo",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL",
+    "stand": "30.10.2026",
+    "status": "Sekundärquelle"
+   }
+  ],
+  "woche": [
+   {
+    "reihenfolge": 1.0,
+    "segment": "Aktienfonds global",
+    "gruppe": "Aktien",
+    "mrd_usd": 50.99,
+    "vorwoche": 38.63,
+    "vorjahr": 4.11,
+    "notiz": "höchster Wert seit 23.09.",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 2.0,
+    "segment": "Aktienfonds Europa",
+    "gruppe": "Aktien",
+    "mrd_usd": 35.13,
+    "vorwoche": 13.25,
+    "vorjahr": -1.87,
+    "notiz": "größter Wochenzufluss seit Juni 2021",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 3.0,
+    "segment": "Aktienfonds USA",
+    "gruppe": "Aktien",
+    "mrd_usd": 6.6,
+    "vorwoche": 14.81,
+    "vorjahr": 1.15,
+    "notiz": "",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 4.0,
+    "segment": "Aktienfonds Asien",
+    "gruppe": "Aktien",
+    "mrd_usd": 6.15,
+    "vorwoche": 8.34,
+    "vorjahr": 3.04,
+    "notiz": "",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 5.0,
+    "segment": "Schwellenländer-Aktienfonds",
+    "gruppe": "Aktien",
+    "mrd_usd": 4.65,
+    "vorwoche": 1.91,
+    "vorjahr": 2.17,
+    "notiz": "überschneidet sich mit Asien",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 6.0,
+    "segment": "Sektor Technologie",
+    "gruppe": "Sektoren",
+    "mrd_usd": 2.62,
+    "vorwoche": 0.62,
+    "vorjahr": 2.59,
+    "notiz": "trotz Kursverlusten",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 7.0,
+    "segment": "Sektor Gesundheit",
+    "gruppe": "Sektoren",
+    "mrd_usd": 0.833,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 8.0,
+    "segment": "Sektor Finanzen",
+    "gruppe": "Sektoren",
+    "mrd_usd": 0.82,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 9.0,
+    "segment": "Sektor Energie",
+    "gruppe": "Sektoren",
+    "mrd_usd": 0.215,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "4. Zuflusswoche",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 10.0,
+    "segment": "Sektor Industrie",
+    "gruppe": "Sektoren",
+    "mrd_usd": -1.07,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 11.0,
+    "segment": "Anleihefonds global",
+    "gruppe": "Anleihen",
+    "mrd_usd": -0.508,
+    "vorwoche": 9.91,
+    "vorjahr": 13.11,
+    "notiz": "beendet 7 Zuflusswochen",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 12.0,
+    "segment": "Unternehmensanleihefonds",
+    "gruppe": "Anleihen",
+    "mrd_usd": 2.07,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 13.0,
+    "segment": "Staatsanleihefonds",
+    "gruppe": "Anleihen",
+    "mrd_usd": -0.489,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "Vorwoche +5,17 Mrd.",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 14.0,
+    "segment": "USD-Anleihefonds global",
+    "gruppe": "Anleihen",
+    "mrd_usd": -1.72,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "Währungssicht; überschneidet sich mit Staats- und Unternehmensanleihen",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 15.0,
+    "segment": "Schwellenländer-Anleihefonds",
+    "gruppe": "Anleihen",
+    "mrd_usd": -0.657,
+    "vorwoche": -0.3,
+    "vorjahr": -1.45,
+    "notiz": "3. Abflusswoche in Folge",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 16.0,
+    "segment": "Geldmarktfonds",
+    "gruppe": "Geldmarkt",
+    "mrd_usd": -37.48,
+    "vorwoche": 174.22,
+    "vorjahr": null,
+    "notiz": "Vorwoche +174,22 Mrd.",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   },
+   {
+    "reihenfolge": 17.0,
+    "segment": "Gold und Edelmetalle",
+    "gruppe": "Rohstoffe",
+    "mrd_usd": 0.614,
+    "vorwoche": 0.27,
+    "vorjahr": 1.64,
+    "notiz": "2. Zuflusswoche",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
+    "stand": "13.11.2026"
+   }
+  ],
+  "markt": [
+   {
+    "kennzahl": "US-Rendite 10 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-10",
+    "wert": 4.98,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 10 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-12",
+    "wert": 5.1,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 10 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-13",
+    "wert": 5.15,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 10 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-16",
+    "wert": 5.12,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 2 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-10",
+    "wert": 4.73,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 2 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-12",
+    "wert": 4.86,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 2 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-13",
+    "wert": 4.88,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 2 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-16",
+    "wert": 4.83,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 2 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-17",
+    "wert": 4.8,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-10",
+    "wert": 19.46,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-11",
+    "wert": 17.49,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-12",
+    "wert": 18.7,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-13",
+    "wert": 19.3,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-16",
+    "wert": 22.91,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-17",
+    "wert": 25.46,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-10",
+    "wert": 3.3,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-11",
+    "wert": 3.3,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-12",
+    "wert": 3.2,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-13",
+    "wert": 3.23,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-16",
+    "wert": 3.34,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-17",
+    "wert": 3.43,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Dollar, handelsgewichtet (breit)",
+    "einheit": "Index",
+    "datum": "2026-11-09",
+    "wert": 121.6623,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Dollar, handelsgewichtet (breit)",
+    "einheit": "Index",
+    "datum": "2026-11-10",
+    "wert": 122.1143,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Dollar, handelsgewichtet (breit)",
+    "einheit": "Index",
+    "datum": "2026-11-12",
+    "wert": 122.5433,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "US-Dollar, handelsgewichtet (breit)",
+    "einheit": "Index",
+    "datum": "2026-11-13",
+    "wert": 122.6503,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "Yen je US-Dollar",
+    "einheit": "JPY",
+    "datum": "2026-11-09",
+    "wert": 157.99,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "Yen je US-Dollar",
+    "einheit": "JPY",
+    "datum": "2026-11-10",
+    "wert": 158.76,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "Yen je US-Dollar",
+    "einheit": "JPY",
+    "datum": "2026-11-12",
+    "wert": 159.6,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
+    "abruf": "19.11.2026"
+   },
+   {
+    "kennzahl": "Yen je US-Dollar",
+    "einheit": "JPY",
+    "datum": "2026-11-13",
+    "wert": 159.93,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
+    "abruf": "19.11.2026"
+   }
+  ],
+  "signale": [
+   {
+    "signal": "US-Geldmarktfonds (ICI)",
+    "art": "Vermögensveränderung",
+    "wert": -35.72,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 11.11.2026",
+    "quelle": "ICI",
+    "quelle_url": "https://www.ici.org/research/stats/mmf",
+    "stand": "12.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "Bestand jetzt 7,98 Bio. USD; davon institutionell −31,32 Mrd."
+   },
+   {
+    "signal": "US-ETFs gesamt",
+    "art": "Netto-Fluss",
+    "wert": 54.1,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 06.11.2026",
+    "quelle": "InvestmentNews",
+    "quelle_url": "https://www.investmentnews.com/etfs/etf-flows-surge-54bn-as-stocks-sell-off-and-markets-go-247/268997",
+    "stand": "13.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "Aktien +42,0 / Anleihen +13,8 Mrd.; VOO +17,6 / SPY −7,0 Mrd."
+   },
+   {
+    "signal": "US-ETF-Handelsvolumen pro Tag",
+    "art": "Handelsvolumen, kein Fluss",
+    "wert": 370.0,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 06.11.2026",
+    "quelle": "InvestmentNews",
+    "quelle_url": "https://www.investmentnews.com/etfs/etf-flows-surge-54bn-as-stocks-sell-off-and-markets-go-247/268997",
+    "stand": "13.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "125 % des Vorjahresschnitts; sagt nichts über die Richtung"
+   },
+   {
+    "signal": "US-Spot-Bitcoin-ETFs",
+    "art": "Netto-Fluss",
+    "wert": -1.07,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 13.11.2026",
+    "quelle": "SoSoValue via The Block",
+    "quelle_url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-440337",
+    "stand": "14.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "2. Woche in Folge über 1 Mrd. Abfluss"
+   },
+   {
+    "signal": "US-Spot-Ether-ETFs",
+    "art": "Netto-Fluss",
+    "wert": -0.399,
+    "einheit": "Mrd. USD",
+    "zeitraum": "Woche bis 13.11.2026",
+    "quelle": "SoSoValue via The Block",
+    "quelle_url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-440337",
+    "stand": "14.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "7. Abflusswoche in Folge"
+   },
+   {
+    "signal": "Indien: ausländische Käufe von Aktien",
+    "art": "Netto-Fluss",
+    "wert": 94229.0,
+    "einheit": "Crore INR",
+    "zeitraum": "01.–18.11.2026 (13 Handelstage)",
+    "quelle": "NSE/BSE/MSEI-Vorabdaten via Tapetide",
+    "quelle_url": "https://tapetide.com/insight/reports/fii-dii-flows/2026-11",
+    "stand": "18.11.2026",
+    "konfidenz": "mittel",
+    "notiz": "Börsen-Vorabdaten Kassamarkt, nicht NSDL; zuvor NSDL 02.–13.11.: +84.290 Crore; Oktober (NSDL) −34.843 Crore; 16.–18.11. je Tag +4.195 bis +5.867 Crore"
+   },
+   {
+    "signal": "Japan: ausländische Käufe von Aktien",
+    "art": "Netto-Fluss",
+    "wert": -105.0,
+    "einheit": "Mrd. JPY",
+    "zeitraum": "Woche bis 07.11.2026",
+    "quelle": "Finanzministerium Japan via Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/foreign-stock-investment",
+    "stand": "Nov. 2026",
+    "konfidenz": "mittel",
+    "notiz": "Vorwoche +1.129 Mrd. JPY"
+   },
+   {
+    "signal": "Aktienfonds global (BofA/EPFR)",
+    "art": "Netto-Fluss, nur Sekundärquelle",
+    "wert": 98.3,
+    "einheit": "Mrd. USD",
+    "zeitraum": "bis 11.11.2026, Zeitraum unklar",
+    "quelle": "BofA/EPFR via PrimeXBT",
+    "quelle_url": "https://primexbt.com/news/global-equity-funds-take-in-98-3-billion-the-largest-inflow-period-since-june/",
+    "stand": "14.11.2026",
+    "konfidenz": "niedrig",
+    "notiz": "Primärbericht nicht frei zugänglich; nicht mit Lipper addieren"
+   },
+   {
+    "signal": "Fondsmanager: Tech-Übergewichtung (BofA FMS)",
+    "art": "Umfrage, kein Fluss",
+    "wert": 12.0,
+    "einheit": "% netto",
+    "zeitraum": "06.–12.11.2026",
+    "quelle": "BofA Fund Manager Survey via TheStreet",
+    "quelle_url": "https://pro.thestreet.com/stock-market-today/2026-11-17",
+    "stand": "17.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "von 37 % im Oktober; größter Abbau seit Juni 2006"
+   },
+   {
+    "signal": "Fondsmanager: Cash-Quote (BofA FMS)",
+    "art": "Umfrage, kein Fluss",
+    "wert": 3.6,
+    "einheit": "%",
+    "zeitraum": "06.–12.11.2026",
+    "quelle": "BofA Fund Manager Survey via TheStreet",
+    "quelle_url": "https://pro.thestreet.com/stock-market-today/2026-11-17",
+    "stand": "17.11.2026",
+    "konfidenz": "hoch",
+    "notiz": "von 3,9 % im Oktober"
+   }
+  ],
+  "stress": [
+   {
+    "ereignis": "Ueno Bank, Paraguay: Abwicklung",
+    "datum": "02./03.11.2026",
+    "groesse": "Einlagen 2.836 Mio. USD (Sep.); ca. 3 Mio. Kunden; ca. 8 % der Kredite im System",
+    "ursache": "Kredite an verbundene Firmen (ca. 140–150 Mio. USD); Solvenzquote 5,56 % statt mind. 12 %",
+    "reaktion": "Staatsspreads ca. +30 Bp.; Guaraní über −8 % zum USD; Moody's: Ansteckung begrenzt bei zügiger Abwicklung",
+    "quelle": "Forbes Argentina 03.11.; Rio Times 08.11.",
+    "quelle_url": "https://www.forbesargentina.com/today/crisis-bancaria-paraguay-intervienen-banco-mas-us-2800-millones-depositos-n101654"
+   },
+   {
+    "ereignis": "Alta Banka, Serbien: Lizenzentzug",
+    "datum": "30./31.10.2026 (Quellen uneinheitlich)",
+    "groesse": "neuntgrößte Bank, Marktanteil 2,77 % (Ende 2025)",
+    "ursache": "Verschlechterung der Finanzlage; Ermittlungen zu ca. 45 Mrd. RSD (nur eine Quelle)",
+    "reaktion": "Einlagen bis 50.000 EUR gesichert; Branche laut Berichten stabil",
+    "quelle": "Finimize 31.10.",
+    "quelle_url": "https://finimize.com/content/serbias-central-bank-shut-down-fast-growing-alta-banka"
+   },
+   {
+    "ereignis": "Hedgefonds: Verluste im Oktober",
+    "datum": "Oktober 2026, Bericht 06.11.",
+    "groesse": "Balyasny −3,4 %, Millennium −2,3 %, Arini über −12 %, Value Aligned Research −33 %",
+    "ursache": "überfüllte Positionen beim Kursrückgang im Oktober",
+    "reaktion": "Millennium zieht über 1,5 Mrd. USD von zwei externen Managern ab",
+    "quelle": "Hedgeweek (nach Bloomberg) 06.11.",
+    "quelle_url": "https://hedgeweek.com/news/crowded-trades-trigger-widespread-hedge-fund-losses-as-october-selloff-extends"
+   },
+   {
+    "ereignis": "Fed-Finanzstabilitätsbericht: Private Credit",
+    "datum": "13.11.2026 (Datenstand ca. 28.10.)",
+    "groesse": "Private-Credit-Vehikel über 2,6 Bio. USD Vermögen, davon ca. 1,5 Bio. Kredite an US-Firmen; Bankzusagen an Nichtbanken über 2,8 Bio. USD (Q2), davon ca. ein Viertel an PE-Fonds, BDCs und Private-Credit-Vehikel",
+    "ursache": "Ausfallrate laut Fed seit dem letzten Bericht netto gestiegen, am oberen Ende der kurzen Historie; erhöhte PIK-Nutzung (Zinszahlung in neuen Schuldtiteln)",
+    "reaktion": "Bankkredite an Nichtbanken +22 % im Jahr bis Juni (OCC); kein einzelnes Ausfallereignis, sondern Aufsichtsbefund",
+    "quelle": "Federal Reserve via Fixed Income News Australia 17.11. (Sekundärquelle)",
+    "quelle_url": "https://www.fixedincomenews.com.au/fed-flags-rising-private-credit-defaults-and-deepening-bank-links/"
+   }
+  ],
+  "neu": [
+   {
+    "datum": "19.11.2026",
+    "bereich": "Ereignisse",
+    "aenderung": "Tanker New Orleans: Zahlen abgeglichen (197 an Bord inkl. Crew vs. ca. 129 Passagiere; 32 ins Krankenhaus, 8 am 14.11. noch dort)",
+    "quelle": "PBS/AP 14.11.2026; Cruise Industry News 13./14.11.2026"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Ereignisse, Big Three",
+    "aenderung": "Ergänzt: GENIUS Act/OCC-Regel (gilt ab 18.01.2027) mit Tether, Circle und Reserven; Take-Two-Aktionäre korrigiert (alle Vanguard-Einheiten, Big Three ca. 27,6 %)",
+    "quelle": "Mayer Brown, BDO/Tether, NY Fed, 13F"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Ereignisse, Big Three",
+    "aenderung": "Ergänzt: Alphabet −12,6 % (29.10.), Binance-Hack (29.10.), Nvidia/Huang (12.11.); neue Übersicht „Big Three“ mit Prüfung der Instagram-Angaben",
+    "quelle": "Fortune, CoinDesk, Al Jazeera, 13F-Daten"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Ereignisse",
+    "aenderung": "Neuer Bereich „Ereignisse und wer dahinter steht“: Tanker New Orleans, FAA-Flugstopp, Microsoft-Ausfall, GTA VI, Iran/Hormus-Kabel, Gläubiger der USA",
+    "quelle": "PBS/AP, Al Jazeera, Reuters, Stocktwits, 13F"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Aufbau",
+    "aenderung": "Seite nach drei Fragen geordnet (Was passiert, Wo fließt Geld hin, Wie schütze ich mich); Kacheln oben als Stichpunkte mit unverbindlichem Hinweis; neue Kachel Anthropic-Börsengang und Ausblick; neue Bereiche ETF-Flüsse Oktober und Prüfpunkte; Titel jetzt „Finance Coach“; Kacheln mit kurzen Stichpunkten",
+    "quelle": "State Street, TD Securities, World Gold Council, Report"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Meine Themen",
+    "aenderung": "Neuer Bereich mit 8 persönlichen Themen (Leitzinsen, digitaler Euro, Dollar/Stablecoins, KI-Capex, S&P-Konzentration, Liquidität, Gold, Vermögenskonzentration); Titel jetzt „Smart Money Radar“",
+    "quelle": "Report, FRED, Lipper"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Überblick",
+    "aenderung": "Neu oben: Überblick Tag/Woche/Monat/Jahr, Ausblick (heute bis 12 Monate) und Anthropic-Börsengang; erster Handelstag folgt",
+    "quelle": "Report Auf einen Blick, M.3"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Marktdaten",
+    "aenderung": "Marktdaten bis 17.11.2026: VIX 25,46 (16.11.: 22,91), Hochzins-Aufschlag 3,43 (3,34), Rendite 2 J. 4,80 % (4,83 %); 10 J., Dollar, Yen ohne neue Werte",
+    "quelle": "FRED"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Signale",
+    "aenderung": "Indien: ausländische Aktienkäufe 01.–18.11. +94.229 Crore INR (Börsen-Vorabdaten); vorher NSDL 02.–13.11. +84.290 Crore",
+    "quelle": "NSE/BSE via Tapetide"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "Stress",
+    "aenderung": "Neu: Fed-Finanzstabilitätsbericht 13.11. (Private-Credit-Ausfallrate gestiegen, Vehikel über 2,6 Bio. USD); entfernt: Blue Owl Q3 (02.10., älter als 30 Tage)",
+    "quelle": "Federal Reserve via Fixed Income News"
+   },
+   {
+    "datum": "19.11.2026",
+    "bereich": "CEO-Zusammenfassung",
+    "aenderung": "Neu geordnet: Volatilität (VIX 25,46 am 17.11.) und Indien vorn; Lipper, Europa, Geldmarkt unverändert bis 11.11.",
+    "quelle": "FRED, Tapetide, Lipper, ICI"
+   },
+   {
+    "datum": "18.11.2026",
+    "bereich": "CEO-Zusammenfassung",
+    "aenderung": "Fünf Kernpunkte mit Vergleichswerten oben im Dashboard ergänzt",
+    "quelle": "Lipper, ICI, FRED, SoSoValue"
+   },
+   {
+    "datum": "18.11.2026",
+    "bereich": "Marktdaten",
+    "aenderung": "Erster Abruf: Renditen, VIX, Hochzins-Aufschlag, Dollar, Yen bis 13./16.11.2026",
+    "quelle": "FRED"
+   },
+   {
+    "datum": "18.11.2026",
+    "bereich": "Fondsflüsse",
+    "aenderung": "Startdaten aus dem Report übernommen (Lipper-Woche bis 11.11., ICI bis 11.11., Krypto-ETFs bis 13.11.)",
+    "quelle": "Report KW 47"
+   }
+  ],
+  "termine": [
+   {
+    "reihe": "LSEG Lipper Fondsflüsse (via Reuters)",
+    "rhythmus": "wöchentlich, meist Freitag",
+    "deckt_ab": "Woche bis Mittwoch",
+    "quelle": "Reuters/LSEG"
+   },
+   {
+    "reihe": "ICI Geldmarktfonds-Vermögen",
+    "rhythmus": "wöchentlich, Donnerstag",
+    "deckt_ab": "Woche bis Mittwoch",
+    "quelle": "ICI"
+   },
+   {
+    "reihe": "Japan: Wertpapierkäufe von Ausländern",
+    "rhythmus": "wöchentlich, Donnerstag",
+    "deckt_ab": "Vorwoche",
+    "quelle": "Finanzministerium Japan"
+   },
+   {
+    "reihe": "US-Spot-Bitcoin- und Ether-ETFs",
+    "rhythmus": "täglich (Handelstage)",
+    "deckt_ab": "Vortag",
+    "quelle": "SoSoValue / Farside"
+   },
+   {
+    "reihe": "Renditen, VIX, Dollar, Yen",
+    "rhythmus": "täglich (US-Handelstage)",
+    "deckt_ab": "Vortag",
+    "quelle": "FRED"
+   },
+   {
+    "reihe": "US-ETF-Wochenflüsse",
+    "rhythmus": "wöchentlich",
+    "deckt_ab": "Vorwoche",
+    "quelle": "InvestmentNews / ETF.com"
+   }
+  ],
+  "ceo": [
+   {
+    "nr": 1,
+    "thema": "Volatilität und Risikoaufschläge",
+    "aussage": "VIX 25,46 am 17.11.2026 nach 22,91 am 16.11. und 17,49 am 11.11.; Durchschnitt der fünf Handelstage 10.–16.11.: 19,57. Hochzins-Risikoaufschlag 3,43 %-Punkte am 17.11. nach 3,20 am 12.11. Die US-Rendite 2 Jahre sank auf 4,80 % (13.11.: 4,88 %).",
+    "beobachten": "VIX-Schlusswert 18.11. und ob der Hochzins-Aufschlag über 3,43 steigt",
+    "quelle": "FRED (VIXCLS, BAMLH0A0HYM2, DGS2), Abruf 19.11.2026, Tagesdaten",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS"
+   },
+   {
+    "nr": 2,
+    "thema": "Indien Auslandskäufe",
+    "aussage": "Ausländische Anleger kauften im November bis 18.11. netto indische Aktien für +94.229 Crore INR (Börsen-Vorabdaten, 13 Handelstage). Im Oktober waren es laut NSDL −34.843 Crore. Die beiden Datensätze sind methodisch nicht identisch (NSDL bis 13.11.: +84.290 Crore).",
+    "beobachten": "NSDL-Monatsstand zum Wochenende 22.11.",
+    "quelle": "NSE/BSE via Tapetide, Stand 18.11.2026, vorläufig; PTI 15.11.",
+    "quelle_url": "https://tapetide.com/insight/reports/fii-dii-flows/2026-11"
+   },
+   {
+    "nr": 3,
+    "thema": "Aktienfonds weltweit",
+    "aussage": "Netto +50,99 Mrd. USD in der Woche bis 11.11.2026, das 3,1-Fache des 14-Wochen-Durchschnitts (+16,29 Mrd.) und gegenüber +4,11 Mrd. in der gleichen Woche 2025. Seitdem noch keine neue Lipper-Woche veröffentlicht.",
+    "beobachten": "Lipper-Woche bis 18.11. (voraussichtlich Fr., 21.11.)",
+    "quelle": "LSEG Lipper via Reuters, 13.11.2026, vorläufig",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+   },
+   {
+    "nr": 4,
+    "thema": "Europa",
+    "aussage": "Europa-Aktienfonds +35,13 Mrd. USD in der Woche bis 11.11., größter Wochenwert seit Juni 2021; 13-Wochen-Durchschnitt +9,39 Mrd., Vorjahreswoche −1,87 Mrd. Bisher eine Einzelwoche; Amundi (Q3) und Calastone (Oktober) zeigen diese Größenordnung nicht.",
+    "beobachten": "Nächste Lipper-Woche; Vorjahreswert dafür −6,03 Mrd.",
+    "quelle": "LSEG Lipper via Reuters, 13.11.2026, vorläufig",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+   },
+   {
+    "nr": 5,
+    "thema": "Geldmarkt",
+    "aussage": "Geldmarktfonds −37,48 Mrd. USD (Lipper, Woche bis 11.11.) nach +174,22 Mrd. in der Vorwoche. ICI (nur USA): Vermögen −35,72 Mrd. auf 7,98 Bio. USD.",
+    "beobachten": "ICI-Zahlen Do., 19.11. (US-Nachmittag): setzt sich der Rückgang fort?",
+    "quelle": "LSEG Lipper 13.11.; ICI 12.11.2026",
+    "quelle_url": "https://www.ici.org/research/stats/mmf"
+   }
+  ],
+  "ueberblick_text": [
+   {
+    "ebene": "Anthropic-Börsengang",
+    "zeitraum": "heute, Do. 19.11.2026, ab 15:30 Uhr MEZ",
+    "kernsatz": "Erster Handelstag von Anthropic heute, Donnerstag 19.11.2026, ab 15:30 Uhr MEZ an der Nasdaq unter dem Kürzel ANT; Ausgabepreis 83 USD.",
+    "punkte": [
+     "Erster Handelstag: Do. 19.11.2026",
+     "Uhrzeit: ab 15:30 Uhr MEZ",
+     "Börse und Kürzel: Nasdaq, ANT",
+     "Ausgabepreis: 83 USD (Spanne 70–78 USD)",
+     "Bewertung: rund 1,5 Bio. USD",
+     "Kurse: morgen früh im Dashboard"
+    ],
+    "quelle": "AP via Boston Globe, 19.11.2026",
+    "quelle_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-trading-nasdaq/",
+    "hinweise": [
+     "Anteil eines Einzeltitels am Depot prüfen",
+     "ANT notiert in USD: EUR/USD-Risiko"
+    ]
+   },
+   {
+    "ebene": "Tag",
+    "zeitraum": "18.11.2026",
+    "kernsatz": "Laut Protokoll der Oktober-Sitzung halten fast alle Fed-Mitglieder weitere Zinserhöhungen für möglich. Der S&P 500 schloss erstmals unter seiner 200-Tage-Linie, Gold fiel um 3,51 %. Anthropic platzierte den bisher größten Börsengang zu 83 USD je Aktie.",
+    "punkte": [
+     "S&P 500: 7.323 Punkte (−0,24 %)",
+     "Erstmals unter 200-Tage-Linie",
+     "Nasdaq +0,42 %, Dow −1,11 %",
+     "Gold: −3,51 % auf 3.728,60 USD",
+     "US-Rendite 10 J.: 5,10 % (−2 Bp.)",
+     "Fed-Protokoll: weitere Erhöhungen möglich"
+    ],
+    "quelle": "",
+    "quelle_url": "",
+    "hinweise": [
+     "Depot mit Zielaufteilung vergleichen",
+     "Nicht auf einen Handelstag reagieren"
+    ]
+   },
+   {
+    "ebene": "Woche",
+    "zeitraum": "Lipper-Woche bis 11.11. und laufende KW 47",
+    "kernsatz": "In der letzten gemeldeten Woche flossen +50,99 Mrd. USD in Aktienfonds, davon +35,13 Mrd. nach Europa; Geldmarktfonds verloren −37,48 Mrd. In der laufenden Woche stieg der VIX von 17,49 (11.11.) auf 25,46 (17.11.).",
+    "punkte": [
+     "Aktienfonds weltweit: +50,99 Mrd. USD",
+     "Ø 14 Wochen: +16,29 Mrd.",
+     "Europa: +35,13 Mrd. (Vorjahr −1,87)",
+     "Geldmarktfonds: −37,48 Mrd. USD",
+     "VIX: 17,49 → 25,46"
+    ],
+    "quelle": "",
+    "quelle_url": "",
+    "hinweise": [
+     "Europa-Zufluss bisher nur eine Woche",
+     "Trend erst nach 3–4 Wochen"
+    ]
+   },
+   {
+    "ebene": "Monat",
+    "zeitraum": "Oktober 2026 (letzter vollständiger Monat)",
+    "kernsatz": "Im Oktober flossen +73,5 Mrd. USD in US-Anleihe-ETFs, ein Rekordmonat. Krypto-ETFs verloren −2,3 Mrd. USD, Gold-ETFs gewannen in Europa und Asien und verloren in den USA. Zwei Notenbanken (Bank of Canada, Bank of England) erhöhten die Zinsen.",
+    "punkte": [
+     "US-Aktien-ETFs: +140,0 Mrd. USD",
+     "US-Anleihe-ETFs: +73,5 Mrd. (Rekord)",
+     "Krypto-ETFs USA: −2,3 Mrd. USD",
+     "Gold-ETFs Europa: +1,8 Mrd. USD",
+     "Zinserhöhungen: Kanada, Großbritannien"
+    ],
+    "quelle": "",
+    "quelle_url": "",
+    "hinweise": [
+     "Laufzeit der Anleihe-ETFs prüfen",
+     "US-Anleihen: zusätzlich EUR/USD-Risiko"
+    ]
+   },
+   {
+    "ebene": "Jahr",
+    "zeitraum": "2026 bis heute",
+    "kernsatz": "Brent stieg im März über 115 USD und lag am 18.11. bei rund 92 USD. Die Notenbanken erhöhen wieder, die US-Rendite 10 Jahre liegt über 5 %. US-Anleihe-ETFs sammelten seit Jahresbeginn +542,7 Mrd. USD (Rekord), die vier großen Hyperscaler investieren rund 730 Mrd. USD in KI.",
+    "punkte": [
+     "US-Anleihe-ETFs: +542,7 Mrd. USD (Rekord)",
+     "Mag7: 33,2 % des S&P 500",
+     "Ende 2021: 24,0 %",
+     "KI-Investitionen: ca. 730 Mrd. USD",
+     "US-Rendite 10 J.: über 5 %"
+    ],
+    "quelle": "",
+    "quelle_url": "",
+    "hinweise": [
+     "US-Tech-Anteil im ETF-Depot prüfen",
+     "Welt-ETFs enthalten viel Mag7"
+    ]
+   },
+   {
+    "ebene": "Ausblick",
+    "zeitraum": "heute bis 12 Monate",
+    "kernsatz": "Termine und veröffentlichte Prognosen Dritter.",
+    "punkte": [
+     "Heute: Anthropic-Start, ICI-Geldmarkt",
+     "Fr. 21.11.: neue Lipper-Woche",
+     "01.12.: Huang-Anhörung",
+     "08./09.12.: Fed-Entscheid",
+     "18.01.2027: Stablecoin-Regeln (GENIUS Act)",
+     "18.12.: Bank of Japan",
+     "Ca. 24.02.2027: Nvidia-Zahlen"
+    ],
+    "quelle": "Report, Terminkalender",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ",
+    "hinweise": [
+     "Kurzfristig benötigtes Geld absichern",
+     "Geldmarkt schwankt weniger"
+    ]
+   }
+  ],
+  "ueberblick": [
+   {
+    "ebene": "Tag",
+    "was": "S&P 500",
+    "wert": "7.323 Punkte (−0,24 %)",
+    "vergleich": "erstmals unter der 200-Tage-Linie",
+    "quelle": "Motley Fool, 18.11.2026",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "ebene": "Tag",
+    "was": "Nasdaq / Dow",
+    "wert": "+0,42 % / −1,11 %",
+    "vergleich": "Dow belastet durch UnitedHealth (−10,2 %)",
+    "quelle": "Motley Fool, 18.11.2026",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "ebene": "Tag",
+    "was": "US-Rendite 10 Jahre",
+    "wert": "5,10 % (−2 Bp.)",
+    "vergleich": "10.11.: 4,98 % (FRED)",
+    "quelle": "Motley Fool, 18.11.2026; FRED",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "ebene": "Tag",
+    "was": "Gold",
+    "wert": "3.728,60 USD (−3,51 %)",
+    "vergleich": "Vortag nicht erhoben",
+    "quelle": "Motley Fool, 18.11.2026",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "ebene": "Tag",
+    "was": "Fed-Protokoll (Oktober-Sitzung)",
+    "wert": "fast alle Mitglieder halten weitere Erhöhungen für möglich",
+    "vergleich": "Leitzins 3,75–4,00 %",
+    "quelle": "Motley Fool, 18.11.2026",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "ebene": "Tag",
+    "was": "Nvidia Q3",
+    "wert": "Umsatz 115,8 Mrd. USD",
+    "vergleich": "Erwartung ca. 109,1 Mrd. (+6 %); nachbörslich +3 bis 5 %",
+    "quelle": "Report Abschnitt M.1",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Tag",
+    "was": "Anthropic-Börsengang",
+    "wert": "Ausgabepreis 83 USD, ca. 81 Mrd. USD Erlös",
+    "vergleich": "Spanne 70–78 USD; bisheriger Rekord SpaceX ca. 75 Mrd. (Juni 2026)",
+    "quelle": "AP via Boston Globe, 19.11.2026",
+    "quelle_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-trading-nasdaq/"
+   },
+   {
+    "ebene": "Tag",
+    "was": "Indien: Ausländer in Aktien",
+    "wert": "+94.229 Crore INR (01.–18.11.)",
+    "vergleich": "Oktober −34.843 Crore",
+    "quelle": "NSE/BSE via Tapetide, vorläufig",
+    "quelle_url": "https://tapetide.com/insight/reports/fii-dii-flows/2026-11"
+   },
+   {
+    "ebene": "Woche",
+    "was": "Aktienfonds global",
+    "wert": "+50,99 Mrd. USD",
+    "vergleich": "Ø 14 Wochen +16,29; Vorjahreswoche +4,11",
+    "quelle": "LSEG Lipper via Reuters, 13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+   },
+   {
+    "ebene": "Woche",
+    "was": "davon Europa",
+    "wert": "+35,13 Mrd. USD",
+    "vergleich": "Ø 13 Wochen +9,39; Vorjahreswoche −1,87",
+    "quelle": "LSEG Lipper via Reuters, 13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+   },
+   {
+    "ebene": "Woche",
+    "was": "Geldmarktfonds",
+    "wert": "−37,48 Mrd. USD",
+    "vergleich": "Vorwoche +174,22; ICI-US-Bestand 7,98 Bio.",
+    "quelle": "LSEG Lipper 13.11.; ICI 12.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+   },
+   {
+    "ebene": "Woche",
+    "was": "Bitcoin-ETFs USA (bis 13.11.)",
+    "wert": "−1,07 Mrd. USD",
+    "vergleich": "2. Woche in Folge über 1 Mrd. Abfluss",
+    "quelle": "SoSoValue via The Block, 14.11.2026",
+    "quelle_url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-440337"
+   },
+   {
+    "ebene": "Woche",
+    "was": "VIX",
+    "wert": "25,46 (17.11.)",
+    "vergleich": "11.11.: 17,49; Ø 10.–16.11.: 19,57",
+    "quelle": "FRED (VIXCLS), Abruf 19.11.2026",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS"
+   },
+   {
+    "ebene": "Woche",
+    "was": "BofA-Umfrage: Tech-Übergewichtung",
+    "wert": "12 % netto",
+    "vergleich": "Oktober 37 %; größter Abbau seit Juni 2006",
+    "quelle": "BofA FMS via TheStreet, 17.11.2026",
+    "quelle_url": "https://pro.thestreet.com/stock-market-today/2026-11-17"
+   },
+   {
+    "ebene": "Monat",
+    "was": "US-Aktien-ETFs",
+    "wert": "+140,0 Mrd. USD",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "quelle": "State Street Flash Flows, Nov. 2026",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf"
+   },
+   {
+    "ebene": "Monat",
+    "was": "US-Anleihe-ETFs",
+    "wert": "+73,5 Mrd. USD",
+    "vergleich": "Rekordmonat",
+    "quelle": "State Street Flash Flows, Nov. 2026",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf"
+   },
+   {
+    "ebene": "Monat",
+    "was": "Krypto-ETFs USA",
+    "wert": "−2,3 Mrd. USD",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "quelle": "TD Securities via InvestmentNews, 05.11.2026",
+    "quelle_url": "https://www.investmentnews.com/etfs/us-etf-flows-hit-204bn-in-october-as-fixed-income-sets-record/268895"
+   },
+   {
+    "ebene": "Monat",
+    "was": "Indien: Ausländer in Aktien",
+    "wert": "−34.843 Crore INR",
+    "vergleich": "November bis 18.11.: +94.229",
+    "quelle": "NSDL via PTI",
+    "quelle_url": "https://thefederal.com/category/business/fpis-pump-rs-84290-crore-into-indian-equities-in-first-half-of-november-262975"
+   },
+   {
+    "ebene": "Monat",
+    "was": "Southbound (Festland → Hongkong)",
+    "wert": "−27,95 Mrd. HKD",
+    "vergleich": "Ø Jan.–Sep. +47,6 je Monat",
+    "quelle": "Wind via BigGo (Sekundärquelle)",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Jahr",
+    "was": "US-Anleihe-ETFs seit Jahresbeginn",
+    "wert": "+542,7 Mrd. USD",
+    "vergleich": "Rekord",
+    "quelle": "Report Abschnitt E",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Jahr",
+    "was": "Zentralbanken: Goldkäufe",
+    "wert": "321 t in Q3",
+    "vergleich": "+42 % ggü. Vorquartal",
+    "quelle": "World Gold Council; Report Abschnitt A",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Jahr",
+    "was": "Dollar-Anteil an Währungsreserven",
+    "wert": "56,7 % (Q2)",
+    "vergleich": "Q1: 57,2 %",
+    "quelle": "IWF COFER; Report Abschnitt K.5",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Jahr",
+    "was": "Magnificent 7 im S&P 500",
+    "wert": "33,2 % Gewicht",
+    "vergleich": "Ende 2021: 24,0 %",
+    "quelle": "Report Abschnitt L.3",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Jahr",
+    "was": "KI-Investitionen 4 Hyperscaler",
+    "wert": "ca. 730 Mrd. USD (2026)",
+    "vergleich": "2027: ca. 1,14 Bio. (Goldman-Prognose)",
+    "quelle": "Report Abschnitt L.1",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "ebene": "Jahr",
+    "was": "Weltwachstum (IWF)",
+    "wert": "3,1 % (2026)",
+    "vergleich": "2025: 3,5 %",
+    "quelle": "IWF WEO Oktober 2026; Report K.2",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   }
+  ],
+  "ausblick": [
+   {
+    "nr": 1,
+    "zeitraum": "Heute und morgen (19./20.11.)",
+    "termine": "Erster Handelstag Anthropic (Nasdaq, ab 15:30 Uhr MEZ); ICI-Geldmarktzahlen (Do.); Walmart-Zahlen",
+    "einschaetzung": "Ein Kurs unter 83 USD würde laut Report-Einordnung die KI-Stimmung und Amazon/Alphabet belasten. Weiter sinkende Geldmarktbestände würden zeigen, dass Bargeld in Aktien wandert."
+   },
+   {
+    "nr": 2,
+    "zeitraum": "Nächste Woche (KW 48)",
+    "termine": "Lipper-Woche bis 18.11. (Fr., 21.11.); NSDL-Indien-Daten (22.11.)",
+    "einschaetzung": "Offen ist, ob der Europa-Zufluss eine Einzelwoche war. Vorjahreswert der gleichen Woche: −6,03 Mrd. USD."
+   },
+   {
+    "nr": 3,
+    "zeitraum": "Nächste 4 Wochen",
+    "termine": "Huang-Anhörung (01.12.); Fed (08./09.12.) und EZB im Dezember; BoJ (18.12.); Trilog digitaler Euro",
+    "einschaetzung": "Erhöht die Fed und die BoJ nicht, spricht das für einen starken Dollar und schwachen Yen. Erhöht die BoJ, steigt das Risiko, dass Yen-Carry-Trades aufgelöst werden."
+   },
+   {
+    "nr": 4,
+    "zeitraum": "3 Monate",
+    "termine": "GENIUS-Act-Regeln der OCC treten in Kraft (18.01.2027); Lagarde-Abschied (07.02.2027); Nvidia-Zahlen (ca. 24.02.2027); 13F-Meldungen für Q4 (Mitte Februar)",
+    "einschaetzung": "Die 13F-Daten zeigen, ob institutionelle Anleger nach dem Ausverkauf in KI-Aktien zugekauft haben."
+   },
+   {
+    "nr": 5,
+    "zeitraum": "12 Monate",
+    "termine": "IWF: Weltwachstum 3,4 % in 2027; MUFG: EUR/USD 1,18 bis Q3 2027; KI-Investitionen ca. 1,14 Bio. USD (Goldman)",
+    "einschaetzung": "Basisfall laut diesen Prognosen: Zinsen erreichen den Höhepunkt, der Dollar gibt nach, Kapital verteilt sich stärker auf Europa und Schwellenländer. Gegenszenario: erneut steigende Energiepreise oder gekürzte KI-Investitionen."
+   }
+  ],
+  "anthropic": [
+   {
+    "kennzahl": "Ausgabepreis",
+    "wert": "83 USD",
+    "vergleich": "Spanne 70–78 USD",
+    "quelle": "AP via Boston Globe, 19.11.2026",
+    "quelle_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-trading-nasdaq/",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Aktien und Erlös",
+    "wert": "980 Mio. Aktien (956 Mio. neue); ca. 81 Mrd. USD",
+    "vergleich": "bisheriger Rekord SpaceX ca. 75 Mrd. USD (Juni 2026)",
+    "quelle": "AP via Boston Globe, 19.11.2026",
+    "quelle_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-trading-nasdaq/",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Bewertung",
+    "wert": "ca. 1,5 Bio. USD",
+    "vergleich": "–",
+    "quelle": "Report Abschnitt M.3",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Eröffnungskurs ANT (19.11.)",
+    "wert": "ausstehend",
+    "vergleich": "Ausgabepreis 83 USD",
+    "quelle": "Handelsstart Nasdaq 19.11., 15:30 Uhr MEZ",
+    "quelle_url": "",
+    "status": "ausstehend"
+   },
+   {
+    "kennzahl": "Schlusskurs ANT (19.11.)",
+    "wert": "ausstehend",
+    "vergleich": "Ausgabepreis 83 USD",
+    "quelle": "wird nach US-Börsenschluss ergänzt",
+    "quelle_url": "",
+    "status": "ausstehend"
+   },
+   {
+    "kennzahl": "Amazon am 19.11.",
+    "wert": "ausstehend",
+    "vergleich": "18.11.: +3,8 %; hält 14,7 % an Anthropic",
+    "quelle": "wird nach US-Börsenschluss ergänzt",
+    "quelle_url": "",
+    "status": "ausstehend"
+   },
+   {
+    "kennzahl": "Alphabet am 19.11.",
+    "wert": "ausstehend",
+    "vergleich": "hält 13,7 % an Anthropic",
+    "quelle": "wird nach US-Börsenschluss ergänzt",
+    "quelle_url": "",
+    "status": "ausstehend"
+   },
+   {
+    "kennzahl": "Umsatz",
+    "wert": "Q3 2026: 17,0 Mrd. USD",
+    "vergleich": "Q3 2025: 1,4 Mrd. USD",
+    "quelle": "Kadoa zum S-1 vom 10.11.2026 (Sekundärquelle)",
+    "quelle_url": "https://www.kadoa.com/companies/ipos/anthropic",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Großaktionäre",
+    "wert": "Amazon 14,7 %, Google 13,7 % (ohne Stimmrecht)",
+    "vergleich": "Gründer 50,1 % der Stimmen",
+    "quelle": "Stocktwits via TradingView, ca. 17.11.2026",
+    "quelle_url": "https://www.tradingview.com/news/stocktwits:4a69a006a094b:0-anthropic-s-new-ipo-filing-shows-amazon-google-will-own-over-a-quarter-of-the-claude-maker/",
+    "status": "beobachtet"
+   }
+  ],
+  "themen": [
+   {
+    "nr": 1,
+    "thema": "Leitzinsen",
+    "stand": "Fed 3,75–4,00 %; EZB 2,50 % nach Erhöhung; BoE +0,25 am 05.11.; Fed-Protokoll (18.11.): fast alle Mitglieder halten weitere Erhöhungen für möglich",
+    "vergleich": "2025: Senkungszyklus",
+    "naechster_termin": "Fed 08./09.12.; BoJ 18.12.",
+    "quelle": "Report K.1; Motley Fool 18.11.2026",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 2,
+    "thema": "Digitaler Euro",
+    "stand": "Trilog am 18.11. ohne gemeldete Einigung",
+    "vergleich": "Ziel: Gesetz bis Ende 2026",
+    "naechster_termin": "nächster Trilog-Termin noch nicht erhoben",
+    "quelle": "Report K.6",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "nr": 3,
+    "thema": "Dollar und Stablecoins",
+    "stand": "Dollar auf 19-Monats-Hoch (18.11.); Dollar-Anteil an Währungsreserven 56,7 % (Q2); Stablecoin-Markt 288,45 Mrd. USD (13.11.)",
+    "vergleich": "Reserveanteil Q1: 57,2 %; Stablecoins Vorwoche −1,74 %",
+    "naechster_termin": "IWF COFER Q3 (Termin nicht erhoben)",
+    "quelle": "IWF COFER; TokenPost/DefiLlama 13.11.2026",
+    "quelle_url": "https://www.tokenpost.com/news/investing/56639"
+   },
+   {
+    "nr": 4,
+    "thema": "KI-Rennen Mag7 und Capex",
+    "stand": "KI-Investitionen der 4 Hyperscaler ca. 730 Mrd. USD (2026); Nvidia Q3-Umsatz 115,8 Mrd. USD",
+    "vergleich": "2027: ca. 1,14 Bio. USD (Goldman-Prognose); Nvidia-Erwartung ca. 109,1 Mrd.",
+    "naechster_termin": "Huang-Anhörung 01.12.; Nvidia-Zahlen ca. 24.02.2027",
+    "quelle": "Report L.1, M.1",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "nr": 5,
+    "thema": "Konzentration im S&P 500",
+    "stand": "Mag7-Gewicht 33,2 %; Apple +30,5 %, Nvidia −10,9 % seit Jahresbeginn (bis 12.11.)",
+    "vergleich": "Ende 2021: 24,0 %",
+    "naechster_termin": "13F-Meldungen Q4 Mitte Februar 2027",
+    "quelle": "Report L.2/L.3",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "nr": 6,
+    "thema": "Liquidität in Krisen",
+    "stand": "Geldmarktfonds −37,48 Mrd. USD (Lipper, Woche bis 11.11.); VIX 25,46 (17.11.); Hochzins-Aufschlag 3,43 %-Punkte (17.11.); Bankfälle Ueno (Paraguay), Alta Banka (Serbien)",
+    "vergleich": "Geldmarkt Vorwoche +174,22 Mrd.; VIX 11.11.: 17,49; Aufschlag 12.11.: 3,20",
+    "naechster_termin": "ICI-Geldmarktzahlen Do., 19.11.; Lipper Fr., 21.11.",
+    "quelle": "Lipper 13.11.; FRED; Stress-Tabelle unten",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS"
+   },
+   {
+    "nr": 7,
+    "thema": "Gold und Notenbanken",
+    "stand": "Notenbanken kauften 321 t Gold in Q3; Goldpreis 3.728,60 USD am 18.11. (−3,51 %)",
+    "vergleich": "Q3 +42 % ggü. Vorquartal; Gold-ETFs Oktober: Europa +1,8, Asien +1,3, USA −0,7 Mrd. USD",
+    "naechster_termin": "WGC Gold Demand Trends Q4 (Termin nicht erhoben)",
+    "quelle": "World Gold Council; Motley Fool 18.11.2026",
+    "quelle_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/11"
+   },
+   {
+    "nr": 8,
+    "thema": "Vermögenskonzentration",
+    "stand": "Family Offices: 60 % planen Umschichtungen (UBS 2026); Fed 3,75–4,00 %, 10J-Rendite über 5 %",
+    "vergleich": "Vorjahr 35 %; historisch: 10 reichste Männer 700 Mrd. → 1,5 Bio. USD (03/2020–11/2021, Oxfam)",
+    "naechster_termin": "UBS Global Family Office Report Frühjahr 2027",
+    "quelle": "Report D.1a/D.1b; Oxfam America",
+    "quelle_url": "https://oxfamamerica.org/press/ten-richest-men-double-their-fortunes-during-the-pandemic-while-the-incomes-of-99-percent-of-humanity-fall"
+   }
+  ],
+  "etf": [
+   {
+    "nr": 1,
+    "segment": "US-Aktien-ETFs",
+    "gruppe": "US-ETFs nach Anlageklasse",
+    "mrd_usd": 140.0,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 2,
+    "segment": "US-Anleihe-ETFs",
+    "gruppe": "US-ETFs nach Anlageklasse",
+    "mrd_usd": 73.5,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Rekordmonat",
+    "notiz": "Rekordmonat",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 3,
+    "segment": "US-Kommunalanleihe-ETFs",
+    "gruppe": "US-ETFs nach Anlageklasse",
+    "mrd_usd": 21.1,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Rekordmonat",
+    "notiz": "Rekord; Teil der Anleihe-ETFs",
+    "quelle": "TD Securities via InvestmentNews",
+    "quelle_url": "https://www.investmentnews.com/etfs/us-etf-flows-hit-204bn-in-october-as-fixed-income-sets-record/268895",
+    "stand": "05.11.2026"
+   },
+   {
+    "nr": 4,
+    "segment": "US-ETFs Industrieländer außerhalb USA",
+    "gruppe": "US-ETFs nach Region",
+    "mrd_usd": 13.5,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 5,
+    "segment": "US-ETFs Schwellenländer",
+    "gruppe": "US-ETFs nach Region",
+    "mrd_usd": 3.9,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 6,
+    "segment": "Sektor-ETFs Technologie",
+    "gruppe": "US-Sektor-ETFs",
+    "mrd_usd": 7.4,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "TD zählt mit Hebel-ETFs 23,8 Mrd.",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 7,
+    "segment": "Sektor-ETFs Energie",
+    "gruppe": "US-Sektor-ETFs",
+    "mrd_usd": 2.8,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 8,
+    "segment": "Sektor-ETFs Gesundheit",
+    "gruppe": "US-Sektor-ETFs",
+    "mrd_usd": 2.4,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 9,
+    "segment": "Sektor-ETFs zyklischer Konsum",
+    "gruppe": "US-Sektor-ETFs",
+    "mrd_usd": -0.5,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 10,
+    "segment": "Sektor-ETFs Industrie",
+    "gruppe": "US-Sektor-ETFs",
+    "mrd_usd": -1.2,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street Flash Flows",
+    "quelle_url": "https://www.ssga.com/library-content/pdfs/etf/us/monthly-flash-flows.pdf",
+    "stand": "Nov. 2026"
+   },
+   {
+    "nr": 11,
+    "segment": "Gold-ETFs Europa",
+    "gruppe": "Gold und Krypto",
+    "mrd_usd": 1.8,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "World Gold Council",
+    "quelle_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/11",
+    "stand": "05.11.2026"
+   },
+   {
+    "nr": 12,
+    "segment": "Gold-ETFs Asien",
+    "gruppe": "Gold und Krypto",
+    "mrd_usd": 1.3,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "World Gold Council",
+    "quelle_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/11",
+    "stand": "05.11.2026"
+   },
+   {
+    "nr": 13,
+    "segment": "Gold-ETFs USA",
+    "gruppe": "Gold und Krypto",
+    "mrd_usd": -0.7,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "State Street, World Gold Council",
+    "quelle_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/11",
+    "stand": "05.11.2026"
+   },
+   {
+    "nr": 14,
+    "segment": "Krypto-ETFs USA",
+    "gruppe": "Gold und Krypto",
+    "mrd_usd": -2.3,
+    "zeitraum": "Oktober 2026",
+    "vergleich": "Vorjahresmonat nicht erhoben",
+    "notiz": "",
+    "quelle": "TD Securities via InvestmentNews",
+    "quelle_url": "https://www.investmentnews.com/etfs/us-etf-flows-hit-204bn-in-october-as-fixed-income-sets-record/268895",
+    "stand": "05.11.2026"
+   }
+  ],
+  "pruefpunkte": [
+   {
+    "nr": 1,
+    "bereich": "Schützen",
+    "pruefpunkt": "Konzentration im eigenen Depot nachrechnen",
+    "aktueller_bezug": "Magnificent 7 = 33,2 % des S&P 500 (Ende 2021: 24,0 %)",
+    "pruefrage": "Welcher Anteil meines Vermögens hängt an wenigen US-Tech-Werten, auch über Welt- und USA-ETFs, und wäre ein Rückgang dieses Teils tragbar?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 2,
+    "bereich": "Anlegen",
+    "pruefpunkt": "Einzelwochen nicht nachlaufen",
+    "aktueller_bezug": "Europa-Aktienfonds +35,13 Mrd. USD in einer Woche (bis 11.11.)",
+    "pruefrage": "Ist ein Zufluss über drei bis vier Wochen bestätigt, bevor ich ihn als Trend werte?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 3,
+    "bereich": "Anlegen",
+    "pruefpunkt": "Gutes Unternehmen ist nicht gleich günstige Bewertung",
+    "aktueller_bezug": "Nvidia Q3-Umsatz 115,8 Mrd. USD; Anthropic-Bewertung ca. 1,5 Bio. USD",
+    "pruefrage": "Trenne ich die Frage „Wie gut läuft das Geschäft?“ von „Was ist im Preis schon enthalten?“",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 4,
+    "bereich": "Schützen",
+    "pruefpunkt": "Rückgaberegeln vor dem Kauf lesen",
+    "aktueller_bezug": "Halbliquide Fonds begrenzten Rückgaben auf 5 % je Quartal, Anleger wollten bis zu 39 % zurückgeben",
+    "pruefrage": "Liegt Geld, das ich kurzfristig brauche, in Produkten mit Rückgabegrenzen?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 5,
+    "bereich": "Schützen",
+    "pruefpunkt": "Einlagensicherung kennen",
+    "aktueller_bezug": "EU: 100.000 EUR je Person und Bank gesetzlich gesichert",
+    "pruefrage": "Liegen größere Guthaben bei einer einzigen Bank oder bei einer Bank außerhalb der EU-Sicherung?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 6,
+    "bereich": "Schützen",
+    "pruefpunkt": "Hebel verstehen",
+    "aktueller_bezug": "Verluste durch Hebelprodukte in Korea, Hedgefonds im Oktober, KI-Fonds Situational Awareness",
+    "pruefrage": "Halte ich gehebelte ETFs oder Zertifikate, die Verluste in beide Richtungen verstärken?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 7,
+    "bereich": "Schützen",
+    "pruefpunkt": "Währung mitdenken",
+    "aktueller_bezug": "EUR/USD-Risiko bei US-Werten; Yen 159,93 je USD (13.11.)",
+    "pruefrage": "Welcher Anteil meines Depots läuft in US-Dollar, und wie wirkt ein schwächerer Dollar in Euro gerechnet?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 8,
+    "bereich": "Anlegen",
+    "pruefpunkt": "Laufzeit bei Anleihen beachten",
+    "aktueller_bezug": "US-Rendite 10 Jahre 5,12 % (16.11.); 2 Jahre 4,80 % (17.11.)",
+    "pruefrage": "Passt die Laufzeit meiner Anleihe-ETFs zu meinem Anlagehorizont? Kürzere Laufzeiten und Geldmarkt schwanken weniger.",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 9,
+    "bereich": "Anlegen",
+    "pruefpunkt": "Digitaler Euro: kein Handlungsbedarf",
+    "aktueller_bezug": "frühestens 2029, unverzinst, als Zahlungsmittel gedacht",
+    "pruefrage": "—",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   },
+   {
+    "nr": 10,
+    "bereich": "Anlegen",
+    "pruefpunkt": "Kosten und Regelmäßigkeit",
+    "aktueller_bezug": "Laufende Kosten wirken über Jahre stärker als die meisten kurzfristigen Flusssignale",
+    "pruefrage": "Habe ich Aufteilung und Rebalancing vorab festgelegt, statt auf einzelne Nachrichten zu reagieren?",
+    "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
+    "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
+   }
+  ],
+  "ereignisse": [
+   {
+    "nr": 1,
+    "datum": "13.11.2026",
+    "titel": "Tanker rammt Flusskreuzer in New Orleans",
+    "status": "bestätigt",
+    "punkte": [
+     "Fr. 13.11., ca. 12:30 Uhr Ortszeit",
+     "Tanker „Atlantic Asphalt“ (160 m) außer Kontrolle",
+     "Flusskreuzer „American Heritage“ gekentert",
+     "An Bord: 197 (ca. 129 Passagiere + Crew)",
+     "Keine Toten",
+     "Krankenhaus: 32 (14.11.: noch 8)",
+     "Vor Ort behandelt: über 80",
+     "Ursache: Steuerausfall, NTSB ermittelt",
+     "Hafen klagt auf mind. 1 Mio. USD"
+    ],
+    "wer": [
+     "Tanker-Eigner: Nave Shipping SA (Liberia)",
+     "Mutter: China State Shipbuilding Corp.",
+     "CSSC: chinesischer Staatskonzern",
+     "Flagge: Marshallinseln",
+     "Flusskreuzer: American Cruise Lines (privat)",
+     "CEO: Charles B. Robertson"
+    ],
+    "markt": [
+     "Keine börsennotierten Beteiligten belegt",
+     "Mississippi-Verkehr zeitweise eingeschränkt",
+     "Kursreaktion: nicht erhoben"
+    ],
+    "quellen": [
+     {
+      "name": "PBS/AP, 14.11.2026",
+      "url": "https://www.pbs.org/newshour/nation/new-orleans-port-sues-to-get-control-of-tanker-that-crashed-into-cruise-ship-on-mississippi-river"
+     },
+     {
+      "name": "Cruise Industry News, 13./14.11.2026",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/american-heritage-capsizes-after-tanker-strike-in-new-orleans/"
+     },
+     {
+      "name": "Cruise Critic",
+      "url": "https://www.cruisecritic.com/news/american-heritage-collision-what-we-know"
+     },
+     {
+      "name": "Wikipedia: American Cruise Lines",
+      "url": "https://en.wikipedia.org/wiki/American_Cruise_Lines"
+     }
+    ]
+   },
+   {
+    "nr": 2,
+    "datum": "13.11.2026",
+    "titel": "USA: alle Flüge gestoppt (FAA)",
+    "status": "bestätigt",
+    "punkte": [
+     "Fr. 13.11., 15:54–20:15 Uhr US-Ostküste",
+     "17 von 22 Flugsicherungszentren betroffen",
+     "Über 9.000 Flüge am Freitag gestrichen",
+     "Samstag: über 5.000 weitere Absagen",
+     "Ursache: überlastete Router beim Glasfaser-Umbau",
+     "Kein Cyberangriff laut FAA"
+    ],
+    "wer": [
+     "Betreiber: FAA (US-Bundesbehörde)",
+     "Umbau-Auftragnehmer: L3Harris (Börse: LHX)",
+     "Verkehrsminister fordert 50 Mrd. USD",
+     "L3Harris: Vanguard ca. 12 %, BlackRock ca. 10,2 %",
+     "L3Harris: State Street ca. 5 %"
+    ],
+    "markt": [
+     "United −1,7 % (13.11.)",
+     "American −1,0 %, Southwest −0,6 %",
+     "Delta −0,4 %",
+     "Airline-ETF JETS −0,7 %",
+     "Raymond James: über 1 Mrd. USD Schaden",
+     "American 136–354 Mio. USD",
+     "Delta 94–244 Mio., United 88–229 Mio."
+    ],
+    "quellen": [
+     {
+      "name": "Al Jazeera, 14.11.2026",
+      "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+     },
+     {
+      "name": "Al Jazeera, 15.11.2026",
+      "url": "https://www.aljazeera.com/news/2026/11/15/what-forced-the-us-to-ground-all-planes-a-router-switch-we-now-know"
+     },
+     {
+      "name": "Stocktwits, 13.11.2026",
+      "url": "https://stocktwits.com/news-articles/markets/equity/faa-grounds-all-incoming-flights-nationwide-in-extraordinary-advisory-airline-stocks-end-lower/cNbR0ApR9QT"
+     },
+     {
+      "name": "Stocktwits/Raymond James, 16.11.2026",
+      "url": "https://stocktwits.com/news-articles/markets/equity/us-airlines-expected-to-lose-1-b-from-faa-nationwide-grounding-raymond-james-says/cNb7CvqR9gL"
+     }
+    ]
+   },
+   {
+    "nr": 3,
+    "datum": "12./13.11.2026",
+    "titel": "Microsoft: weltweiter Ausfall (kein Shutdown)",
+    "status": "bestätigt",
+    "punkte": [
+     "Beginn Do. 12.11., ca. 17 Uhr MEZ",
+     "Outlook, Teams, Copilot gestört",
+     "Mind. 43.000 Meldungen aus 72 Ländern",
+     "Ursache: Fehler in Netzwerk-Gateway",
+     "Kein Cyberangriff laut Microsoft",
+     "Auch OpenAI- und Anthropic-Anbindungen betroffen"
+    ],
+    "wer": [
+     "Vanguard: 9,4 %",
+     "BlackRock: 8,0 %",
+     "State Street: 4,0 %",
+     "Fidelity: 2,8 %",
+     "Big Three zusammen: ca. 21,4 %",
+     "Institutionelle gesamt: ca. 76 %",
+     "Stand: 30.09.2025"
+    ],
+    "markt": [
+     "MSFT am 13.11. bis −3 %",
+     "Schluss 523,88 USD, leicht im Plus",
+     "Steckt in fast jedem Welt- und USA-ETF"
+    ],
+    "quellen": [
+     {
+      "name": "Al Jazeera, 13.11.2026",
+      "url": "https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why"
+     },
+     {
+      "name": "SlashGear, 18.11.2026",
+      "url": "https://www.slashgear.com/2320849/microsoft-november-2026-outage-cause-explained/"
+     },
+     {
+      "name": "NewsBytes, 14.11.2026",
+      "url": "https://www.newsbytesapp.com/news/business/microsoft-shares-recover-close-slightly-up-after-global-outage/tldr"
+     },
+     {
+      "name": "Admiral Markets (Aktionäre)",
+      "url": "https://admiralmarkets.com/education/articles/shares/largest-microsoft-shareholders"
+     }
+    ]
+   },
+   {
+    "nr": 4,
+    "datum": "19.11.2026",
+    "titel": "GTA VI startet (Take-Two)",
+    "status": "bestätigt",
+    "punkte": [
+     "US-Start: heute, Do. 19.11.2026",
+     "Sensor Tower: ca. 17 Mio. Kopien bis 18.11.",
+     "Umsatz bis 18.11.: über 1,65 Mrd. USD",
+     "Metacritic: 99 von 100",
+     "Budget: über 1 Mrd. USD"
+    ],
+    "wer": [
+     "BlackRock: 9,8 % (ca. 18 Mio. Aktien)",
+     "Vanguard, alle Einheiten: ca. 11–12 % (ca. 22 Mio.)",
+     "davon Vanguard Capital Mgmt.: 6,1 %",
+     "State Street: ca. 5,8–6,0 % (ca. 11 Mio.)",
+     "Big Three zusammen: ca. 26,5–27,6 %",
+     "Saudi-Staatsfonds PIF: 6,1 % (Savvy Games)",
+     "Stand: 13F per 30.06.2026"
+    ],
+    "markt": [
+     "TTWO 16.11.: −6,3 % auf 213,47 USD",
+     "TTWO 18.11.: über +6 % auf 216,61 USD",
+     "Seit Jahresbeginn ca. −15 %",
+     "Plattformen: Sony PS5, Microsoft Xbox"
+    ],
+    "quellen": [
+     {
+      "name": "Fox Business/Reuters, 18.11.2026",
+      "url": "https://www.foxbusiness.com/markets/take-two-stock-jumps-over-6-rockstars-long-awaited-gta-vi-arrives-after-13-year-wait"
+     },
+     {
+      "name": "Trefis, 17.11.2026",
+      "url": "https://www.trefis.com/articles/625817/why-did-take-two-stock-fall-6-before-gta-vi/2026-11-17"
+     },
+     {
+      "name": "VCP Scanner (13F Q2 2026)",
+      "url": "https://vcpscanner.com/stock/ttwo/institutional-holders"
+     },
+     {
+      "name": "Finviz/Reuters: PIF-Anteil",
+      "url": "https://finviz.com/news/313482/gta-6-momentum-builds-saudi-pif-moves-take-two-stake-to-gaming-subsidiary-ahead-of-2026-launch"
+     },
+     {
+      "name": "Stockzoa (13F Juni 2026)",
+      "url": "https://stockzoa.com/ticker/ttwo/"
+     }
+    ]
+   },
+   {
+    "nr": 5,
+    "datum": "seit Okt. 2026",
+    "titel": "Iran droht mit Kappen der Hormus-Seekabel",
+    "status": "Drohung",
+    "punkte": [
+     "Drohung durch IRGC (Javani), Okt. 2026",
+     "Ziel: 7 große Kabel unter Hormus",
+     "Reparaturen sollen verhindert werden",
+     "Auslöser: neue Angriffe von USA/Israel",
+     "Unter 1 % der Welt-Bandbreite (TeleGeography)",
+     "Bisher kein Schaden gemeldet"
+    ],
+    "wer": [
+     "FALCON-Kabel: GCX (früher FLAG Telecom)",
+     "GCX gehört 3i Infrastructure (London)",
+     "AAE-1: Konsortium, u. a. Retelit, OTEGLOBE",
+     "Weitere: Gulf Bridge International, TATA TGN-Gulf",
+     "Rechenzentren: Microsoft-Cloud Saudi-Arabien"
+    ],
+    "markt": [
+     "Risiko: Banken, Cloud, Zahlungen am Golf",
+     "Reparatur: höhere Versicherungskosten",
+     "Kursreaktion: nicht erhoben"
+    ],
+    "quellen": [
+     {
+      "name": "Jerusalem Post/Reuters, 23.10.2026",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-912668"
+     },
+     {
+      "name": "Ynet/Reuters, 25.10.2026",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/by5sfbj3me"
+     },
+     {
+      "name": "House of Saud, 01.11.2026",
+      "url": "https://houseofsaud.com/iran-cable-hormuz-vision2030/"
+     },
+     {
+      "name": "SubmarineNetworks: FALCON",
+      "url": "https://submarinenetworks.com/en/systems/asia-europe-africa/falcon"
+     },
+     {
+      "name": "3i/GCX-Übernahme",
+      "url": "https://vmblog.com/bylines/3i-infrastructure-plc-completes-acquisition-of-global-cloud-xchange/"
+     }
+    ]
+   },
+   {
+    "datum": "12.11.2026",
+    "titel": "Nvidia: CEO Jensen Huang tritt zurück",
+    "status": "bestätigt",
+    "punkte": [
+     "Rücktritt am Do. 12.11.2026",
+     "Grund: Affäre mit mutmaßlicher chinesischer Spionin",
+     "FBI, Kongress und Nvidia ermitteln",
+     "Interims-CEO: Finanzchefin Colette Kress",
+     "Erster Verwaltungsratschef: Harvey C. Jones",
+     "Börsenwert erstmals seit Juli 2025 unter 4 Bio. USD"
+    ],
+    "wer": [
+     "Vanguard: 9,36 % (31.12.2025)",
+     "BlackRock: 8,04 % (31.10.2026)",
+     "State Street: 4,18 % (31.10.2026)",
+     "Big Three zusammen: ca. 21,6 %"
+    ],
+    "markt": [
+     "Nvidia ca. 7–8 % im S&P 500 (Einschätzung)",
+     "Kursverlust in %: nicht erhoben",
+     "Betrifft fast jeden Welt-, USA- und Tech-ETF"
+    ],
+    "quellen": [
+     {
+      "name": "Al Jazeera, 12.11.2026",
+      "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "name": "NPR, 12.11.2026",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038865/ceo-jensen-huang-resigns-from-chip-giant-nvidia"
+     },
+     {
+      "name": "Trendlyne (Aktionäre)",
+      "url": "https://us.trendlyne.com/us/equity/ownership/1554267/NVDA/latest/nvidia-corp/"
+     }
+    ],
+    "nr": 6
+   },
+   {
+    "datum": "29.10.2026",
+    "titel": "Binance-Hack: 6,3 Mrd. USD gestohlen",
+    "status": "bestätigt",
+    "punkte": [
+     "Do. 29.10.2026, größter Krypto-Diebstahl bisher",
+     "Schaden laut Binance: 6,3 Mrd. USD",
+     "Chainalysis: ca. 5,9 Mrd. USD",
+     "Rund 3 Mrd. USD eingefroren",
+     "Spur: nordkoreanische Gruppe (TRM Labs)",
+     "Binance ersetzt Verluste laut Co-CEO"
+    ],
+    "wer": [
+     "Binance: private Börse, nicht börsennotiert",
+     "Co-CEO: Yi He",
+     "Bitcoin-ETF IBIT (BlackRock): 3,99 % aller Bitcoin",
+     "Stand IBIT: 05.11.2026, 802.807 BTC"
+    ],
+    "markt": [
+     "Bitcoin am 29.10.: −4,8 % unter 77.000 USD",
+     "Ether: −5,7 %",
+     "Betrifft Krypto-ETFs und Krypto-Aktien"
+    ],
+    "quellen": [
+     {
+      "name": "CoinDesk, 29.10.2026",
+      "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+     },
+     {
+      "name": "MEXC Blog (IBIT), 07.11.2026",
+      "url": "https://blog.mexc.com/trends/2026-11-07-ibit-q3-801033-btc-net-share-inflow-en/"
+     }
+    ],
+    "nr": 7
+   },
+   {
+    "datum": "29.10.2026",
+    "titel": "Alphabet: schlechtester Börsentag seit 2004",
+    "status": "bestätigt",
+    "punkte": [
+     "Do. 29.10.2026: Class-A-Aktie −12,6 %",
+     "Kurs: 283,82 USD",
+     "Rund 482 Mrd. USD Börsenwert verloren",
+     "Auslöser: Q3-Zahlen, Suche nur +12 %",
+     "Erwartet waren +15 %",
+     "Freier Cashflow: −9,1 Mrd. USD"
+    ],
+    "wer": [
+     "Vanguard: 9,09 % (A), 7,74 % (C)",
+     "BlackRock: 7,59 % (A), 6,64 % (C)",
+     "State Street: 3,89 % (A), 3,42 % (C)",
+     "Big Three: 20,6 % (A), 17,8 % (C)",
+     "Stimmrechte: Gründer über B-Aktien (Einschätzung)"
+    ],
+    "markt": [
+     "Größte Einzelverluste im Nasdaq an dem Tag",
+     "Betrifft Welt-, USA- und Tech-ETFs"
+    ],
+    "quellen": [
+     {
+      "name": "Fortune, 29.10.2026",
+      "url": "https://fortune.com/2026/10/29/alphabet-worst-day-google-search-valuation-energy-sector-bofa/"
+     },
+     {
+      "name": "RankRed (Aktionäre, ohne Stichtag)",
+      "url": "https://www.rankred.com/who-owns-google/"
+     }
+    ],
+    "nr": 8
+   },
+   {
+    "datum": "21.10.2026",
+    "titel": "USA: Stablecoin-Regeln (GENIUS Act) final",
+    "status": "bestätigt",
+    "punkte": [
+     "OCC-Regel veröffentlicht: 21.10.2026",
+     "Gilt ab: 18.01.2027",
+     "Reserven 1:1, getrennt verwahrt",
+     "Erlaubt: Cash, Einlagen, T-Bills ≤ 93 Tage",
+     "Mind. 5 % täglich verfügbar",
+     "Rücknahme binnen 2 Geschäftstagen",
+     "Krypto als Reserve nicht erlaubt"
+    ],
+    "wer": [
+     "Tether (USDT): ca. 184 Mrd. USD Umlauf",
+     "Tether-Eigner: Giancarlo Devasini",
+     "Cantor Fitzgerald: 5 % an Tether (2024)",
+     "Cantor verwaltet Großteil der Tether-Reserven",
+     "Circle (USDC): ca. 73 Mrd. USD Umlauf",
+     "USDC-Reserven: 86 % im BlackRock Circle Reserve Fund"
+    ],
+    "markt": [
+     "Tether: 132,4 Mrd. USD in US-T-Bills",
+     "Tether hält auch Gold (19,1 Mrd.) und Bitcoin (8,4 Mrd.)",
+     "Einschätzung: mehr Nachfrage nach kurzen US-Staatsanleihen",
+     "Einschätzung: Dollar-Stablecoins stützen Dollar-Rolle",
+     "Digitaler Euro: frühestens 2029, unverzinst",
+     "Betrifft: Circle (CRCL), Coinbase, BlackRock"
+    ],
+    "quellen": [
+     {
+      "name": "Mayer Brown, Nov. 2026",
+      "url": "https://www.mayerbrown.com/en/insights/publications/2026/11/occ-finalizes-genius-act-rulemaking"
+     },
+     {
+      "name": "Stablecoin Insider (Tether Q3), 2026",
+      "url": "https://stablecoininsider.org/tether-q3-2026-attestation/"
+     },
+     {
+      "name": "New York Fed, Juli 2026",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/"
+     },
+     {
+      "name": "Eco (DefiLlama, 12.10.2026)",
+      "url": "https://eco.com/support/en/articles/15210394-top-stablecoin-issuers-2026-circle-tether-sky-paxos-ethena-ranked"
+     },
+     {
+      "name": "The Block/WSJ: Cantor 5 %, 24.11.2024",
+      "url": "https://www.theblock.co/post/327961/lutnick-cantor-fitzgerald-negotiated-a-5-ownership-stake-in-tether-wsj"
+     },
+     {
+      "name": "Instagram @cashunate (Hinweis, Datum dort 12.11.)",
+      "url": "https://www.instagram.com/cashunate/"
+     }
+    ],
+    "nr": 9
+   },
+   {
+    "nr": 10,
+    "datum": "Juli 2026",
+    "titel": "Wer finanziert die USA? Größte ausländische Gläubiger",
+    "status": "Daten",
+    "punkte": [
+     "Japan: 1.103,9 Mrd. USD",
+     "Großbritannien: 998,3 Mrd. USD",
+     "China: 618,0 Mrd. USD",
+     "Belgien: 483 Mrd. USD",
+     "China im Juni: 633 Mrd. USD"
+    ],
+    "wer": [
+     "Quelle der Zahlen: US-Finanzministerium (TIC)",
+     "Einschätzung: Belgien v. a. Verwahrstelle Euroclear",
+     "Stand: Juli 2026"
+    ],
+    "markt": [
+     "Betrifft US-Anleihe-ETFs und Dollar",
+     "Neue Monatsdaten: TIC, Mitte des Monats"
+    ],
+    "quellen": [
+     {
+      "name": "24/7 Wall St. nach TIC, 29.09.2026",
+      "url": "https://247wallst.com/investing/2026/09/29/china-holds-618-billion-of-u-s-debt-only-2-countries-hold-more/"
+     }
+    ]
+   }
+  ],
+  "big_three": [
+   {
+    "nr": 1,
+    "firma": "Alphabet",
+    "ereignis": "29.10.: −12,6 %",
+    "behauptung": "18,0 %",
+    "geprueft": "20,6 % (Class A) / 17,8 % (Class C)",
+    "rechnung": "9,09+7,59+3,89 bzw. 7,74+6,64+3,42",
+    "status": "annähernd",
+    "stand": "ohne Stichtag (RankRed, Feb. 2026)",
+    "quelle": "RankRed",
+    "quelle_url": "https://www.rankred.com/who-owns-google/",
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+   },
+   {
+    "nr": 2,
+    "firma": "Bitcoin über IBIT",
+    "ereignis": "29.10.: Binance-Hack",
+    "behauptung": "4,0 % aller Bitcoin",
+    "geprueft": "3,99 % (802.807 BTC)",
+    "rechnung": "nur BlackRock, nicht alle drei",
+    "status": "bestätigt",
+    "stand": "05.11.2026",
+    "quelle": "MEXC Blog",
+    "quelle_url": "https://blog.mexc.com/trends/2026-11-07-ibit-q3-801033-btc-net-share-inflow-en/",
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+   },
+   {
+    "nr": 3,
+    "firma": "Nvidia",
+    "ereignis": "12.11.: Huang-Rücktritt",
+    "behauptung": "ca. 20 %",
+    "geprueft": "ca. 21,6 %",
+    "rechnung": "9,36+8,04+4,18 (Stichtage gemischt)",
+    "status": "annähernd",
+    "stand": "31.12.2025 / 31.10.2026",
+    "quelle": "Trendlyne",
+    "quelle_url": "https://us.trendlyne.com/us/equity/ownership/1554267/NVDA/latest/nvidia-corp/",
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+   },
+   {
+    "nr": 4,
+    "firma": "Microsoft",
+    "ereignis": "12./13.11.: 365-Ausfall",
+    "behauptung": "21,3 %",
+    "geprueft": "21,4 %",
+    "rechnung": "9,4+8,0+4,0",
+    "status": "bestätigt",
+    "stand": "30.09.2025",
+    "quelle": "Admiral Markets",
+    "quelle_url": "https://admiralmarkets.com/education/articles/shares/largest-microsoft-shareholders",
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+   },
+   {
+    "nr": 5,
+    "firma": "L3Harris",
+    "ereignis": "13.11.: FAA-Flugstopp",
+    "behauptung": "25,6 %",
+    "geprueft": "ca. 27 %",
+    "rechnung": "ca. 12+10,2+5 (Sekundärquelle)",
+    "status": "abweichend",
+    "stand": "30.06./30.09.2026",
+    "quelle": "whoistheownerof.com",
+    "quelle_url": "https://whoistheownerof.com/who-owns-l3harris-the-complete-ownership-2026/",
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+   },
+   {
+    "nr": 6,
+    "firma": "HPE",
+    "ereignis": "13.11.: FAA-Flugstopp",
+    "behauptung": "27,3 %",
+    "geprueft": "ca. 27,8 %",
+    "rechnung": "369,5 Mio. von 1,33 Mrd. Aktien (eigene Rechnung)",
+    "status": "annähernd",
+    "stand": "13F Juni 2026",
+    "quelle": "Stockzoa, StockAnalysis",
+    "quelle_url": "https://stockzoa.com/ticker/hpe/",
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+   },
+   {
+    "nr": 7,
+    "firma": "Take-Two",
+    "ereignis": "19.11.: GTA VI",
+    "behauptung": "ca. 26,5 %",
+    "geprueft": "ca. 27,6 %",
+    "rechnung": "18+22+11 Mio. von ca. 184,5 Mio. Aktien (eigene Rechnung; Dashboard zeigte vorher nur 1 Vanguard-Einheit)",
+    "status": "bestätigt",
+    "stand": "13F 30.06.2026",
+    "quelle": "Stockzoa, VCP Scanner",
+    "quelle_url": "https://stockzoa.com/ticker/ttwo/",
+    "behauptung_quelle": "Instagram @cashunate"
+   }
+  ]
+ }
+}
