@@ -1,5 +1,5 @@
 {
- "stand": "19.11.2026, 14:30 Uhr MEZ",
+ "stand": "19.11.2026, 17:15 Uhr MEZ",
  "tabellen": {
   "regionen": [
    {
@@ -762,6 +762,12 @@
    }
   ],
   "neu": [
+   {
+    "datum": "19.11.2026",
+    "bereich": "Diagramme, Top-Bewegungen",
+    "aenderung": "Neu: Top-Aktienbewegungen (Indizes, Mag7, Gewinner/Verlierer), Leitzinsen, Mag7-Gewicht; Diagramme zu ETF-Flüssen, Gold-ETFs, Lipper vs. Durchschnitt, Big Three, Märkten",
+    "quelle": "CNBC/Stocktitan, Motley Fool, Trefis, EZB, investingLive, CaixaBank"
+   },
    {
     "datum": "19.11.2026",
     "bereich": "Ereignisse",
@@ -2133,7 +2139,9 @@
     "stand": "ohne Stichtag (RankRed, Feb. 2026)",
     "quelle": "RankRed",
     "quelle_url": "https://www.rankred.com/who-owns-google/",
-    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)",
+    "behauptung_pct": 18.0,
+    "geprueft_pct": 20.6
    },
    {
     "nr": 2,
@@ -2146,7 +2154,9 @@
     "stand": "05.11.2026",
     "quelle": "MEXC Blog",
     "quelle_url": "https://blog.mexc.com/trends/2026-11-07-ibit-q3-801033-btc-net-share-inflow-en/",
-    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)",
+    "behauptung_pct": null,
+    "geprueft_pct": null
    },
    {
     "nr": 3,
@@ -2159,7 +2169,9 @@
     "stand": "31.12.2025 / 31.10.2026",
     "quelle": "Trendlyne",
     "quelle_url": "https://us.trendlyne.com/us/equity/ownership/1554267/NVDA/latest/nvidia-corp/",
-    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)",
+    "behauptung_pct": 20.0,
+    "geprueft_pct": 21.6
    },
    {
     "nr": 4,
@@ -2172,7 +2184,9 @@
     "stand": "30.09.2025",
     "quelle": "Admiral Markets",
     "quelle_url": "https://admiralmarkets.com/education/articles/shares/largest-microsoft-shareholders",
-    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)",
+    "behauptung_pct": 21.3,
+    "geprueft_pct": 21.4
    },
    {
     "nr": 5,
@@ -2185,7 +2199,9 @@
     "stand": "30.06./30.09.2026",
     "quelle": "whoistheownerof.com",
     "quelle_url": "https://whoistheownerof.com/who-owns-l3harris-the-complete-ownership-2026/",
-    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)",
+    "behauptung_pct": 25.6,
+    "geprueft_pct": 27.0
    },
    {
     "nr": 6,
@@ -2198,7 +2214,9 @@
     "stand": "13F Juni 2026",
     "quelle": "Stockzoa, StockAnalysis",
     "quelle_url": "https://stockzoa.com/ticker/hpe/",
-    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)"
+    "behauptung_quelle": "Instagram @cashunate (Video, ca. 19.11.2026)",
+    "behauptung_pct": 27.3,
+    "geprueft_pct": 27.8
    },
    {
     "nr": 7,
@@ -2211,7 +2229,526 @@
     "stand": "13F 30.06.2026",
     "quelle": "Stockzoa, VCP Scanner",
     "quelle_url": "https://stockzoa.com/ticker/ttwo/",
-    "behauptung_quelle": "Instagram @cashunate"
+    "behauptung_quelle": "Instagram @cashunate",
+    "behauptung_pct": 26.5,
+    "geprueft_pct": 27.6
+   }
+  ],
+  "top_bewegungen": [
+   {
+    "nr": 1,
+    "markt": "Indizes",
+    "richtung": "Index",
+    "name": "S&P 500",
+    "ticker": "SPX",
+    "veraenderung_pct": -0.23,
+    "grund": "S&P 500: 5. Verlusttag in Folge",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 2,
+    "markt": "Indizes",
+    "richtung": "Index",
+    "name": "Nasdaq Composite",
+    "ticker": "IXIC",
+    "veraenderung_pct": 0.42,
+    "grund": "",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 3,
+    "markt": "Indizes",
+    "richtung": "Index",
+    "name": "Dow Jones",
+    "ticker": "DJI",
+    "veraenderung_pct": -1.11,
+    "grund": "",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 4,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Apple",
+    "ticker": "AAPL",
+    "veraenderung_pct": 0.2,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool (Kursleiste, evtl. nicht final)",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 5,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Microsoft",
+    "ticker": "MSFT",
+    "veraenderung_pct": 0.4,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool (Kursleiste, evtl. nicht final)",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 6,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Alphabet",
+    "ticker": "GOOG",
+    "veraenderung_pct": 0.6,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool (Kursleiste, evtl. nicht final)",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 7,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "veraenderung_pct": 3.82,
+    "grund": "Anthropic-Börsengang: Wert der Beteiligung",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 8,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Meta",
+    "ticker": "META",
+    "veraenderung_pct": -0.4,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool (Kursleiste, evtl. nicht final)",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 9,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Nvidia",
+    "ticker": "NVDA",
+    "veraenderung_pct": -2.89,
+    "grund": "Vorbörslicher Gewinn nach Zahlen wieder abgegeben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 10,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Tesla",
+    "ticker": "TSLA",
+    "veraenderung_pct": 0.9,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool (Kursleiste, evtl. nicht final)",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 11,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Anthropic",
+    "ticker": "ANT",
+    "veraenderung_pct": null,
+    "grund": "Erster Handelstag 19.11., ab 15:30 MEZ; Kurse ab nächstem Lauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "19.11.2026",
+    "quelle": "Börsengang-Termin laut Dashboard (Abschnitt Anthropic)",
+    "quelle_url": ""
+   },
+   {
+    "nr": 12,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Gewinner",
+    "name": "BellRing Brands",
+    "ticker": "BRBR",
+    "veraenderung_pct": 24.07,
+    "grund": "Q4-Zahlen; Umsatzprognose 2027: 2,32–2,42 Mrd. USD",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 13,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Gewinner",
+    "name": "TJX",
+    "ticker": "TJX",
+    "veraenderung_pct": 8.05,
+    "grund": "Vergleichbare Umsätze über Erwartung, Prognose erhöht",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "Motley Fool",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 14,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Verlierer",
+    "name": "Hyster-Yale",
+    "ticker": "HY",
+    "veraenderung_pct": -41.07,
+    "grund": "Wandelanleihe über 125 Mio. USD angekündigt",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 15,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Verlierer",
+    "name": "Jumia",
+    "ticker": "JMIA",
+    "veraenderung_pct": -40.82,
+    "grund": "Jahresprognose gesenkt (Black-Friday-Umsatz schwach)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 16,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Verlierer",
+    "name": "Kornit Digital",
+    "ticker": "KRNT",
+    "veraenderung_pct": -22.89,
+    "grund": "Q3-Umsatz 58,3 Mio. USD, Q4-Prognose 60–65 Mio.",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 17,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Verlierer",
+    "name": "Ardent Health",
+    "ticker": "ARDT",
+    "veraenderung_pct": -18.87,
+    "grund": "Platzierung von 8 Mio. Aktien zu 14,50 USD",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 18,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Verlierer",
+    "name": "Humana",
+    "ticker": "HUM",
+    "veraenderung_pct": -12.98,
+    "grund": "CMS-Entwurf zu Medicare-Advantage-Prüfungen",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 19,
+    "markt": "US-Börsen gesamt",
+    "richtung": "Verlierer",
+    "name": "UnitedHealth",
+    "ticker": "UNH",
+    "veraenderung_pct": -10.21,
+    "grund": "CMS-Entwurf zu Medicare-Advantage-Prüfungen",
+    "volumen_vs_30t": null,
+    "boersenschluss": "18.11.2026",
+    "quelle": "CNBC via Stocktitan",
+    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+   },
+   {
+    "nr": 20,
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "Comfort Systems USA",
+    "ticker": "FIX",
+    "veraenderung_pct": 3.9,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 21,
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "Coherent",
+    "ticker": "COHR",
+    "veraenderung_pct": 3.7,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 22,
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "Ciena",
+    "ticker": "CIEN",
+    "veraenderung_pct": 2.8,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 23,
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "Lumentum",
+    "ticker": "LITE",
+    "veraenderung_pct": 2.6,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 24,
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "veraenderung_pct": 2.5,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 25,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Salesforce",
+    "ticker": "CRM",
+    "veraenderung_pct": -9.5,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 26,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Intuit",
+    "ticker": "INTU",
+    "veraenderung_pct": -7.2,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 27,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "ServiceNow",
+    "ticker": "NOW",
+    "veraenderung_pct": -6.5,
+    "grund": "Grund nicht erhoben; −36,1 % in einem Monat",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 28,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "SBA Communications",
+    "ticker": "SBAC",
+    "veraenderung_pct": -6.5,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 29,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Nike",
+    "ticker": "NKE",
+    "veraenderung_pct": -6.3,
+    "grund": "Grund nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "17.11.2026",
+    "quelle": "Trefis (Daten ggf. verzögert)",
+    "quelle_url": "https://www.trefis.com/stock/spy/articles/626086/sp-500-movers-winners-fix-cohr-cien-losers-crm-intu-now/2026-11-18"
+   },
+   {
+    "nr": 30,
+    "markt": "Nasdaq 100",
+    "richtung": "nicht erhoben",
+    "name": "Top 5 Gewinner/Verlierer",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Für 18./19.11. noch nicht erhoben; ab dem nächsten Lauf (06:37)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "–",
+    "quelle": "–",
+    "quelle_url": ""
+   },
+   {
+    "nr": 31,
+    "markt": "DAX",
+    "richtung": "nicht erhoben",
+    "name": "Top 5 Gewinner/Verlierer",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Für 18./19.11. noch nicht erhoben; ab dem nächsten Lauf (06:37)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "–",
+    "quelle": "–",
+    "quelle_url": ""
+   },
+   {
+    "nr": 32,
+    "markt": "Euro Stoxx 50",
+    "richtung": "nicht erhoben",
+    "name": "Top 5 Gewinner/Verlierer",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Für 18./19.11. noch nicht erhoben; ab dem nächsten Lauf (06:37)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "–",
+    "quelle": "–",
+    "quelle_url": ""
+   },
+   {
+    "nr": 33,
+    "markt": "Nikkei 225",
+    "richtung": "nicht erhoben",
+    "name": "Top 5 Gewinner/Verlierer",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Für 18./19.11. noch nicht erhoben; ab dem nächsten Lauf (06:37)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "–",
+    "quelle": "–",
+    "quelle_url": ""
+   },
+   {
+    "nr": 34,
+    "markt": "Volumen",
+    "richtung": "Volumen",
+    "name": "Handelsvolumen vs. 30-Tage-Schnitt",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Noch nicht erhoben; ab dem nächsten Lauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "–",
+    "quelle": "–",
+    "quelle_url": ""
+   }
+  ],
+  "leitzinsen": [
+   {
+    "nr": 1,
+    "notenbank": "Fed (USA)",
+    "satz_pct": 4.0,
+    "satz_text": "3,75–4,00 %",
+    "vorher_pct": null,
+    "letzte_aenderung": "nicht erhoben",
+    "naechster_termin": "08./09.12.2026",
+    "quelle": "Report K.1; Motley Fool 18.11.2026",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+   },
+   {
+    "nr": 2,
+    "notenbank": "BoE (Großbritannien)",
+    "satz_pct": 4.0,
+    "satz_text": "4,00 %",
+    "vorher_pct": 3.75,
+    "letzte_aenderung": "05.11.2026: +0,25",
+    "naechster_termin": "nicht erhoben",
+    "quelle": "investingLive, 05.11.2026",
+    "quelle_url": "https://investinglive.com/central-banks/bank-of-england-raises-the-bank-rate-to-4-00-as-expected-in-a-9-0-vote/"
+   },
+   {
+    "nr": 3,
+    "notenbank": "EZB (Einlagensatz)",
+    "satz_pct": 2.5,
+    "satz_text": "2,50 %",
+    "vorher_pct": 2.25,
+    "letzte_aenderung": "10.09.2026: +0,25 (gültig ab 16.09.)",
+    "naechster_termin": "nicht erhoben",
+    "quelle": "EZB, Pressemitteilung 10.09.2026",
+    "quelle_url": "https://ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+   },
+   {
+    "nr": 4,
+    "notenbank": "BoJ (Japan)",
+    "satz_pct": 1.25,
+    "satz_text": "1,25 %",
+    "vorher_pct": 1.0,
+    "letzte_aenderung": "Sept. 2026: +0,25; 30.10. unverändert",
+    "naechster_termin": "18.12.2026",
+    "quelle": "CaixaBank Research 28.09.2026; Bank of Japan 30.10.2026",
+    "quelle_url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales/japon-y"
+   },
+   {
+    "nr": 5,
+    "notenbank": "SNB (Schweiz)",
+    "satz_pct": 0.0,
+    "satz_text": "0,00 %",
+    "vorher_pct": 0.0,
+    "letzte_aenderung": "Sept. 2026 unverändert",
+    "naechster_termin": "nicht erhoben",
+    "quelle": "CaixaBank Research, 28.09.2026",
+    "quelle_url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales/japon-y"
+   }
+  ],
+  "konzentration": [
+   {
+    "nr": 1,
+    "zeitpunkt": "Ende 2021",
+    "wert_pct": 24.0,
+    "quelle": "Report L.2/L.3",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+   },
+   {
+    "nr": 2,
+    "zeitpunkt": "12.11.2026",
+    "wert_pct": 33.2,
+    "quelle": "Report L.2/L.3",
+    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
    }
   ]
  }

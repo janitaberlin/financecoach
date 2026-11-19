@@ -25,8 +25,8 @@
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-apple-system,system-ui,sans-serif;font-size:15px;line-height:1.45}
 .wrap{max-width:1180px;margin:0 auto;padding:24px 16px calc(40px + env(safe-area-inset-bottom))}
-.kt #etf td:nth-child(3){min-width:90px}
 .foot{margin-top:32px;font-size:12px;color:var(--color-fg-muted)}
+.kt #etf td:nth-child(3){min-width:90px}
 </style>
 </head>
 <body>
@@ -112,13 +112,20 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
 .kt .ereignis .wer { margin:0; padding:8px 10px; border-left:3px solid var(--color-fg-muted); background:var(--color-bg); }
 .kt .ereignis .wer b, .kt .ereignis summary { font-size:var(--cds-font-size-caption); font-weight:var(--cds-font-weight-medium); }
 .kt .ereignis .quellen { margin:0; padding-left:1.1em; font-size:var(--cds-font-size-caption); }
+.kt .figs { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:var(--cds-gap-md); }
+.kt .fig { border:1px solid var(--color-border-line); border-radius:var(--cds-radius); padding:var(--cds-pad-md); display:flex; flex-direction:column; gap:6px; min-width:0; position:relative; }
+.kt .fig h3 { margin:0; font-size:var(--cds-font-size-body); font-weight:var(--cds-font-weight-medium); line-height:1.35; text-wrap:balance; }
+.kt .fig .fq { margin:0; font-size:var(--cds-font-size-caption); color:var(--color-fg-muted); line-height:1.4; }
+.kt .fig .lg { display:flex; flex-wrap:wrap; gap:10px; font-size:var(--cds-font-size-caption); color:var(--color-fg-muted); }
+.kt .fig svg { display:block; overflow:visible; }
+.kt .wide { grid-column:1 / -1; }
 </style>
 
 <div class="kt" lang="de" data-read>
   <header class="head" id="kopf">
     <h1 class="marke">Finance Coach</h1>
     <p class="unterzeile">Global Smart Money · ETFs &amp; Aktien · täglich 06:37</p>
-    <p class="muted"><strong>Zuletzt aktualisiert:</strong> <span data-draw="stand">—</span> · <strong>Nächste Aktualisierung:</strong> <span id="naechste">Di.–Sa. 06:37 Uhr</span> · Research, keine Anlageberatung</p>
+    <p class="muted"><strong>Zuletzt aktualisiert:</strong> <span data-source="meta" data-draw="stand">—</span> · <strong>Nächste Aktualisierung:</strong> <span data-draw="naechste">Di.–Sa. 06:37 Uhr</span> · Research, keine Anlageberatung</p>
     <p class="lead" data-draw="kernsatz">—</p>
   </header>
 
@@ -130,6 +137,23 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
       <p class="note">Stichpunkte mit beobachteten Daten; Zahlen mit Vergleichswert und Quelle zum Aufklappen. „Unverbindlicher Hinweis“: allgemeiner Prüfpunkt aus den Daten, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung für einzelne Wertpapiere.</p>
     </div>
     <div class="ebenen" data-source="ueberblick_text ueberblick" data-draw="ebenen"></div>
+  </section>
+
+  <section id="top-bewegungen">
+    <div class="head">
+      <h2>Top-Aktienbewegungen: Indizes, Mag7, größte Gewinner und Verlierer</h2>
+      <p class="note">Kursveränderung in % zum Vortagesschluss, mit Börsenschluss-Datum und Quelle. Kursbewegungen sind keine Kapitalflüsse: Ein Kursplus sagt nichts darüber, wie viel Geld netto in eine Aktie geflossen ist. Gründe laut Quelle; keine Kauf- oder Verkaufsempfehlung.</p>
+    </div>
+    <div class="figs" data-source="top_bewegungen" data-draw="ch_top"></div>
+    <details>
+      <summary>Alle Bewegungen als Tabelle mit Grund und Quelle</summary>
+      <div class="tw">
+        <table data-source="top_bewegungen" data-row-key="nr">
+          <thead><tr><th data-field="markt">Markt</th><th data-field="name">Aktie</th><th data-field="veraenderung_pct" class="n">Veränderung</th><th data-field="grund">Grund laut Quelle</th><th data-field="volumen_vs_30t" class="n">Volumen × 30-T.-Ø</th><th data-field="boersenschluss">Börsenschluss</th><th data-field="quelle">Quelle</th></tr></thead>
+          <tbody data-draw="top_tab"></tbody>
+        </table>
+      </div>
+    </details>
   </section>
 
   <section id="ereignisse">
@@ -145,6 +169,7 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
       <h2>Big Three: Vanguard, BlackRock und State Street als größte Aktionäre</h2>
       <p class="note">Geprüft: Angaben aus einem Instagram-Video (@cashunate) gegen öffentliche Daten. Einordnung: Diese Anteile liegen überwiegend in passiven Indexfonds und ETFs, die die Gesellschaften im Auftrag ihrer Anleger halten, auch in den ETFs von Privatanlegern. Sie entscheiden nicht frei über Kauf und Verkauf einzelner Firmen, üben aber die Stimmrechte aus, wenn Anleger keine eigene Vorgabe machen. Die Zahlen haben unterschiedliche Stichtage.</p>
     </div>
+    <div class="figs"><div class="fig" data-source="big_three" data-draw="ch_bigthree"></div></div>
     <div class="tw">
       <table data-source="big_three" data-row-key="firma">
         <thead><tr><th data-field="firma">Firma</th><th data-field="ereignis">Ereignis</th><th data-field="behauptung">Instagram</th><th data-field="geprueft">Geprüft</th><th data-field="status">Status</th><th data-field="rechnung">Rechnung</th><th data-field="quelle">Quelle, Stand</th></tr></thead>
@@ -192,6 +217,10 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
       <h2>Meine Themen</h2>
       <p class="note">Acht Themen, die du regelmäßig verfolgst: aktueller Stand, Vergleichswert, nächster Termin und Quelle. Täglich morgens aktualisiert.</p>
     </div>
+    <div class="figs">
+      <div class="fig" data-source="leitzinsen" data-draw="ch_zinsen"></div>
+      <div class="fig" data-source="konzentration" data-draw="ch_mag7"></div>
+    </div>
     <div class="themen" data-source="themen" data-draw="themen"></div>
   </section>
 
@@ -202,12 +231,20 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
       <h2>ETF-Flüsse im Oktober: das meiste Geld ging in US-Aktien- und Anleihe-ETFs</h2>
       <p class="note">Netto-Zuflüsse in Mrd. USD, Oktober 2026, nach Anlageklasse, Region, Sektor sowie Gold und Krypto. Gruppen überschneiden sich teilweise und dürfen nicht addiert werden. Vorjahresmonat nicht erhoben, wo nicht anders angegeben.</p>
     </div>
+    <div class="figs">
+      <div class="fig" data-source="etf" data-draw="ch_etf_klasse"></div>
+      <div class="fig" data-source="etf" data-draw="ch_etf_sektor"></div>
+      <div class="fig" data-source="etf" data-draw="ch_gold"></div>
+    </div>
+    <details>
+      <summary>ETF-Flüsse als Tabelle mit Vergleich und Quelle</summary>
     <div class="tw">
       <table data-source="etf" data-row-key="segment">
         <thead><tr><th data-field="segment">Segment</th><th data-field="mrd_usd" class="n">Mrd. USD</th><th></th><th data-field="vergleich">Vergleich</th><th data-field="notiz">Notiz</th><th data-field="quelle">Quelle</th></tr></thead>
         <tbody data-draw="etf_tab"></tbody>
       </table>
     </div>
+    </details>
   </section>
 
   <section id="wochenfluesse">
@@ -229,6 +266,7 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
       <h2>Regionen: neuester Netto-Fluss gegen Vorperiode, Durchschnitt und Vorjahr</h2>
       <p class="note">Grün = Netto-Zufluss, Rot = Netto-Abfluss. Die Zeilen messen Unterschiedliches (Fondsflüsse in USD, japanische Ministeriumsdaten in JPY, Southbound in HKD) und werden nicht addiert.</p>
     </div>
+    <div class="figs"><div class="fig" data-source="regionen" data-draw="ch_regionen"></div></div>
     <div class="tw">
       <table data-source="regionen regionen_vergleich" data-row-key="region">
         <thead><tr>
@@ -278,6 +316,7 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
       <h2>Risiko-Anzeiger täglich: Volatilität, Risikoaufschlag, Zinsen, Dollar, Yen</h2>
       <p class="note">Steigende Werte bei VIX und Hochzins-Risikoaufschlag zeigen mehr Unsicherheit am Markt. Die Zinsen bestimmen das Kursrisiko von Anleihen, Dollar und Yen das Währungsrisiko für Euro-Anleger. Schlusswerte laut FRED; Veränderung zum vorherigen Handelstag und über alle gezeigten Tage. Vergleich mit Vorjahr: noch nicht erhoben.</p>
     </div>
+    <div class="figs" data-source="markt" data-draw="ch_verlauf"></div>
     <div class="cards" data-source="markt markt_kennzahlen" data-draw="markt_karten"></div>
   </section>
 
@@ -348,9 +387,10 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
 
 <p class="foot">Allgemeine Informationen aus öffentlichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung. Erstellt mit Claude, täglich Di.–Sa. um 06:37 Uhr aktualisiert.</p>
 <script>
-['themen','etf','pruefpunkte','ereignisse','big_three','ueberblick_text','ueberblick','ausblick','anthropic','ceo','regionen','woche','markt','signale','stress','neu','termine'].forEach(function (t) {
-  dash.loader(t, { description: 'Liest die Tabelle „' + t + '“ aus der Tagesdatei.', fn: function (x) { var a = x.answer; return a.tabellen[t]; } });
+['themen','etf','pruefpunkte','ereignisse','big_three','top_bewegungen','leitzinsen','konzentration','ueberblick_text','ueberblick','ausblick','anthropic','ceo','regionen','woche','markt','signale','stress','neu','termine'].forEach(function (t) {
+  dash.loader(t, { description: 'Liest die Tabelle „' + t + '“ aus der Tagesdatei.', fn: function (x) { var a = x.answer; return a.tabellen[t] || []; } });
 });
+dash.loader('meta', { description: 'Liest den Stand (Datum und Uhrzeit) der Tagesdatei.', fn: function (x) { var a = x.answer; return [{ stand: a.stand }]; } });
 </script>
 <script>
 dash.calc('regionen_vergleich', {
@@ -522,9 +562,226 @@ dash.draw('ceo_liste', function (ol) {
   });
 });
 dash.draw('stand', function (el) {
-  var n = KT.ok('neu'); if (!n || !n.length) { el.textContent = '—'; return; }
-  el.textContent = n[0].datum;
+  var m = KT.ok('meta');
+  if (m && m[0] && m[0].stand) { el.textContent = m[0].stand; return; }
+  var n = KT.ok('neu'); el.textContent = n && n.length ? n[0].datum : '—';
 });
+dash.draw('naechste', function (el) {
+  try {
+    var d = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' }));
+    var t = new Date(d); t.setHours(6, 37, 0, 0); if (d >= t) t.setDate(t.getDate() + 1);
+    while (t.getDay() === 0 || t.getDay() === 1) t.setDate(t.getDate() + 1);
+    var tage = ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'];
+    el.textContent = tage[t.getDay()] + ' ' + ('0' + t.getDate()).slice(-2) + '.' + ('0' + (t.getMonth() + 1)).slice(-2) + '., 06:37 Uhr (Di.–Sa.)';
+  } catch (e) { el.textContent = 'Di.–Sa. 06:37 Uhr'; }
+});
+/* Horizontales Balkendiagramm im UBS-Stil: Kernaussage als Titel, Quelle und Datum darunter. */
+KT.figur = function (el, o) {
+  el.replaceChildren();
+  var h = document.createElement('h3'); h.textContent = o.titel || ''; el.appendChild(h);
+  var rows = (o.rows || []).filter(function (r) { return r.v != null && !isNaN(r.v); });
+  if (!rows.length) { var e = document.createElement('p'); e.className = 'fq'; e.textContent = 'Daten: nicht erhoben.'; el.appendChild(e); return; }
+  if (o.legende) {
+    var lg = document.createElement('div'); lg.className = 'lg';
+    o.legende.forEach(function (l) {
+      var s = document.createElement('span'); var k = document.createElement('span');
+      k.className = l.art === 'strich' ? 'tick' : 'sw'; if (l.art !== 'strich') k.style.background = l.farbe;
+      s.appendChild(k); s.appendChild(document.createTextNode(l.text)); lg.appendChild(s);
+    });
+    el.appendChild(lg);
+  }
+  var fmt = o.fmt || function (v) { return KT.num(v, 1); };
+  var W = Math.max(280, Math.round(el.clientWidth - 28) || 560), rowH = 24, top = 18, bottom = 4;
+  var H = top + rows.length * rowH + bottom;
+  var svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img').attr('aria-label', o.titel || 'Diagramm');
+  var probe = svg.append('text').attr('font-size', 12);
+  var lw = 0; rows.forEach(function (r) { probe.text(r.label); lw = Math.max(lw, probe.node().getComputedTextLength()); });
+  var vw = 0; probe.attr('font-size', 11); rows.forEach(function (r) { probe.text(r.wert_text || fmt(r.v)); vw = Math.max(vw, probe.node().getComputedTextLength()); });
+  probe.remove();
+  var labelW = Math.min(lw + 8, W * 0.42);
+  var vals = [0]; rows.forEach(function (r) { vals.push(r.v); if (r.ref != null) vals.push(r.ref); });
+  var ext = d3.extent(vals); if (ext[0] === ext[1]) ext[1] = ext[0] + 1;
+  var padR = Math.max(40, vw + 10), padL = ext[0] < 0 ? Math.max(40, vw + 10) : 4;
+  var x = d3.scaleLinear().domain(ext).nice().range([labelW + padL, W - padR]);
+  var nt = W < 420 ? 3 : 5;
+  svg.append('g').attr('class', 'axis').attr('transform', 'translate(0,' + (top - 4) + ')')
+    .call(d3.axisTop(x).ticks(nt).tickFormat(function (v) { return KT.num(v, 0); }).tickSizeOuter(0));
+  svg.append('g').selectAll('line').data(x.ticks(nt)).join('line').attr('x1', x).attr('x2', x).attr('y1', top).attr('y2', H - bottom).style('stroke', 'var(--color-border-line)');
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', top).attr('y2', H - bottom).style('stroke', 'var(--color-fg-muted)');
+  var g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', function (d, i) { return 'translate(0,' + (top + i * rowH) + ')'; });
+  g.append('title').text(function (d) { return d.tip || (d.label + ': ' + fmt(d.v)); });
+  g.append('text').attr('x', 0).attr('y', rowH / 2 + 4).attr('font-size', 12).style('fill', 'var(--color-fg)')
+    .style('font-weight', function (d) { return d.hervor ? 600 : 400; }).text(function (d) { return d.label; })
+    .each(function () { var t = d3.select(this); while (this.getComputedTextLength() > labelW - 4 && t.text().length > 4) t.text(t.text().slice(0, -2) + '…'); });
+  g.append('rect').attr('x', function (d) { return Math.min(x(0), x(d.v)); }).attr('y', 5).attr('height', rowH - 10)
+    .attr('width', function (d) { return Math.max(1, Math.abs(x(d.v) - x(0))); })
+    .style('fill', function (d) { return d.farbe || (o.vorzeichen ? (d.v >= 0 ? 'var(--color-ok)' : 'var(--color-bad)') : (dash.colors[1] || '#3d6b8f')); })
+    .style('opacity', function (d) { return d.blass ? 0.45 : 1; });
+  g.filter(function (d) { return d.ref != null; }).append('line').attr('x1', function (d) { return x(d.ref); }).attr('x2', function (d) { return x(d.ref); })
+    .attr('y1', 2).attr('y2', rowH - 2).style('stroke', 'var(--color-fg)').style('stroke-width', 2);
+  g.append('text').attr('font-size', 11).attr('y', rowH / 2 + 4).style('fill', 'var(--color-fg)').style('font-variant-numeric', 'tabular-nums')
+    .attr('x', function (d) { var r = d.ref != null ? x(d.ref) : null; return d.v >= 0 ? Math.max(x(d.v), x(0), r || 0) + 4 : Math.min(x(d.v), r == null ? 1e9 : r) - 4; })
+    .attr('text-anchor', function (d) { return d.v >= 0 ? 'start' : 'end'; })
+    .text(function (d) { return d.wert_text || fmt(d.v); });
+  var q = document.createElement('p'); q.className = 'fq';
+  q.appendChild(document.createTextNode('Quelle: '));
+  var seen = {}; var qs = (o.quellen || []).filter(function (s) { if (!s || !s.name || seen[s.name]) return false; seen[s.name] = 1; return true; });
+  qs.forEach(function (s, i) {
+    if (i) q.appendChild(document.createTextNode('; '));
+    if (s.url) { var a = document.createElement('a'); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = s.name; q.appendChild(a); }
+    else q.appendChild(document.createTextNode(s.name));
+  });
+  if (o.stand) q.appendChild(document.createTextNode(' · ' + o.stand));
+  if (o.hinweis) q.appendChild(document.createTextNode(' · ' + o.hinweis));
+  el.appendChild(q);
+};
+KT.qu = function (rows) { return rows.map(function (r) { return { name: r.quelle, url: r.quelle_url }; }); };
+KT.pct = function (v) { return KT.sgn(v, Math.abs(v) >= 10 ? 1 : 2) + ' %'; };
+KT.mx = function (a, f) { return a.reduce(function (p, c) { return f(c) > f(p) ? c : p; }); };
+KT.mn = function (a, f) { return a.reduce(function (p, c) { return f(c) < f(p) ? c : p; }); };
+KT.kurz = function (seg) { return seg.replace(/^(US-ETFs |Sektor-ETFs |Gold-ETFs )/, ''); };
+KT.flussTitel = function (rows, zeit) {
+  var mx = KT.mx(rows, function (r) { return r.mrd_usd; }), mn = KT.mn(rows, function (r) { return r.mrd_usd; });
+  var s = zeit + ': größter Zufluss ' + KT.kurz(mx.segment) + ' (' + KT.sgn(mx.mrd_usd, 1) + ' Mrd. USD)';
+  if (mn.mrd_usd < 0) s += ', größter Abfluss ' + KT.kurz(mn.segment) + ' (' + KT.sgn(mn.mrd_usd, 1) + ')';
+  return s;
+};
+dash.draw('ch_top', function (el) {
+  var r = KT.ok('top_bewegungen'); el.replaceChildren(); if (!r) return;
+  var gruppen = []; var by = {};
+  r.forEach(function (x) { if (x.veraenderung_pct == null) return; var k = x.markt + '|' + x.boersenschluss; if (!by[k]) { by[k] = []; gruppen.push(k); } by[k].push(x); });
+  var offen = r.filter(function (x) { return x.veraenderung_pct == null; });
+  var figs = gruppen.map(function () { var f = document.createElement('div'); f.className = 'fig'; el.appendChild(f); return f; });
+  var fo = null; if (offen.length) { fo = document.createElement('div'); fo.className = 'fig'; el.appendChild(fo); }
+  gruppen.forEach(function (k, gi) {
+    var a = by[k].slice().sort(function (p, q) { return q.veraenderung_pct - p.veraenderung_pct; });
+    var mk = k.split('|'), f = figs[gi];
+    var hi = a[0], lo = a[a.length - 1];
+    var titel = mk[0] === 'Indizes'
+      ? 'US-Indizes am ' + mk[1].slice(0, 6) + ': ' + a.map(function (x) { return x.name + ' ' + KT.pct(x.veraenderung_pct); }).join(', ')
+      : mk[0] + ' am ' + mk[1].slice(0, 6) + ': ' + hi.name + ' ' + KT.pct(hi.veraenderung_pct) + (a.length > 1 ? ', ' + lo.name + ' ' + KT.pct(lo.veraenderung_pct) : '');
+    KT.figur(f, {
+      titel: titel, vorzeichen: true, fmt: KT.pct,
+      rows: a.map(function (x) { return { label: x.ticker && x.ticker !== '–' ? x.name + ' (' + x.ticker + ')' : x.name, v: x.veraenderung_pct, tip: x.name + ': ' + KT.pct(x.veraenderung_pct) + (x.grund ? ' · ' + x.grund : '') }; }),
+      quellen: KT.qu(a), stand: 'Börsenschluss ' + mk[1]
+    });
+  });
+  if (fo) {
+    var f = fo;
+    var h = document.createElement('h3'); h.textContent = 'Noch nicht erhoben'; f.appendChild(h);
+    var ul = document.createElement('ul'); ul.className = 'punkte';
+    offen.forEach(function (x) { var li = document.createElement('li'); li.textContent = (x.markt === x.name ? x.name : x.markt + ' – ' + x.name) + ': ' + x.grund; ul.appendChild(li); });
+    f.appendChild(ul);
+  }
+});
+dash.draw('top_tab', function (tb) {
+  var r = KT.ok('top_bewegungen'); tb.replaceChildren(); if (!r) return;
+  r.forEach(function (x) {
+    var tr = document.createElement('tr'); tr.dataset.key = String(x.nr);
+    KT.td(tr, x.markt); KT.td(tr, x.name + (x.ticker && x.ticker !== '–' ? ' (' + x.ticker + ')' : ''));
+    KT.td(tr, x.veraenderung_pct == null ? 'nicht erhoben' : KT.pct(x.veraenderung_pct), 'n ' + (x.veraenderung_pct > 0 ? 'ok' : x.veraenderung_pct < 0 ? 'bad' : ''));
+    KT.td(tr, x.grund || ''); KT.td(tr, x.volumen_vs_30t == null ? 'nicht erhoben' : KT.num(x.volumen_vs_30t, 1) + '×', 'n');
+    KT.td(tr, x.boersenschluss); KT.src(tr, x.quelle, x.quelle_url);
+    tb.appendChild(tr);
+  });
+});
+dash.draw('ch_bigthree', function (el) {
+  var r = KT.ok('big_three'); if (!r) { el.replaceChildren(); return; }
+  var a = r.filter(function (x) { return x.geprueft_pct != null; }).sort(function (p, q) { return q.geprueft_pct - p.geprueft_pct; });
+  var lo = a.length ? KT.mn(a, function (x) { return x.geprueft_pct; }) : null, hi = a.length ? KT.mx(a, function (x) { return x.geprueft_pct; }) : null;
+  KT.figur(el, {
+    titel: a.length ? 'Big Three zusammen: ' + KT.num(lo.geprueft_pct, 1) + ' % (' + lo.firma + ') bis ' + KT.num(hi.geprueft_pct, 1) + ' % (' + hi.firma + ')' : 'Big Three',
+    legende: [{ farbe: dash.colors[1] || '#3d6b8f', text: 'geprüfter Anteil in %' }, { art: 'strich', text: 'Angabe im Instagram-Video' }],
+    fmt: function (v) { return KT.num(v, 1) + ' %'; },
+    rows: a.map(function (x) { return { label: x.firma, v: x.geprueft_pct, ref: x.behauptung_pct, tip: x.firma + ': geprüft ' + KT.num(x.geprueft_pct, 1) + ' %, Instagram ' + KT.num(x.behauptung_pct, 1) + ' % (' + x.status + ')' }; }),
+    quellen: KT.qu(a), hinweis: 'Stichtage unterschiedlich; Alphabet: Aktienklasse A; IBIT (Anteil an allen Bitcoin) nicht vergleichbar und nicht gezeigt'
+  });
+});
+dash.draw('ch_zinsen', function (el) {
+  var r = KT.ok('leitzinsen'); if (!r) { el.replaceChildren(); return; }
+  var a = r.slice().sort(function (p, q) { return q.satz_pct - p.satz_pct; });
+  var hi = a.filter(function (x) { return x.satz_pct === a[0].satz_pct; }), lo = a[a.length - 1];
+  KT.figur(el, {
+    titel: 'Leitzinsen: ' + hi.map(function (x) { return x.notenbank.split(' ')[0] + ' ' + x.satz_text; }).join(' und ') + ' am höchsten, ' + lo.notenbank.split(' ')[0] + ' ' + lo.satz_text + ' am niedrigsten',
+    legende: [{ farbe: dash.colors[1] || '#3d6b8f', text: 'aktueller Satz in %' }, { art: 'strich', text: 'Satz vor letzter Änderung' }],
+    fmt: function (v) { return KT.num(v, 2) + ' %'; },
+    rows: a.map(function (x) { return { label: x.notenbank, v: x.satz_pct, ref: x.vorher_pct, wert_text: x.satz_text, tip: x.notenbank + ': ' + x.satz_text + ' · zuletzt: ' + x.letzte_aenderung + ' · nächste Sitzung: ' + x.naechster_termin }; }),
+    quellen: KT.qu(a), hinweis: 'Fed: Zielspanne, Balken = Obergrenze'
+  });
+});
+dash.draw('ch_mag7', function (el) {
+  var r = KT.ok('konzentration'); if (!r) { el.replaceChildren(); return; }
+  var a = r.slice(), f = a[0], l = a[a.length - 1];
+  KT.figur(el, {
+    titel: 'Mag7-Gewicht im S&P 500: ' + KT.num(f.wert_pct, 1) + ' % (' + f.zeitpunkt + ') → ' + KT.num(l.wert_pct, 1) + ' % (' + l.zeitpunkt + ')',
+    fmt: function (v) { return KT.num(v, 1) + ' %'; },
+    rows: a.map(function (x, i) { return { label: x.zeitpunkt, v: x.wert_pct, hervor: i === a.length - 1, blass: i !== a.length - 1 }; }),
+    quellen: KT.qu(a), hinweis: 'Anteil der sieben größten Tech-Werte am Index'
+  });
+});
+['ch_etf_klasse', 'ch_etf_sektor', 'ch_gold'].forEach(function (id) {
+  dash.draw(id, function (el) {
+    var r = KT.ok('etf'); if (!r) { el.replaceChildren(); return; }
+    var a = r.filter(function (x) {
+      if (id === 'ch_etf_klasse') return x.gruppe === 'US-ETFs nach Anlageklasse' || x.gruppe === 'US-ETFs nach Region';
+      if (id === 'ch_etf_sektor') return x.gruppe === 'US-Sektor-ETFs';
+      return /^Gold/.test(x.segment);
+    }).sort(function (p, q) { return q.mrd_usd - p.mrd_usd; });
+    if (!a.length) { KT.figur(el, { titel: id === 'ch_gold' ? 'Gold-ETFs' : 'ETF-Flüsse', rows: [] }); return; }
+    var zeit = a[0].zeitraum;
+    var name = id === 'ch_etf_klasse' ? 'US-ETFs ' : id === 'ch_etf_sektor' ? 'Sektor-ETFs ' : 'Gold-ETFs ';
+    KT.figur(el, {
+      titel: name + KT.flussTitel(a, zeit), vorzeichen: true,
+      fmt: function (v) { return KT.sgn(v, 1); },
+      rows: a.map(function (x) { return { label: KT.kurz(x.segment), v: x.mrd_usd, tip: x.segment + ': ' + KT.sgn(x.mrd_usd, 1) + ' Mrd. USD · ' + x.vergleich + (x.notiz ? ' · ' + x.notiz : '') }; }),
+      quellen: KT.qu(a), stand: zeit + ', Netto-Fluss in Mrd. USD',
+      hinweis: id === 'ch_etf_klasse' ? 'Kommunalanleihen sind Teil der Anleihe-ETFs' : null
+    });
+  });
+});
+dash.draw('ch_regionen', function (el) {
+  var r = KT.ok('regionen'), v = KT.ok('regionen_vergleich') || []; if (!r) { el.replaceChildren(); return; }
+  var a = r.filter(function (x) { return x.einheit === 'Mrd. USD'; });
+  var f = function (x) { var y = v.find(function (z) { return z.region === x.region; }); return y ? y.faktor_schnitt : null; };
+  var best = a.filter(function (x) { return f(x) != null && x.region !== 'Global'; });
+  var b = best.length ? KT.mx(best, function (x) { return x.wert; }) : null;
+  KT.figur(el, {
+    titel: b ? 'Größter regionaler Zufluss: ' + b.region + ' mit ' + KT.sgn(b.wert, 1) + ' Mrd. USD, das ' + KT.num(f(b), 1) + '-fache des Durchschnitts (' + b.zeitraum + ')' : 'Aktienfonds nach Region',
+    legende: [{ farbe: 'var(--color-ok)', text: 'Netto-Fluss der Woche' }, { art: 'strich', text: 'Durchschnitt der Vorwochen' }],
+    vorzeichen: true, fmt: function (x) { return KT.sgn(x, 1); },
+    rows: a.map(function (x) { return { label: x.region, v: x.wert, ref: x.schnitt, tip: x.region + ': ' + KT.sgn(x.wert, 2) + ' Mrd. USD · ' + x.schnitt_label + ' ' + KT.sgn(x.schnitt, 2) + ' · Vorjahr ' + (x.vorjahr != null ? KT.sgn(x.vorjahr, 2) : 'nicht erhoben') }; }),
+    quellen: KT.qu(a), stand: a.length ? a[0].zeitraum + ', Aktienfonds, Mrd. USD' : ''
+  });
+});
+dash.draw('ch_verlauf', function (el) {
+  var m = KT.ok('markt'); el.replaceChildren(); if (!m) return;
+  var ks = [['VIX (Volatilität S&P 500)', 'VIX'], ['US-Rendite 10 Jahre', '10-jährige US-Rendite'], ['US-Dollar, handelsgewichtet (breit)', 'US-Dollar (handelsgewichtet)']];
+  var figs = ks.map(function () { var f = document.createElement('div'); f.className = 'fig'; el.appendChild(f); return f; });
+  ks.forEach(function (k, ki) {
+    var pts = m.filter(function (x) { return x.kennzahl === k[0] && x.wert != null; }).sort(function (a, b) { return a.datum < b.datum ? -1 : 1; });
+    var f = figs[ki];
+    var h = document.createElement('h3'); f.appendChild(h);
+    if (pts.length < 2) { h.textContent = k[1] + ': nicht erhoben'; return; }
+    var p0 = pts[0], p1 = pts[pts.length - 1], dv = p1.wert - p0.wert, u = p1.einheit === '%' ? ' %' : '';
+    h.textContent = k[1] + ': ' + KT.num(p1.wert, 2) + u + ' am ' + KT.datum(p1.datum) + ' (' + KT.sgn(dv, 2) + (u ? ' Pp.' : '') + ' seit ' + KT.datum(p0.datum) + ')';
+    var W = Math.max(280, Math.round(f.clientWidth - 28) || 320), H = 120, L = 40, R = 10, T = 8, B = 20;
+    var svg = d3.select(f).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img').attr('aria-label', h.textContent);
+    var x = d3.scalePoint().domain(pts.map(function (p) { return p.datum; })).range([L, W - R]);
+    var y = d3.scaleLinear().domain(d3.extent(pts, function (p) { return p.wert; })).nice().range([H - B, T]);
+    svg.append('g').attr('class', 'axis').attr('transform', 'translate(' + L + ',0)').call(d3.axisLeft(y).ticks(3).tickFormat(function (v) { var e = y.domain(); return KT.num(v, e[1] - e[0] < 1 ? 2 : 1); }).tickSizeOuter(0));
+    svg.append('g').attr('class', 'axis').attr('transform', 'translate(0,' + (H - B) + ')').call(d3.axisBottom(x).tickValues([p0.datum, p1.datum]).tickFormat(function (v) { return KT.datum(v).slice(0, 6); }).tickSizeOuter(0));
+    svg.append('path').datum(pts).attr('d', d3.line().x(function (p) { return x(p.datum); }).y(function (p) { return y(p.wert); }))
+      .style('fill', 'none').style('stroke', dash.colors[1] || '#3d6b8f').style('stroke-width', 2);
+    svg.selectAll('circle').data(pts).join('circle').attr('cx', function (p) { return x(p.datum); }).attr('cy', function (p) { return y(p.wert); })
+      .attr('r', function (p, i) { return i === pts.length - 1 ? 4 : 2.5; }).style('fill', dash.colors[1] || '#3d6b8f')
+      .append('title').text(function (p) { return KT.datum(p.datum) + ': ' + KT.num(p.wert, 2) + u; });
+    var q = document.createElement('p'); q.className = 'fq';
+    var a = document.createElement('a'); a.href = p1.quelle_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = p1.quelle; q.appendChild(document.createTextNode('Quelle: ')); q.appendChild(a);
+    q.appendChild(document.createTextNode(' · Schlusswerte ' + KT.datum(p0.datum) + '–' + KT.datum(p1.datum) + ', Abruf ' + p1.abruf));
+    f.appendChild(q);
+  });
+});
+
 dash.draw('kernsatz', function (el) {
   var r = KT.ok('regionen'), v = KT.ok('regionen_vergleich');
   if (!r || !v) { el.textContent = '—'; return; }
@@ -685,15 +942,6 @@ dash.draw('termine_tab', function (tb) {
   var r = KT.ok('termine'); tb.replaceChildren(); if (!r) return;
   r.forEach(function (x) { var tr = document.createElement('tr'); KT.td(tr, x.reihe); KT.td(tr, x.rhythmus); KT.td(tr, x.deckt_ab); KT.td(tr, x.quelle); tb.appendChild(tr); });
 });
-</script>
-<script>
-(function(){try{
-var d=new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Berlin'}));
-var t=new Date(d); t.setHours(6,37,0,0); if(d>=t) t.setDate(t.getDate()+1);
-while(t.getDay()===0||t.getDay()===1) t.setDate(t.getDate()+1);
-var tage=['So.','Mo.','Di.','Mi.','Do.','Fr.','Sa.'];
-document.getElementById('naechste').textContent=tage[t.getDay()]+' '+('0'+t.getDate()).slice(-2)+'.'+('0'+(t.getMonth()+1)).slice(-2)+'., 06:37 Uhr (Di.–Sa.)';
-}catch(e){}})();
 </script>
 </div>
 </body>
