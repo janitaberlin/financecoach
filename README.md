@@ -1,6 +1,6 @@
 # Finance Coach
 
-Persönliches Kapitalfluss-Dashboard (Global Smart Money · ETFs & Aktien), täglich um 06:37 Uhr (Berlin) aktualisiert.
+Persönliches Kapitalfluss-Dashboard (Global Smart Money · ETFs & Aktien), jeden Montag um 06:37 Uhr (Berlin) aktualisiert.
 
 **Webseite:** https://janitaberlin.github.io/financecoach/
 

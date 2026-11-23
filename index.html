@@ -125,7 +125,7 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
   <header class="head" id="kopf">
     <h1 class="marke">Finance Coach</h1>
     <p class="unterzeile">Global Smart Money · ETFs &amp; Aktien · täglich 06:37</p>
-    <p class="muted"><strong>Zuletzt aktualisiert:</strong> <span data-source="meta" data-draw="stand">—</span> · <strong>Nächste Aktualisierung:</strong> <span data-draw="naechste">Di.–Sa. 06:37 Uhr</span> · Research, keine Anlageberatung</p>
+    <p class="muted"><strong>Zuletzt aktualisiert:</strong> <span data-source="meta" data-draw="stand">—</span> · <strong>Nächste Aktualisierung:</strong> <span data-draw="naechste">montags 06:37 Uhr</span> · Research, keine Anlageberatung</p>
     <p class="lead" data-draw="kernsatz">—</p>
   </header>
 
@@ -385,7 +385,7 @@ body{margin:0;background:var(--bg);color:var(--color-fg);font-family:Inter,-appl
   </details>
 </div>
 
-<p class="foot">Allgemeine Informationen aus öffentlichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung. Erstellt mit Claude, täglich Di.–Sa. um 06:37 Uhr aktualisiert.</p>
+<p class="foot">Allgemeine Informationen aus öffentlichen Quellen, keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung. Erstellt mit Claude, jeden Montag um 06:37 Uhr aktualisiert.</p>
 <script>
 ['themen','etf','pruefpunkte','ereignisse','big_three','top_bewegungen','leitzinsen','konzentration','ueberblick_text','ueberblick','ausblick','anthropic','ceo','regionen','woche','markt','signale','stress','neu','termine'].forEach(function (t) {
   dash.loader(t, { description: 'Liest die Tabelle „' + t + '“ aus der Tagesdatei.', fn: function (x) { var a = x.answer; return a.tabellen[t] || []; } });
@@ -570,10 +570,10 @@ dash.draw('naechste', function (el) {
   try {
     var d = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' }));
     var t = new Date(d); t.setHours(6, 37, 0, 0); if (d >= t) t.setDate(t.getDate() + 1);
-    while (t.getDay() === 0 || t.getDay() === 1) t.setDate(t.getDate() + 1);
+    while (t.getDay() !== 1) t.setDate(t.getDate() + 1);
     var tage = ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'];
-    el.textContent = tage[t.getDay()] + ' ' + ('0' + t.getDate()).slice(-2) + '.' + ('0' + (t.getMonth() + 1)).slice(-2) + '., 06:37 Uhr (Di.–Sa.)';
-  } catch (e) { el.textContent = 'Di.–Sa. 06:37 Uhr'; }
+    el.textContent = tage[t.getDay()] + ' ' + ('0' + t.getDate()).slice(-2) + '.' + ('0' + (t.getMonth() + 1)).slice(-2) + '., 06:37 Uhr (montags)';
+  } catch (e) { el.textContent = 'montags 06:37 Uhr'; }
 });
 /* Horizontales Balkendiagramm im UBS-Stil: Kernaussage als Titel, Quelle und Datum darunter. */
 KT.figur = function (el, o) {
