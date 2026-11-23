@@ -1,85 +1,85 @@
 {
- "stand": "20.11.2026, 07:25 Uhr MEZ",
+ "stand": "23.11.2026, 07:08 Uhr MEZ",
  "tabellen": {
   "regionen": [
    {
     "reihenfolge": 1.0,
     "region": "Global",
     "messgroesse": "Aktienfonds, Netto-Fluss",
-    "wert": 50.99,
+    "wert": 59.23,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 11.11.2026",
-    "vorperiode": 38.63,
+    "zeitraum": "Woche bis 18.11.2026",
+    "vorperiode": 50.99,
     "schnitt": 16.29,
     "schnitt_label": "Ø 14 Wochen",
-    "vorjahr": 4.11,
+    "vorjahr": 4.43,
     "quelle": "LSEG Lipper via Reuters",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026",
     "status": "vorläufig"
    },
    {
     "reihenfolge": 2.0,
     "region": "USA",
     "messgroesse": "Aktienfonds, Netto-Fluss",
-    "wert": 6.6,
+    "wert": 45.71,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 11.11.2026",
-    "vorperiode": 14.81,
+    "zeitraum": "Woche bis 18.11.2026",
+    "vorperiode": 6.6,
     "schnitt": 0.22,
     "schnitt_label": "Ø 14 Wochen",
-    "vorjahr": 1.15,
+    "vorjahr": 4.36,
     "quelle": "LSEG Lipper via Reuters",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026",
     "status": "vorläufig"
    },
    {
     "reihenfolge": 3.0,
     "region": "Europa",
     "messgroesse": "Aktienfonds, Netto-Fluss",
-    "wert": 35.13,
+    "wert": 15.0,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 11.11.2026",
-    "vorperiode": 13.25,
+    "zeitraum": "Woche bis 18.11.2026",
+    "vorperiode": 35.13,
     "schnitt": 9.39,
     "schnitt_label": "Ø 13 Wochen",
-    "vorjahr": -1.87,
+    "vorjahr": -6.03,
     "quelle": "LSEG Lipper via Reuters",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026",
     "status": "vorläufig"
    },
    {
     "reihenfolge": 4.0,
     "region": "Asien",
     "messgroesse": "Aktienfonds, Netto-Fluss",
-    "wert": 6.15,
+    "wert": -2.78,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 11.11.2026",
-    "vorperiode": 8.34,
+    "zeitraum": "Woche bis 18.11.2026",
+    "vorperiode": 6.15,
     "schnitt": 5.59,
     "schnitt_label": "Ø 13 Wochen",
-    "vorjahr": 3.04,
+    "vorjahr": 3.13,
     "quelle": "LSEG Lipper via Reuters",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026",
     "status": "vorläufig"
    },
    {
     "reihenfolge": 5.0,
     "region": "Schwellenländer",
     "messgroesse": "Aktienfonds, Netto-Fluss",
-    "wert": 4.65,
+    "wert": 1.98,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 11.11.2026",
-    "vorperiode": 1.91,
+    "zeitraum": "Woche bis 18.11.2026",
+    "vorperiode": 4.65,
     "schnitt": 1.52,
     "schnitt_label": "Ø 12 Wochen",
-    "vorjahr": 2.17,
+    "vorjahr": 2.05,
     "quelle": "LSEG Lipper via Reuters",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026",
     "status": "vorläufig"
    },
    {
@@ -120,222 +120,196 @@
     "reihenfolge": 1.0,
     "segment": "Aktienfonds global",
     "gruppe": "Aktien",
-    "mrd_usd": 50.99,
-    "vorwoche": 38.63,
-    "vorjahr": 4.11,
-    "notiz": "höchster Wert seit 23.09.",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": 59.23,
+    "vorwoche": 50.99,
+    "vorjahr": 4.43,
+    "notiz": "9. Zuflusswoche; höchster Wert seit Mitte Juni",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 2.0,
-    "segment": "Aktienfonds Europa",
+    "segment": "Aktienfonds USA",
     "gruppe": "Aktien",
-    "mrd_usd": 35.13,
-    "vorwoche": 13.25,
-    "vorjahr": -1.87,
-    "notiz": "größter Wochenzufluss seit Juni 2021",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": 45.71,
+    "vorwoche": 6.6,
+    "vorjahr": 4.36,
+    "notiz": "höchster Wert seit 23.09.; Large Caps +31,7 Mrd. (CEO Economy)",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 3.0,
-    "segment": "Aktienfonds USA",
+    "segment": "Aktienfonds Europa",
     "gruppe": "Aktien",
-    "mrd_usd": 6.6,
-    "vorwoche": 14.81,
-    "vorjahr": 1.15,
+    "mrd_usd": 15.0,
+    "vorwoche": 35.13,
+    "vorjahr": -6.03,
     "notiz": "",
-    "zeitraum": "Woche bis 11.11.2026",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 4.0,
     "segment": "Aktienfonds Asien",
     "gruppe": "Aktien",
-    "mrd_usd": 6.15,
-    "vorwoche": 8.34,
-    "vorjahr": 3.04,
-    "notiz": "",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": -2.78,
+    "vorwoche": 6.15,
+    "vorjahr": 3.13,
+    "notiz": "Abfluss",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 5.0,
     "segment": "Schwellenländer-Aktienfonds",
     "gruppe": "Aktien",
-    "mrd_usd": 4.65,
-    "vorwoche": 1.91,
-    "vorjahr": 2.17,
-    "notiz": "überschneidet sich mit Asien",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": 1.98,
+    "vorwoche": 4.65,
+    "vorjahr": 2.05,
+    "notiz": "7. Zuflusswoche; überschneidet sich mit Asien",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 6.0,
     "segment": "Sektor Technologie",
     "gruppe": "Sektoren",
-    "mrd_usd": 2.62,
-    "vorwoche": 0.62,
-    "vorjahr": 2.59,
-    "notiz": "trotz Kursverlusten",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": 12.3,
+    "vorwoche": 2.62,
+    "vorjahr": -0.895,
+    "notiz": "davon US-Tech +10,3 Mrd., meiste seit 16.06. (CEO Economy)",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 7.0,
-    "segment": "Sektor Gesundheit",
+    "segment": "Sektor Industrie",
     "gruppe": "Sektoren",
-    "mrd_usd": 0.833,
-    "vorwoche": null,
+    "mrd_usd": -1.43,
+    "vorwoche": -1.07,
     "vorjahr": null,
     "notiz": "",
-    "zeitraum": "Woche bis 11.11.2026",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 8.0,
-    "segment": "Sektor Finanzen",
-    "gruppe": "Sektoren",
-    "mrd_usd": 0.82,
-    "vorwoche": null,
+    "segment": "Energie (Rohstofffonds)",
+    "gruppe": "Rohstoffe",
+    "mrd_usd": 0.261,
+    "vorwoche": 0.215,
     "vorjahr": null,
-    "notiz": "",
-    "zeitraum": "Woche bis 11.11.2026",
+    "notiz": "5. Zuflusswoche",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 9.0,
-    "segment": "Sektor Energie",
-    "gruppe": "Sektoren",
-    "mrd_usd": 0.215,
-    "vorwoche": null,
-    "vorjahr": null,
-    "notiz": "4. Zuflusswoche",
-    "zeitraum": "Woche bis 11.11.2026",
+    "segment": "Anleihefonds global",
+    "gruppe": "Anleihen",
+    "mrd_usd": -3.2,
+    "vorwoche": -0.508,
+    "vorjahr": 10.55,
+    "notiz": "2. Abflusswoche",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 10.0,
-    "segment": "Sektor Industrie",
-    "gruppe": "Sektoren",
-    "mrd_usd": -1.07,
-    "vorwoche": null,
+    "segment": "USD-Anleihefonds global",
+    "gruppe": "Anleihen",
+    "mrd_usd": -2.78,
+    "vorwoche": -1.72,
     "vorjahr": null,
-    "notiz": "",
-    "zeitraum": "Woche bis 11.11.2026",
+    "notiz": "Währungssicht; überschneidet sich",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 11.0,
-    "segment": "Anleihefonds global",
+    "segment": "Hochzins-Anleihefonds",
     "gruppe": "Anleihen",
-    "mrd_usd": -0.508,
-    "vorwoche": 9.91,
-    "vorjahr": 13.11,
-    "notiz": "beendet 7 Zuflusswochen",
-    "zeitraum": "Woche bis 11.11.2026",
-    "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
-   },
-   {
-    "reihenfolge": 12.0,
-    "segment": "Unternehmensanleihefonds",
-    "gruppe": "Anleihen",
-    "mrd_usd": 2.07,
+    "mrd_usd": -1.36,
     "vorwoche": null,
     "vorjahr": null,
     "notiz": "",
-    "zeitraum": "Woche bis 11.11.2026",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
+   },
+   {
+    "reihenfolge": 12.0,
+    "segment": "Euro-Anleihefonds",
+    "gruppe": "Anleihen",
+    "mrd_usd": 2.34,
+    "vorwoche": null,
+    "vorjahr": null,
+    "notiz": "höchster Zufluss seit 12.08.",
+    "zeitraum": "Woche bis 18.11.2026",
+    "quelle": "Reuters/LSEG Lipper",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 13.0,
-    "segment": "Staatsanleihefonds",
+    "segment": "Schwellenländer-Anleihefonds",
     "gruppe": "Anleihen",
-    "mrd_usd": -0.489,
-    "vorwoche": null,
-    "vorjahr": null,
-    "notiz": "Vorwoche +5,17 Mrd.",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": -1.38,
+    "vorwoche": -0.657,
+    "vorjahr": -1.04,
+    "notiz": "4. Abflusswoche",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 14.0,
-    "segment": "USD-Anleihefonds global",
-    "gruppe": "Anleihen",
-    "mrd_usd": -1.72,
-    "vorwoche": null,
-    "vorjahr": null,
-    "notiz": "Währungssicht; überschneidet sich mit Staats- und Unternehmensanleihen",
-    "zeitraum": "Woche bis 11.11.2026",
+    "segment": "Geldmarktfonds",
+    "gruppe": "Geldmarkt",
+    "mrd_usd": -13.89,
+    "vorwoche": -37.48,
+    "vorjahr": -7.51,
+    "notiz": "2. Abflusswoche",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    },
    {
     "reihenfolge": 15.0,
-    "segment": "Schwellenländer-Anleihefonds",
-    "gruppe": "Anleihen",
-    "mrd_usd": -0.657,
-    "vorwoche": -0.3,
-    "vorjahr": -1.45,
-    "notiz": "3. Abflusswoche in Folge",
-    "zeitraum": "Woche bis 11.11.2026",
-    "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
-   },
-   {
-    "reihenfolge": 16.0,
-    "segment": "Geldmarktfonds",
-    "gruppe": "Geldmarkt",
-    "mrd_usd": -37.48,
-    "vorwoche": 174.22,
-    "vorjahr": null,
-    "notiz": "Vorwoche +174,22 Mrd.",
-    "zeitraum": "Woche bis 11.11.2026",
-    "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
-   },
-   {
-    "reihenfolge": 17.0,
     "segment": "Gold und Edelmetalle",
     "gruppe": "Rohstoffe",
-    "mrd_usd": 0.614,
-    "vorwoche": 0.27,
-    "vorjahr": 1.64,
-    "notiz": "2. Zuflusswoche",
-    "zeitraum": "Woche bis 11.11.2026",
+    "mrd_usd": 0.153,
+    "vorwoche": 0.614,
+    "vorjahr": 5.2,
+    "notiz": "Reuters nennt im Sektor-Absatz −538 Mio. USD; Widerspruch in der Quelle",
+    "zeitraum": "Woche bis 18.11.2026",
     "quelle": "Reuters/LSEG Lipper",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/",
-    "stand": "13.11.2026"
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/",
+    "stand": "20.11.2026"
    }
   ],
   "markt": [
@@ -346,7 +320,7 @@
     "wert": 4.98,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 10 Jahre",
@@ -355,7 +329,7 @@
     "wert": 5.1,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 10 Jahre",
@@ -364,7 +338,7 @@
     "wert": 5.15,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 10 Jahre",
@@ -373,7 +347,7 @@
     "wert": 5.12,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 10 Jahre",
@@ -382,7 +356,25 @@
     "wert": 5.1,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 10 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-18",
+    "wert": 5.07,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
+    "abruf": "23.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 10 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-19",
+    "wert": 5.04,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS10",
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 2 Jahre",
@@ -391,7 +383,7 @@
     "wert": 4.73,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 2 Jahre",
@@ -400,7 +392,7 @@
     "wert": 4.86,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 2 Jahre",
@@ -409,7 +401,7 @@
     "wert": 4.88,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 2 Jahre",
@@ -418,7 +410,7 @@
     "wert": 4.83,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 2 Jahre",
@@ -427,7 +419,7 @@
     "wert": 4.8,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Rendite 2 Jahre",
@@ -436,7 +428,16 @@
     "wert": 4.8,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
+   },
+   {
+    "kennzahl": "US-Rendite 2 Jahre",
+    "einheit": "%",
+    "datum": "2026-11-19",
+    "wert": 4.76,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/DGS2",
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -445,7 +446,7 @@
     "wert": 19.46,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -454,7 +455,7 @@
     "wert": 17.49,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -463,7 +464,7 @@
     "wert": 18.7,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -472,7 +473,7 @@
     "wert": 19.3,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -481,7 +482,7 @@
     "wert": 22.91,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -490,7 +491,7 @@
     "wert": 25.46,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "VIX (Volatilität S&P 500)",
@@ -499,7 +500,16 @@
     "wert": 24.56,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
+   },
+   {
+    "kennzahl": "VIX (Volatilität S&P 500)",
+    "einheit": "Punkte",
+    "datum": "2026-11-19",
+    "wert": 28.44,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS",
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -508,7 +518,7 @@
     "wert": 3.3,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -517,7 +527,7 @@
     "wert": 3.3,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -526,7 +536,7 @@
     "wert": 3.2,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -535,7 +545,7 @@
     "wert": 3.23,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -544,7 +554,7 @@
     "wert": 3.34,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -553,7 +563,7 @@
     "wert": 3.43,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Hochzins-Risikoaufschlag",
@@ -562,7 +572,16 @@
     "wert": 3.47,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
+   },
+   {
+    "kennzahl": "US-Hochzins-Risikoaufschlag",
+    "einheit": "%-Punkte",
+    "datum": "2026-11-19",
+    "wert": 3.52,
+    "quelle": "FRED (St. Louis Fed)",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Dollar, handelsgewichtet (breit)",
@@ -571,7 +590,7 @@
     "wert": 121.6623,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Dollar, handelsgewichtet (breit)",
@@ -580,7 +599,7 @@
     "wert": 122.1143,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Dollar, handelsgewichtet (breit)",
@@ -589,7 +608,7 @@
     "wert": 122.5433,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "US-Dollar, handelsgewichtet (breit)",
@@ -598,7 +617,7 @@
     "wert": 122.6503,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DTWEXBGS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "Yen je US-Dollar",
@@ -607,7 +626,7 @@
     "wert": 157.99,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "Yen je US-Dollar",
@@ -616,7 +635,7 @@
     "wert": 158.76,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "Yen je US-Dollar",
@@ -625,7 +644,7 @@
     "wert": 159.6,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    },
    {
     "kennzahl": "Yen je US-Dollar",
@@ -634,7 +653,7 @@
     "wert": 159.93,
     "quelle": "FRED (St. Louis Fed)",
     "quelle_url": "https://fred.stlouisfed.org/series/DEXJPUS",
-    "abruf": "20.11.2026"
+    "abruf": "23.11.2026"
    }
   ],
   "signale": [
@@ -648,7 +667,7 @@
     "quelle_url": "https://www.ici.org/research/stats/mmf",
     "stand": "12.11.2026",
     "konfidenz": "hoch",
-    "notiz": "Bestand jetzt 7,98 Bio. USD; davon institutionell −31,32 Mrd."
+    "notiz": "Bestand jetzt 7,98 Bio. USD; davon institutionell −31,32 Mrd.; Woche bis 18.11.: nicht gefunden"
    },
    {
     "signal": "US-ETFs gesamt",
@@ -660,7 +679,7 @@
     "quelle_url": "https://www.investmentnews.com/etfs/etf-flows-surge-54bn-as-stocks-sell-off-and-markets-go-247/268997",
     "stand": "13.11.2026",
     "konfidenz": "hoch",
-    "notiz": "Aktien +42,0 / Anleihen +13,8 Mrd.; VOO +17,6 / SPY −7,0 Mrd."
+    "notiz": "Aktien +42,0 / Anleihen +13,8 Mrd.; VOO +17,6 / SPY −7,0 Mrd.; neuere Wochen: nicht gefunden"
    },
    {
     "signal": "US-ETF-Handelsvolumen pro Tag",
@@ -677,26 +696,26 @@
    {
     "signal": "US-Spot-Bitcoin-ETFs",
     "art": "Netto-Fluss",
-    "wert": -1.07,
+    "wert": -1.245,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 13.11.2026",
-    "quelle": "SoSoValue via The Block",
-    "quelle_url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-440337",
-    "stand": "14.11.2026",
-    "konfidenz": "hoch",
-    "notiz": "2. Woche in Folge über 1 Mrd. Abfluss; laufende Woche: 17.11. −239,94 Mio., 18.11. −306,42 Mio. USD (alle 12 ETFs ohne Zufluss; SoSoValue via TokenPost); Vermögen 77,07 Mrd. USD"
+    "zeitraum": "Woche bis 20.11.2026",
+    "quelle": "Farside via crypto.news / CEO Economy",
+    "quelle_url": "https://crypto.news/bitcoin-ether-etf-outflows-nov-16-20-2026/",
+    "stand": "21.11.2026",
+    "konfidenz": "mittel",
+    "notiz": "Vorwoche −1,07 Mrd.; 3. Woche in Folge über 1 Mrd. Abfluss; IBIT 19.11.: −541,1 Mio. (größter Tagesabfluss seit Start); Fr.-Werte teils noch offen; Vermögen ca. 76,6 Mrd. (19.11., SoSoValue); November bis 20.11.: ca. −3,59 Mrd."
    },
    {
     "signal": "US-Spot-Ether-ETFs",
     "art": "Netto-Fluss",
-    "wert": -0.399,
+    "wert": -0.2217,
     "einheit": "Mrd. USD",
-    "zeitraum": "Woche bis 13.11.2026",
-    "quelle": "SoSoValue via The Block",
-    "quelle_url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-440337",
-    "stand": "14.11.2026",
-    "konfidenz": "hoch",
-    "notiz": "7. Abflusswoche in Folge"
+    "zeitraum": "Woche bis 20.11.2026",
+    "quelle": "Farside via crypto.news",
+    "quelle_url": "https://crypto.news/bitcoin-ether-etf-outflows-nov-16-20-2026/",
+    "stand": "21.11.2026",
+    "konfidenz": "mittel",
+    "notiz": "Vorwoche −0,399 Mrd.; an jedem Tag Abfluss; November bis 20.11.: ca. −0,99 Mrd."
    },
    {
     "signal": "Indien: ausländische Käufe von Aktien",
@@ -761,6 +780,15 @@
   ],
   "stress": [
    {
+    "ereignis": "Walleye Capital: Umbau nach Verlustmonat",
+    "datum": "05.11.2026",
+    "groesse": "Multi-Strategie-Fonds, ca. 17 Mrd. USD",
+    "ursache": "Oktober −5,9 %, schlechtester Monat seit März 2020; Tech-Ausverkauf",
+    "reaktion": "Abbau großer Teile des Aktien-Long/Short-Teams; Teil des Kapitals wird an Anleger zurückgegeben; auch Engineers Gate trennt sich von Aktien-Team",
+    "quelle": "Reuters via Investing.com 06.11.; Investing.com via Yahoo 05.11.",
+    "quelle_url": "https://www.investing.com/news/economy-news/tech-selloff-wipes-out-hedge-fund-gains-prompting-risk-cuts-and-layoffs-5006622"
+   },
+   {
     "ereignis": "Ueno Bank, Paraguay: Abwicklung",
     "datum": "02./03.11.2026",
     "groesse": "Einlagen 2.836 Mio. USD (Sep.); ca. 3 Mio. Kunden; ca. 8 % der Kredite im System",
@@ -798,6 +826,48 @@
    }
   ],
   "neu": [
+   {
+    "datum": "23.11.2026",
+    "bereich": "Anthropic",
+    "aenderung": "ANT 2. Handelstag 20.11.: Schluss 88,91 USD (−8,5 %; 24/7 Wall St.: 88,30), Tief 83,05; Greenshoe 147 Mio. Aktien, Erlös über 115 Mrd. USD",
+    "quelle": "Shopifreaks, Fortune, Fool.com"
+   },
+   {
+    "datum": "23.11.2026",
+    "bereich": "Top-Bewegungen",
+    "aenderung": "Neu für 20.11.: Indizes, Mag7+ANT, S&P 500, Nasdaq 100 (nur Verlierer), DAX, Euro Stoxx 50 (nur ASML), Nikkei (nur Verlierer)",
+    "quelle": "The Closing Print, dpa-AFX, Trading Economics, Fool.com"
+   },
+   {
+    "datum": "23.11.2026",
+    "bereich": "Woche/Regionen",
+    "aenderung": "Lipper bis 18.11.: Aktienfonds +59,23 Mrd., USA +45,71, Europa +15,0, Asien −2,78; Vorjahreswerte ergänzt",
+    "quelle": "Reuters/LSEG Lipper"
+   },
+   {
+    "datum": "23.11.2026",
+    "bereich": "Markt",
+    "aenderung": "FRED 18./19.11. ergänzt (10J 5,04 %, 2J 4,76 %, VIX 28,44, HY 3,52); Dollar/Yen ohne neue Werte",
+    "quelle": "FRED"
+   },
+   {
+    "datum": "23.11.2026",
+    "bereich": "Signale",
+    "aenderung": "Bitcoin-ETFs 16.–20.11.: −1,25 Mrd., Ether −0,22 Mrd.; ICI, US-ETF-Woche, Japan: nicht neu gefunden",
+    "quelle": "Farside via crypto.news"
+   },
+   {
+    "datum": "23.11.2026",
+    "bereich": "Ereignisse",
+    "aenderung": "Neu: US-Börsen schwächste Woche, Broadcom/Google-Bericht; Nvidia um SEC-Prüfung ergänzt; entfernt: GTA VI, Microsoft-Ausfall (Platz)",
+    "quelle": "The Closing Print, Investrade, WSJ via The Star"
+   },
+   {
+    "datum": "23.11.2026",
+    "bereich": "Stress",
+    "aenderung": "Neu: Walleye Capital (17 Mrd. USD) baut Aktien-Team ab, Oktober −5,9 %",
+    "quelle": "Reuters via Investing.com"
+   },
    {
     "datum": "23.11.2026",
     "bereich": "Hinweis",
@@ -973,102 +1043,102 @@
    {
     "nr": 1,
     "thema": "US-Aktien und Volatilität",
-    "aussage": "S&P 500 −2,02 % auf 7.175,83 am 19.11., 6. Verlusttag in Folge; Nasdaq −2,25 %, Dow −2,19 %. VIX 28,44 nach 24,56 am 18.11. und 17,49 am 11.11.; Ø 10.–16.11.: 19,57.",
-    "beobachten": "Ob der VIX über 25 bleibt; Hochzins-Aufschlag (18.11.: 3,47 nach 3,20 am 12.11.)",
-    "quelle": "Reuters via Investing.com 19.11.; FRED",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "aussage": "S&P 500 fiel am 20.11. um 3,70 % auf 6.910,39, in der Woche um 8,61 %; Nasdaq −10,02 % in der Woche. VIX 35,89 nach 28,44 am 19.11. und 17,49 am 11.11.",
+    "beobachten": "Ob der VIX über 30 bleibt; Hochzins-Aufschlag (19.11.: 3,52 nach 3,20 am 12.11.)",
+    "quelle": "The Closing Print 20.11.; FRED",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 2,
-    "thema": "Anthropic erster Handelstag",
-    "aussage": "ANT schloss bei 97,17 USD, +17,1 % zum Ausgabepreis 83 USD und −12,9 % zum Eröffnungskurs 111,50 USD. Amazon (−3,87 %) und Alphabet (−3,46 %) fielen trotz Beteiligungen.",
-    "beobachten": "Zweiter Handelstag; nachbörslich ca. −1,5 %",
-    "quelle": "Reuters; StockTitan, 19.11.2026",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "thema": "Nvidia",
+    "aussage": "Nvidia fiel am 20.11. um 14,01 % auf 125,53 USD nach einem Reuters-Bericht über eine SEC-Prüfung der Bilanzierung; Wochenminus ca. 23 %, über −40 % seit dem Oktober-Hoch.",
+    "beobachten": "Huang-Anhörung 01.12.; weitere SEC-Meldungen",
+    "quelle": "The Closing Print; STL.News, 20./21.11.2026",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 3,
-    "thema": "Japan",
-    "aussage": "Nikkei 225 im Frühhandel 20.11. −3,95 % auf 56.694 (Vortag 59.024); SoftBank intraday −14,5 %. Ausländer verkauften netto 224,1 Mrd. JPY japanische Aktien (Woche bis 14.11.) nach −102,3 Mrd. in der Vorwoche.",
-    "beobachten": "Schlusskurs Tokio 20.11.; MoF-Daten Do. 26.11.",
-    "quelle": "JournalArta; Reuters via MarketScreener; MoF via rallies.ai",
-    "quelle_url": "https://journalarta.com/en/2026/11/20/nikkei-225-today-tokyo-stocks-slide-3-95-as-wall-streets-ai-selloff-spreads-to-asia/"
+    "thema": "Anthropic zweiter Handelstag",
+    "aussage": "ANT schloss am 20.11. bei 88,91 USD (−8,5 % zum Vortag, +7,1 % zum Ausgabepreis 83 USD); Tief 83,05 USD. 24/7 Wall St. nennt 88,30 USD.",
+    "beobachten": "Ob der Ausgabepreis 83 USD hält",
+    "quelle": "Shopifreaks; Fool.com; 24/7 Wall St.",
+    "quelle_url": "https://www.shopifreaks.com/anthropic-shares-fall-8-5-to-88-91-on-their-second-day-of-trading-after-dipping-to-within-5-cents-of-the-83-ipo-price/"
    },
    {
     "nr": 4,
-    "thema": "Fed-Erwartung",
-    "aussage": "Laut CME FedWatch waren am 19.11. 96,4 % Wahrscheinlichkeit für eine Zinserhöhung um 0,25 Punkte im Dezember eingepreist; Leitzins 3,75–4,00 %. PCE-Kerninflation nächste Woche erwartet bei 3,2 %.",
-    "beobachten": "PCE-Daten; Fed 08./09.12.",
-    "quelle": "Reuters via Investing.com, 19.11.2026",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "thema": "Fondsflüsse (Einzelwoche)",
+    "aussage": "US-Aktienfonds +45,71 Mrd. USD in der Woche bis 18.11. nach +6,6 Mrd. (Vorjahreswoche +4,36). Aktienfonds weltweit +59,23 Mrd., höchster Wert seit Mitte Juni. Einzelwoche, Daten bis Mittwoch, vor dem Freitags-Einbruch.",
+    "beobachten": "Nächste Lipper-Woche (bis 25.11.)",
+    "quelle": "Reuters/LSEG Lipper, 20.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/"
    },
    {
     "nr": 5,
-    "thema": "Indien Auslandskäufe",
-    "aussage": "Ausländer kauften vom 02. bis 19.11. netto +101.641 Crore INR indische Aktien (Börsen-Vorabdaten, 14 Handelstage), davon +7.411 Crore am 19.11. Oktober (NSDL): −34.843 Crore. Einzeltage, vorläufig.",
-    "beobachten": "NSDL-Monatsstand zum Wochenende",
-    "quelle": "NSE/BSE via Tapetide, 19.11.2026",
-    "quelle_url": "https://tapetide.com/insight/reports/fii-dii-flows/2026-11"
+    "thema": "Japan und Europa",
+    "aussage": "Nikkei 225 −5,06 % auf 56.437 am 20.11., Woche fast −8 %; SoftBank −14,5 %. DAX −2,60 % auf 24.802,78, Woche über −7 %.",
+    "beobachten": "Japan-Inflation Okt. 2,3 % (Sep. 2,1 %), BoJ 18.12.",
+    "quelle": "Trading Economics; dpa-AFX via finanzen.at",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603021"
    }
   ],
   "ueberblick_text": [
    {
     "ebene": "Anthropic-Börsengang",
-    "zeitraum": "Erster Handelstag Do. 19.11.2026, Nasdaq (ANT)",
-    "kernsatz": "ANT schloss am ersten Tag bei 97,17 USD, 17,1 % über dem Ausgabepreis.",
+    "zeitraum": "Erster Handelstag Do. 19.11.2026 ab 15:30 Uhr MEZ, Nasdaq (ANT); Stand Schluss Fr. 20.11.",
+    "kernsatz": "ANT schloss am zweiten Tag bei 88,91 USD, 7,1 % über dem Ausgabepreis.",
     "punkte": [
-     "Erster Kurs: 111,50 USD (17:48 MEZ)",
-     "Schluss: 97,17 USD (+17,1 % zu 83)",
-     "Hoch 115,10 / Tief 92,72 USD",
-     "Nachbörslich: ca. −1,5 %",
-     "Börsenwert: 1,27 Bio. USD",
-     "Amazon −3,87 %, Alphabet −3,46 %"
+     "Ausgabepreis: 83 USD (Spanne 70–78)",
+     "Eröffnung 19.11.: 111,50 USD (+34,3 %)",
+     "Schluss 19.11.: 97,17 USD (+17,1 %)",
+     "Schluss 20.11.: 88,91 USD (−8,5 %)",
+     "Tief 20.11.: 83,05 USD",
+     "Greenshoe: 147 Mio. Aktien"
     ],
     "hinweise": [
      "ANT notiert in USD: EUR/USD-Risiko",
-     "Spanne am 1. Tag: ca. 24 %",
+     "Spanne in zwei Tagen: 83–115 USD",
      "Anteil eines Einzeltitels am Depot prüfen"
     ],
-    "quelle": "Reuters via Investing.com; Forbes; StockTitan; The National",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "quelle": "Shopifreaks; Fortune; Reuters via Investing.com",
+    "quelle_url": "https://www.shopifreaks.com/anthropic-shares-fall-8-5-to-88-91-on-their-second-day-of-trading-after-dipping-to-within-5-cents-of-the-83-ipo-price/"
    },
    {
     "ebene": "Tag",
-    "zeitraum": "Do. 19.11.2026 (US-Schluss); Tokio 20.11. intraday",
-    "kernsatz": "US-Aktien fielen um rund 2 %, der VIX stieg auf 28,44; Tokio folgte mit rund −4 %.",
+    "zeitraum": "Fr. 20.11.2026 (US-Schluss)",
+    "kernsatz": "US-Aktien fielen um 3,7 %, Nvidia um 14 %, der VIX stieg auf 35,89.",
     "punkte": [
-     "S&P 500: 7.175,83 (−2,02 %)",
-     "Nasdaq −2,25 %, Dow −2,19 %",
-     "VIX: 28,44 (+15,8 %)",
-     "DAX: 25.463,81 (−1,06 %)",
-     "Nikkei 20.11. früh: −3,95 %",
-     "Fed-Erhöhung Dez.: 96,4 % eingepreist"
+     "S&P 500: 6.910 (−3,70 %)",
+     "Nasdaq: −5,28 %, Dow: −1,93 %",
+     "Nvidia: −14,01 %",
+     "VIX: 35,89 (+26,2 %)",
+     "10J-Rendite: 4,92 % (−12 Bp.)",
+     "Gold: −4,6 %, Bitcoin unter 60.000"
     ],
     "hinweise": [
      "Depot mit Zielaufteilung vergleichen",
      "Nicht auf einen Handelstag reagieren"
     ],
-    "quelle": "Reuters via Investing.com; dpa-AFX; JournalArta",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "quelle": "The Closing Print; Investrade",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "ebene": "Woche",
-    "zeitraum": "Lipper-Woche bis 11.11. und laufende KW 47",
-    "kernsatz": "Letzte Lipper-Woche: +50,99 Mrd. USD in Aktienfonds; laufende Woche: VIX von 17,49 auf 28,44.",
+    "zeitraum": "Lipper-Woche bis 18.11. und KW 47 (16.–20.11.)",
+    "kernsatz": "Bis Mittwoch flossen +59,23 Mrd. USD in Aktienfonds; die Woche endete mit −8,6 % im S&P 500.",
     "punkte": [
-     "Aktienfonds weltweit: +50,99 Mrd. USD",
-     "Ø 14 Wochen: +16,29 Mrd.",
-     "Geldmarktfonds: −37,48 Mrd. USD",
-     "VIX: 17,49 (11.11.) → 28,44 (19.11.)",
-     "Bitcoin-ETFs 17./18.11.: −546 Mio. USD",
-     "Japan: Ausländer −224,1 Mrd. JPY"
+     "Aktienfonds weltweit: +59,23 Mrd. (Vw. +50,99)",
+     "US-Aktienfonds: +45,71 Mrd. (Vw. +6,6)",
+     "Geldmarktfonds: −13,89 Mrd. USD",
+     "S&P 500 Woche: −8,61 %",
+     "Bitcoin-ETFs: −1,25 Mrd. (Vw. −1,07)",
+     "VIX: 17,49 (11.11.) → 35,89"
     ],
     "hinweise": [
-     "Neue Lipper-Woche erscheint heute (Fr.)",
+     "Lipper endet vor dem Freitags-Einbruch",
      "Trend erst nach 3–4 Wochen"
     ],
-    "quelle": "LSEG Lipper; FRED; SoSoValue via TokenPost; MoF Japan via rallies.ai",
-    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS"
+    "quelle": "LSEG Lipper via Reuters; The Closing Print; Farside via crypto.news",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/"
    },
    {
     "ebene": "Monat",
@@ -1091,13 +1161,13 @@
    {
     "ebene": "Jahr",
     "zeitraum": "2026 bis heute",
-    "kernsatz": "Brent stieg im März über 115 USD und lag am 18.11. bei rund 92 USD. Die Notenbanken erhöhen wieder, die US-Rendite 10 Jahre liegt über 5 %. US-Anleihe-ETFs sammelten seit Jahresbeginn +542,7 Mrd. USD (Rekord), die vier großen Hyperscaler investieren rund 730 Mrd. USD in KI.",
+    "kernsatz": "Der S&P 500 liegt nach dem November-Einbruch nur noch rund 1 % über dem Jahresbeginn, der Nasdaq darunter.",
     "punkte": [
      "US-Anleihe-ETFs: +542,7 Mrd. USD (Rekord)",
      "Mag7: 33,2 % des S&P 500",
-     "Ende 2021: 24,0 %",
-     "KI-Investitionen: ca. 730 Mrd. USD",
-     "US-Rendite 10 J.: 5,10 % (17.11.)"
+     "S&P 500 seit Jahresbeginn: ca. +0,9 %",
+     "Nasdaq seit Jahresbeginn: ca. −2,7 %",
+     "KI-Investitionen: ca. 730 Mrd. USD"
     ],
     "quelle": "",
     "quelle_url": "",
@@ -1111,9 +1181,8 @@
     "zeitraum": "heute bis 12 Monate",
     "kernsatz": "Termine und veröffentlichte Prognosen Dritter.",
     "punkte": [
-     "20.11.: Lipper-Woche, Lagarde-Rede",
-     "Nächste Woche: US-PCE (Kern erw. 3,2 %)",
-     "26.11.: US-Börsen geschlossen (Thanksgiving)",
+     "25.11.: US-PCE Oktober, BIP Q3",
+     "26.11.: US-Börsen geschlossen",
      "01.12.: Huang-Anhörung",
      "08./09.12.: Fed-Entscheid",
      "18.12.: Bank of Japan",
@@ -1123,122 +1192,122 @@
      "Kurzfristig benötigtes Geld absichern",
      "Geldmarkt schwankt weniger"
     ],
-    "quelle": "Reuters; ad-hoc-news; Terminkalender",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "quelle": "The Closing Print (Wochenkalender); Terminkalender",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    }
   ],
   "ueberblick": [
    {
     "ebene": "Tag",
     "was": "S&P 500",
-    "wert": "7.175,83 Punkte (−2,02 %)",
-    "vergleich": "18.11.: 7.323 (−0,24 %); 6. Verlusttag in Folge",
-    "quelle": "Reuters via Investing.com, 19.11.2026",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "wert": "6.910,39 Punkte (−3,70 %)",
+    "vergleich": "19.11.: 7.175,83 (−2,02 %); 7. Verlusttag; Woche −8,61 %",
+    "quelle": "The Closing Print, 20.11.2026",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "ebene": "Tag",
     "was": "Nasdaq / Dow",
-    "wert": "−2,25 % / −2,19 %",
-    "vergleich": "18.11.: +0,42 % / −1,11 %",
-    "quelle": "Reuters via Investing.com, 19.11.2026",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "wert": "−5,28 % / −1,93 %",
+    "vergleich": "19.11.: −2,25 % / −2,19 %",
+    "quelle": "The Closing Print, 20.11.2026",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "ebene": "Tag",
     "was": "VIX",
-    "wert": "28,44 (+15,8 %)",
-    "vergleich": "18.11.: 24,56 (FRED); 11.11.: 17,49",
-    "quelle": "Investing.com-Kursleiste; FRED",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "wert": "35,89 (+26,2 %)",
+    "vergleich": "19.11.: 28,44 (FRED); 11.11.: 17,49; Investrade: 37,43",
+    "quelle": "The Closing Print; FRED",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "ebene": "Tag",
     "was": "US-Rendite 10 Jahre",
-    "wert": "5,006 % (−4,4 Bp., Kursleiste)",
-    "vergleich": "17.11.: 5,10 % (FRED)",
-    "quelle": "Investing.com-Kursleiste, 19.11.; FRED",
-    "quelle_url": "https://fred.stlouisfed.org/series/DGS10"
+    "wert": "4,92 % (−12 Bp.)",
+    "vergleich": "19.11.: 5,04 % (FRED); 13.11.: 5,15 %",
+    "quelle": "The Closing Print; FRED",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "ebene": "Tag",
-    "was": "Gold (Future) / Brent",
-    "wert": "3.521,22 USD (−4,46 %) / 92,50 USD (+0,57 %)",
-    "vergleich": "Gold 18.11.: 3.728,60 (−3,51 %)",
-    "quelle": "Investing.com-Kursleiste, 19.11.2026 (ohne Zeitstempel)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "was": "Gold (Dez.) / Brent",
+    "wert": "3.515,40 USD (−4,62 %) / 92,57 USD (+0,64 %)",
+    "vergleich": "Gold Woche ca. −9,5 %; Brent Woche ca. −5 %",
+    "quelle": "Investrade, 20.11.2026",
+    "quelle_url": "https://investrade.com/market-review-november-20-2026/"
    },
    {
     "ebene": "Tag",
     "was": "Anthropic (ANT)",
-    "wert": "Schluss 97,17 USD",
-    "vergleich": "Ausgabepreis 83 USD (+17,1 %); Eröffnung 111,50",
-    "quelle": "Reuters via Investing.com",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "wert": "Schluss 88,91 USD (−8,5 %)",
+    "vergleich": "Ausgabepreis 83 USD (+7,1 %); 19.11.: 97,17",
+    "quelle": "Shopifreaks; Fool.com",
+    "quelle_url": "https://www.shopifreaks.com/anthropic-shares-fall-8-5-to-88-91-on-their-second-day-of-trading-after-dipping-to-within-5-cents-of-the-83-ipo-price/"
    },
    {
     "ebene": "Tag",
     "was": "DAX / Euro Stoxx 50",
-    "wert": "25.463,81 (−1,06 %) / 6.113,86 (−0,66 %)",
-    "vergleich": "DAX knapp 5 % unter Rekord 27.001 (12.11.)",
-    "quelle": "dpa-AFX via ARIVA; Morningstar via ad-hoc-news",
-    "quelle_url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-verluste-us-boersen-12214079"
+    "wert": "24.802,78 (−2,60 %) / ca. −2,8 %",
+    "vergleich": "DAX Woche über −7 %; Rekord ca. 27.002 (Vorwoche)",
+    "quelle": "dpa-AFX via finanzen.at",
+    "quelle_url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-fallt-unter-25-000-punkte-schwache-techs-1036788557"
    },
    {
     "ebene": "Tag",
-    "was": "Indien: Ausländer in Aktien",
-    "wert": "+101.641 Crore INR (02.–19.11.)",
-    "vergleich": "bis 18.11.: +94.229; Oktober (NSDL) −34.843",
-    "quelle": "NSE/BSE via Tapetide, vorläufig",
-    "quelle_url": "https://tapetide.com/insight/reports/fii-dii-flows/2026-11"
+    "was": "Nikkei 225",
+    "wert": "56.437 (−5,06 %)",
+    "vergleich": "Woche fast −8 %; andere Meldung 56.509 (−4,94 %)",
+    "quelle": "Trading Economics, 20.11.2026",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603021"
    },
    {
     "ebene": "Woche",
     "was": "Aktienfonds global",
-    "wert": "+50,99 Mrd. USD",
-    "vergleich": "Ø 14 Wochen +16,29; Vorjahreswoche +4,11",
-    "quelle": "LSEG Lipper via Reuters, 13.11.2026",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+    "wert": "+59,23 Mrd. USD",
+    "vergleich": "Vorwoche +50,99; Vorjahreswoche +4,43",
+    "quelle": "LSEG Lipper via Reuters, 20.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/"
+   },
+   {
+    "ebene": "Woche",
+    "was": "davon USA",
+    "wert": "+45,71 Mrd. USD",
+    "vergleich": "Vorwoche +6,6; Vorjahreswoche +4,36",
+    "quelle": "LSEG Lipper via Reuters, 20.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/"
    },
    {
     "ebene": "Woche",
     "was": "davon Europa",
-    "wert": "+35,13 Mrd. USD",
-    "vergleich": "Ø 13 Wochen +9,39; Vorjahreswoche −1,87",
-    "quelle": "LSEG Lipper via Reuters, 13.11.2026",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+    "wert": "+15,0 Mrd. USD",
+    "vergleich": "Vorwoche +35,13; Vorjahreswoche −6,03",
+    "quelle": "LSEG Lipper via Reuters, 20.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/"
    },
    {
     "ebene": "Woche",
     "was": "Geldmarktfonds",
-    "wert": "−37,48 Mrd. USD",
-    "vergleich": "Vorwoche +174,22; ICI-US-Bestand 7,98 Bio.",
-    "quelle": "LSEG Lipper 13.11.; ICI 12.11.2026",
-    "quelle_url": "https://www.933thedrive.com/2026/11/13/demand-for-european-funds-boosts-global-equity-fund-inflows-to-seven-week-high/"
+    "wert": "−13,89 Mrd. USD",
+    "vergleich": "Vorwoche −37,48; Vorjahreswoche −7,51",
+    "quelle": "LSEG Lipper via Reuters, 20.11.2026",
+    "quelle_url": "https://www.933thedrive.com/2026/11/20/global-equity-funds-attract-inflows-for-a-ninth-straight-week/"
    },
    {
     "ebene": "Woche",
-    "was": "Bitcoin-ETFs USA (bis 13.11.)",
-    "wert": "−1,07 Mrd. USD",
-    "vergleich": "laufende Woche 17.11.: −239,9 Mio., 18.11.: −306,4 Mio. USD",
-    "quelle": "SoSoValue via The Block, 14.11.2026",
-    "quelle_url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-440337"
+    "was": "Bitcoin-ETFs USA (16.–20.11.)",
+    "wert": "−1,25 Mrd. USD",
+    "vergleich": "Vorwoche −1,07; IBIT 19.11.: −541,1 Mio. (Rekord)",
+    "quelle": "Farside via crypto.news, 21.11.2026",
+    "quelle_url": "https://crypto.news/bitcoin-ether-etf-outflows-nov-16-20-2026/"
    },
    {
     "ebene": "Woche",
     "was": "VIX",
-    "wert": "28,44 (19.11.)",
-    "vergleich": "11.11.: 17,49; 18.11.: 24,56; Ø 10.–16.11.: 19,57",
-    "quelle": "FRED; Investing.com-Kursleiste",
-    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS"
-   },
-   {
-    "ebene": "Woche",
-    "was": "BofA-Umfrage: Tech-Übergewichtung",
-    "wert": "12 % netto",
-    "vergleich": "Oktober 37 %; größter Abbau seit Juni 2006",
-    "quelle": "BofA FMS via TheStreet, 17.11.2026",
-    "quelle_url": "https://pro.thestreet.com/stock-market-today/2026-11-17"
+    "wert": "35,89 (20.11.)",
+    "vergleich": "11.11.: 17,49; 19.11.: 28,44",
+    "quelle": "The Closing Print; FRED",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "ebene": "Monat",
@@ -1332,33 +1401,33 @@
   "ausblick": [
    {
     "nr": 1,
-    "zeitraum": "Heute und morgen (20./21.11.)",
-    "termine": "Lipper-Woche bis 18.11. (Fr.); Lagarde-Rede Frankfurt (09:30 MEZ); 2. Handelstag ANT; Schluss Tokio",
-    "einschaetzung": "Zeigt Lipper nach dem Kursrückgang Abflüsse aus Aktienfonds, wäre der Europa-Zufluss der Vorwoche eine Einzelwoche. Vorjahreswert der gleichen Woche: −6,03 Mrd. USD (Europa)."
+    "zeitraum": "Heute und morgen (23./24.11.)",
+    "termine": "Mo.: Einkaufsmanagerindizes (Flash); Di.: Conference-Board-Verbrauchervertrauen, Zahlen Dell und Workday; danach Mi. 25.11.: US-PCE Oktober, BIP Q3 (2. Schätzung)",
+    "einschaetzung": "Liegt die PCE-Kerninflation über der Erwartung (3,2 %), stützt das die zu 99 % eingepreiste Dezember-Erhöhung. Liegt sie darunter, könnte die Erwartung sinken."
    },
    {
     "nr": 2,
-    "zeitraum": "Nächste Woche (KW 48)",
-    "termine": "US-PCE-Daten (Kern erwartet 3,2 %); ICI und MoF Japan (Do. 26.11.); US-Börsen 26.11. geschlossen; NSDL-Indien",
-    "einschaetzung": "Liegt die PCE-Kerninflation über 3,2 %, stützt das die eingepreiste Dezember-Erhöhung (96,4 %). Darunter könnte die Erwartung sinken."
+    "zeitraum": "Nächste Woche (KW 49)",
+    "termine": "Huang-Anhörung (01.12.); Lipper- und ICI-Daten; NSDL-Indien Monatsstand November",
+    "einschaetzung": "Zeigt Lipper nach dem Freitags-Einbruch Abflüsse aus US-Aktienfonds, war der Zufluss bis 18.11. eine Einzelwoche."
    },
    {
     "nr": 3,
     "zeitraum": "Nächste 4 Wochen",
-    "termine": "Huang-Anhörung (01.12.); Fed (08./09.12.) und EZB im Dezember; BoJ (18.12.); Trilog digitaler Euro",
-    "einschaetzung": "Erhöht die Fed und die BoJ nicht, spricht das für einen starken Dollar und schwachen Yen. Erhöht die BoJ, steigt das Risiko, dass Yen-Carry-Trades aufgelöst werden."
+    "termine": "US-Börsen 26.11. geschlossen, 27.11. verkürzt; Fed (08./09.12.); EZB im Dezember (Termin nicht erhoben); BoJ (18.12.); Trilog digitaler Euro",
+    "einschaetzung": "Erhöht die Fed um 0,50 statt 0,25 Punkte (Waller nannte dies als Option), steigt der Druck auf Anleihen und Wachstumswerte. Erhöht die BoJ, steigt das Risiko, dass Yen-Carry-Trades aufgelöst werden."
    },
    {
     "nr": 4,
     "zeitraum": "3 Monate",
-    "termine": "GENIUS-Act-Regeln der OCC treten in Kraft (18.01.2027); Lagarde-Abschied (07.02.2027); Nvidia-Zahlen (ca. 24.02.2027); 13F-Meldungen für Q4 (Mitte Februar)",
-    "einschaetzung": "Die 13F-Daten zeigen, ob institutionelle Anleger nach dem Ausverkauf in KI-Aktien zugekauft haben."
+    "termine": "GENIUS-Act-Regeln der OCC (18.01.2027); Lagarde-Abschied (07.02.2027); 13F-Meldungen Q4 (Mitte Februar); Nvidia-Zahlen (ca. 24.02.2027)",
+    "einschaetzung": "Die 13F-Daten zeigen, ob institutionelle Anleger im November-Ausverkauf KI-Aktien abgebaut oder zugekauft haben."
    },
    {
     "nr": 5,
     "zeitraum": "12 Monate",
     "termine": "IWF: Weltwachstum 3,4 % in 2027; MUFG: EUR/USD 1,18 bis Q3 2027; KI-Investitionen ca. 1,14 Bio. USD (Goldman)",
-    "einschaetzung": "Basisfall laut diesen Prognosen: Zinsen erreichen den Höhepunkt, der Dollar gibt nach, Kapital verteilt sich stärker auf Europa und Schwellenländer. Gegenszenario: erneut steigende Energiepreise oder gekürzte KI-Investitionen."
+    "einschaetzung": "Basisfall laut diesen Prognosen: Zinsen erreichen den Höhepunkt, der Dollar gibt nach, Kapital verteilt sich stärker auf Europa und Schwellenländer. Gegenszenario: gekürzte KI-Investitionen oder steigende Energiepreise."
    }
   ],
   "anthropic": [
@@ -1404,10 +1473,34 @@
    },
    {
     "kennzahl": "Schlusskurs ANT (letzter Handelstag)",
-    "wert": "97,17 USD (19.11.2026); nachbörslich ca. −1,5 % (00:03 MEZ)",
-    "vergleich": "+17,1 % zum Ausgabepreis 83 USD; erster Schlusskurs = dieser Wert",
-    "quelle": "Reuters via Investing.com; StockTitan",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108",
+    "wert": "88,91 USD (20.11.2026), −8,5 % zum Vortag; Tief 83,05 USD",
+    "vergleich": "+7,1 % zum Ausgabepreis 83 USD; −8,5 % zum ersten Schluss 97,17 USD (eigene Rechnung); 24/7 Wall St. nennt 88,30 USD (−9 %)",
+    "quelle": "Shopifreaks 21.11.; Fool.com-Kursleiste; 24/7 Wall St. via Yahoo Finance",
+    "quelle_url": "https://www.shopifreaks.com/anthropic-shares-fall-8-5-to-88-91-on-their-second-day-of-trading-after-dipping-to-within-5-cents-of-the-83-ipo-price/",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Zweiter Handelstag ANT (20.11.)",
+    "wert": "Tief 83,05 USD (5 Cent über Ausgabepreis); vorbörslich fast −10 %",
+    "vergleich": "Tag 1: Hoch 115,10 / Tief 92,72 USD; Schluss 20.11. ca. 23 % unter Hoch 115,10 (24/7 Wall St.)",
+    "quelle": "Fortune; 24/7 Wall St., 20.11.2026",
+    "quelle_url": "https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Mehrzuteilung (Greenshoe)",
+    "wert": "147 Mio. Aktien, am 20.11. von den Konsortialbanken verkauft; Aktienverkauf damit ca. 91 Mrd. USD",
+    "vergleich": "vorher gemeldet ca. 81,3 Mrd. USD; mit 26 Mrd. Privatplatzierung über 115 Mrd. USD (vorher 107,3 Mrd.)",
+    "quelle": "Fortune, 20.11.2026",
+    "quelle_url": "https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/",
+    "status": "beobachtet"
+   },
+   {
+    "kennzahl": "Amazon / Alphabet am 20.11.",
+    "wert": "Amazon −4,10 % (246,82 USD); Alphabet (GOOG) −2,6 % (264,00 USD)",
+    "vergleich": "19.11.: Amazon −3,87 %, Alphabet −3,46 %; Amazon-Volumen 72,1 Mio. vs. Ø 3 Monate 40,2 Mio.",
+    "quelle": "Fool.com (Amazon); Fool.com-Kursleiste (Alphabet)",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/",
     "status": "beobachtet"
    },
    {
@@ -1463,11 +1556,11 @@
    {
     "nr": 1,
     "thema": "Leitzinsen",
-    "stand": "Fed 3,75–4,00 %; Dez.-Erhöhung zu 96,4 % eingepreist (CME, 19.11.); EZB 2,50 %; BoE 4,00 %",
-    "vergleich": "2025: Senkungszyklus",
+    "stand": "Fed 3,75–4,00 %; Dez.-Erhöhung zu 99 % eingepreist (CME, 20.11.); Waller nannte 50 Bp. als Option; EZB 2,50 %; BoE 4,00 %",
+    "vergleich": "19.11.: 96,4 % eingepreist; 2025: Senkungszyklus",
     "naechster_termin": "Fed 08./09.12.; BoJ 18.12.",
-    "quelle": "Reuters via Investing.com 19.11.2026; Report K.1",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "quelle": "Investrade 20.11.2026; Report K.1",
+    "quelle_url": "https://investrade.com/market-review-november-20-2026/"
    },
    {
     "nr": 2,
@@ -1481,25 +1574,25 @@
    {
     "nr": 3,
     "thema": "Dollar und Stablecoins",
-    "stand": "Dollar auf 19-Monats-Hoch (18.11.); Dollar-Anteil an Währungsreserven 56,7 % (Q2); Stablecoin-Markt 288,45 Mrd. USD (13.11.)",
-    "vergleich": "Reserveanteil Q1: 57,2 %; Stablecoins Vorwoche −1,74 %",
+    "stand": "Dollar-Index 103,84 (20.11., −0,06 %), Woche +0,42 %; Dollar-Anteil Reserven 56,7 % (Q2); Stablecoins 288,45 Mrd. USD (13.11.)",
+    "vergleich": "DXY nahe Hoch seit April 2025; Reserveanteil Q1: 57,2 %",
     "naechster_termin": "IWF COFER Q3 (Termin nicht erhoben)",
-    "quelle": "IWF COFER; TokenPost/DefiLlama 13.11.2026",
-    "quelle_url": "https://www.tokenpost.com/news/investing/56639"
+    "quelle": "The Closing Print; IWF COFER; TokenPost",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 4,
     "thema": "KI-Rennen Mag7 und Capex",
-    "stand": "Hyperscaler-KI-Investitionen ca. 730 Mrd. USD (2026); Anthropic-Börsenwert 1,27 Bio. USD (19.11.); Nvidia 6. Verlusttag",
-    "vergleich": "2027: ca. 1,14 Bio. USD (Goldman-Prognose); Nvidia-Erwartung ca. 109,1 Mrd.",
+    "stand": "Nvidia −14,01 % (20.11.), über −40 % seit Okt.-Hoch; SOX Woche schlechteste seit 2001 (Bloomberg); Hyperscaler-KI-Investitionen ca. 730 Mrd. USD (2026)",
+    "vergleich": "2027: ca. 1,14 Bio. USD (Goldman-Prognose)",
     "naechster_termin": "Huang-Anhörung 01.12.; Nvidia-Zahlen ca. 24.02.2027",
-    "quelle": "Report L.1, M.1",
-    "quelle_url": "https://claude.ai/artifact/4oDuHVA59WDQbSkdAqzYTJ"
+    "quelle": "The Closing Print; World Today Journal; Report L.1",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 5,
     "thema": "Konzentration im S&P 500",
-    "stand": "Mag7-Gewicht 33,2 %; Apple +30,5 %, Nvidia −10,9 % seit Jahresbeginn (bis 12.11.)",
+    "stand": "Mag7-Gewicht 33,2 % (12.11.); neuere Zahl nicht gefunden",
     "vergleich": "Ende 2021: 24,0 %",
     "naechster_termin": "13F-Meldungen Q4 Mitte Februar 2027",
     "quelle": "Report L.2/L.3",
@@ -1508,20 +1601,20 @@
    {
     "nr": 6,
     "thema": "Liquidität in Krisen",
-    "stand": "VIX 28,44 (19.11.); Hochzins-Aufschlag 3,47 %-Punkte (18.11.); Geldmarktfonds −37,48 Mrd. USD (Lipper bis 11.11.)",
-    "vergleich": "VIX 11.11.: 17,49; Aufschlag 12.11.: 3,20; Geldmarkt Vorwoche +174,22",
-    "naechster_termin": "Lipper Fr. 20.11.; ICI Do. 26.11.",
-    "quelle": "Lipper 13.11.; FRED; Stress-Tabelle unten",
-    "quelle_url": "https://fred.stlouisfed.org/series/VIXCLS"
+    "stand": "VIX 35,89 (20.11.); Hochzins-Aufschlag 3,52 %-Punkte (19.11.); Geldmarktfonds −13,89 Mrd. USD (Lipper bis 18.11.)",
+    "vergleich": "VIX 11.11.: 17,49; Aufschlag 12.11.: 3,20; Geldmarkt Vorwoche −37,48",
+    "naechster_termin": "Lipper voraussichtlich Fr. 27.11.; ICI-Termin (Thanksgiving-Woche) nicht erhoben",
+    "quelle": "The Closing Print; FRED; Lipper 20.11.",
+    "quelle_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
    },
    {
     "nr": 7,
     "thema": "Gold und Notenbanken",
-    "stand": "Gold-Future 3.521,22 USD am 19.11. (−4,46 %, Kursleiste); Notenbanken Q3: 321 t",
-    "vergleich": "18.11.: 3.728,60 USD (−3,51 %)",
+    "stand": "Gold (Dez.) 3.515,40 USD am 20.11. (−4,62 %), Woche ca. −9,5 %; Notenbanken Q3: 321 t",
+    "vergleich": "19.11.: 3.521,22 (Kursleiste); The Closing Print: 3.539 (−3,98 %)",
     "naechster_termin": "WGC Gold Demand Trends Q4 (Termin nicht erhoben)",
-    "quelle": "World Gold Council; Motley Fool 18.11.2026",
-    "quelle_url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/11"
+    "quelle": "Investrade; World Gold Council",
+    "quelle_url": "https://investrade.com/market-review-november-20-2026/"
    },
    {
     "nr": 8,
@@ -1708,7 +1801,7 @@
     "nr": 1,
     "bereich": "Schützen",
     "pruefpunkt": "Konzentration im eigenen Depot nachrechnen",
-    "aktueller_bezug": "Magnificent 7 = 33,2 % des S&P 500 (Ende 2021: 24,0 %)",
+    "aktueller_bezug": "Magnificent 7 = 33,2 % des S&P 500 (Ende 2021: 24,0 %); Nasdaq Woche −10,02 % (bis 20.11.)",
     "pruefrage": "Welcher Anteil meines Vermögens hängt an wenigen US-Tech-Werten, auch über Welt- und USA-ETFs, und wäre ein Rückgang dieses Teils tragbar?",
     "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
     "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
@@ -1717,7 +1810,7 @@
     "nr": 2,
     "bereich": "Anlegen",
     "pruefpunkt": "Einzelwochen nicht nachlaufen",
-    "aktueller_bezug": "Europa-Aktienfonds +35,13 Mrd. USD in einer Woche (bis 11.11.)",
+    "aktueller_bezug": "US-Aktienfonds +45,71 Mrd. USD (bis 18.11.) nach +6,6 Mrd.; Europa +15,0 nach +35,13 Mrd.",
     "pruefrage": "Ist ein Zufluss über drei bis vier Wochen bestätigt, bevor ich ihn als Trend werte?",
     "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
     "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
@@ -1726,7 +1819,7 @@
     "nr": 3,
     "bereich": "Anlegen",
     "pruefpunkt": "Gutes Unternehmen ist nicht gleich günstige Bewertung",
-    "aktueller_bezug": "Anthropic: Schluss 97,17 USD, Börsenwert 1,27 Bio. USD (19.11.); Nvidia Q3-Umsatz 115,8 Mrd. USD",
+    "aktueller_bezug": "Anthropic: 97,17 USD (19.11.) → 88,91 USD (20.11.), Ausgabepreis 83; Nvidia −14 % an einem Tag",
     "pruefrage": "Trenne ich die Frage „Wie gut läuft das Geschäft?“ von „Was ist im Preis schon enthalten?“",
     "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
     "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
@@ -1753,7 +1846,7 @@
     "nr": 6,
     "bereich": "Schützen",
     "pruefpunkt": "Hebel verstehen",
-    "aktueller_bezug": "VIX 28,44 (19.11.); Hedgefonds-Verluste Oktober; Nikkei −3,95 % (20.11. früh)",
+    "aktueller_bezug": "VIX 35,89 (20.11.); Nasdaq Woche −10,02 %; Nikkei −5,06 % (20.11.)",
     "pruefrage": "Halte ich gehebelte ETFs oder Zertifikate, die Verluste in beide Richtungen verstärken?",
     "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
     "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
@@ -1762,7 +1855,7 @@
     "nr": 7,
     "bereich": "Schützen",
     "pruefpunkt": "Währung mitdenken",
-    "aktueller_bezug": "EUR/USD-Risiko bei US-Werten (auch ANT); Yen 159,93 je USD (13.11., FRED), 159,29 (20.11. früh)",
+    "aktueller_bezug": "EUR/USD-Risiko bei US-Werten (auch ANT); Dollar-Index 103,84 (20.11.); Yen 159,93 je USD (13.11., FRED; neuere FRED-Werte fehlen)",
     "pruefrage": "Welcher Anteil meines Depots läuft in US-Dollar, und wie wirkt ein schwächerer Dollar in Euro gerechnet?",
     "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
     "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
@@ -1771,7 +1864,7 @@
     "nr": 8,
     "bereich": "Anlegen",
     "pruefpunkt": "Laufzeit bei Anleihen beachten",
-    "aktueller_bezug": "US-Rendite 10 Jahre 5,10 % (17.11.); 2 Jahre 4,80 % (18.11.)",
+    "aktueller_bezug": "US-Rendite 10 Jahre 5,04 % (19.11., FRED), 4,92 % (20.11., The Closing Print); 2 Jahre 4,63 % (20.11.)",
     "pruefrage": "Passt die Laufzeit meiner Anleihe-ETFs zu meinem Anlagehorizont? Kürzere Laufzeiten und Geldmarkt schwanken weniger.",
     "quelle": "Report „Unverbindliche Hinweise für Privatanleger“",
     "quelle_url": "https://claude.ai/artifact/KQYhQM9CRmVV3jh1EpawQL"
@@ -1801,11 +1894,12 @@
     "titel": "Anthropic: größter Börsengang bisher",
     "status": "bestätigt",
     "punkte": [
-     "Ausgabepreis 83 USD, ca. 81,3 Mrd. USD",
-     "Mit Privatplatzierung 107,3 Mrd. USD (Rekord)",
-     "Erster Kurs 111,50, Schluss 97,17 USD",
-     "Börsenwert 1,27 Bio. USD (Schluss)",
-     "Markt danach −2 % (S&P 500)"
+     "Ausgabepreis 83 USD",
+     "Greenshoe: 147 Mio. Aktien (20.11.)",
+     "Erlös mit Privatplatzierung über 115 Mrd. USD",
+     "Tag 1 Schluss 97,17, Tag 2: 88,91 USD",
+     "Tag 2 Tief 83,05 USD",
+     "Markt 20.11.: S&P 500 −3,70 %"
     ],
     "wer": [
      "Amazon: knapp 11 % (Forbes; vorher gemeldet 14,7 %)",
@@ -1815,12 +1909,20 @@
      "Einschätzung: Indexaufnahme bestimmt späteren ETF-Anteil"
     ],
     "markt": [
-     "ANT +17,1 % zum Ausgabepreis",
-     "Amazon −3,87 %, Alphabet −3,46 % (19.11.)",
-     "Nvidia −3,30 %, AMD −7,72 %",
-     "Nikkei 20.11. früh −3,95 %; SoftBank −14,5 % (intraday)"
+     "ANT 20.11.: −8,5 % (88,91 USD)",
+     "Amazon −4,10 %, Alphabet −2,6 % (20.11.)",
+     "Nvidia −14,01 % (20.11.)",
+     "Nikkei 20.11.: −5,06 %; SoftBank −14,5 %"
     ],
     "quellen": [
+     {
+      "name": "Fortune, 20.11.2026",
+      "url": "https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/"
+     },
+     {
+      "name": "Shopifreaks, 21.11.2026",
+      "url": "https://www.shopifreaks.com/anthropic-shares-fall-8-5-to-88-91-on-their-second-day-of-trading-after-dipping-to-within-5-cents-of-the-83-ipo-price/"
+     },
      {
       "name": "Reuters via Investing.com, 19.11.2026",
       "url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
@@ -1828,10 +1930,6 @@
      {
       "name": "Forbes, 19.11.2026",
       "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/"
-     },
-     {
-      "name": "The National, 20.11.2026",
-      "url": "https://www.thenationalnews.com/business/markets/2026/11/20/anthropic-share-price-today-ant-listing/"
      }
     ],
     "nr": 1
@@ -1873,6 +1971,72 @@
     "nr": 2
    },
    {
+    "datum": "20.11.2026",
+    "titel": "US-Börsen: schwächste Woche seit April 2025",
+    "status": "bestätigt",
+    "punkte": [
+     "S&P 500 −3,70 % am Freitag",
+     "Woche: S&P −8,61 %, Nasdaq −10,02 %",
+     "S&P 500 und Dow in Korrektur",
+     "VIX 35,89 (+26,2 %)",
+     "Nur 122 von 503 S&P-Werten im Plus",
+     "Gold −4,0 %, Bitcoin unter 60.000 USD"
+    ],
+    "wer": [
+     "Größte Indexgewichte: Mag7 (33,2 % des S&P 500, Stand 12.11.)",
+     "Big Three je Alphabet, Microsoft, Nvidia ca. 18–22 % (Tabelle Big Three)",
+     "Überwiegend passive Indexfonds, gehalten für Anleger (auch ETF-Sparer)"
+    ],
+    "markt": [
+     "Tech-Sektor-ETF XLK −7,27 %",
+     "Basiskonsum XLP +0,67 % (einziger Sektor im Plus)",
+     "10J-Rendite 4,92 % (−12 Bp.)",
+     "DAX −2,60 %, Nikkei −5,06 %"
+    ],
+    "quellen": [
+     {
+      "name": "The Closing Print, 20.11.2026",
+      "url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+     },
+     {
+      "name": "Investrade, 20.11.2026",
+      "url": "https://investrade.com/market-review-november-20-2026/"
+     }
+    ],
+    "nr": 3
+   },
+   {
+    "datum": "20.11.2026",
+    "titel": "Broadcom: Bericht über Google-Kürzung",
+    "status": "bestätigt",
+    "punkte": [
+     "Analyst Ming-Chi Kuo: weniger TPU-Lieferungen",
+     "Betrifft Googles Chip „TPU 8i“",
+     "AVGO −12,2 % am 20.11.",
+     "Google-Bestätigung: nicht erhoben"
+    ],
+    "wer": [
+     "Kunde: Alphabet (Google)",
+     "Big-Three-Anteil Broadcom: in diesem Lauf nicht erhoben"
+    ],
+    "markt": [
+     "AVGO −12,2 % (The Closing Print)",
+     "Alphabet (GOOG) −2,6 % (Kursleiste)",
+     "Kursreaktion Zulieferer: nicht erhoben"
+    ],
+    "quellen": [
+     {
+      "name": "Investrade, 20.11.2026",
+      "url": "https://investrade.com/market-review-november-20-2026/"
+     },
+     {
+      "name": "The Closing Print, 20.11.2026",
+      "url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+     }
+    ],
+    "nr": 4
+   },
+   {
     "datum": "17.–19.11.2026",
     "titel": "USA: Serie von IT-Ausfällen, JPMorgan-Dienstleister gehackt",
     "status": "bestätigt",
@@ -1900,7 +2064,7 @@
       "url": "https://abc7ny.com/live-updates/tech-outage-live-updates/20048533/"
      }
     ],
-    "nr": 3
+    "nr": 5
    },
    {
     "datum": "19.11.2026",
@@ -1931,10 +2095,10 @@
       "url": "https://www.boersen-zeitung.de/unternehmen-branchen/basf-und-evonik-trennen-sich-unverrichteter-dinge"
      }
     ],
-    "nr": 4
+    "nr": 6
    },
    {
-    "nr": 5,
+    "nr": 7,
     "datum": "13.11.2026",
     "titel": "USA: alle Flüge gestoppt (FAA)",
     "status": "bestätigt",
@@ -1978,102 +2142,6 @@
      {
       "name": "Stocktwits/Raymond James, 16.11.2026",
       "url": "https://stocktwits.com/news-articles/markets/equity/us-airlines-expected-to-lose-1-b-from-faa-nationwide-grounding-raymond-james-says/cNb7CvqR9gL"
-     }
-    ]
-   },
-   {
-    "nr": 6,
-    "datum": "12./13.11.2026",
-    "titel": "Microsoft: weltweiter Ausfall (kein Shutdown)",
-    "status": "bestätigt",
-    "punkte": [
-     "Beginn Do. 12.11., ca. 17 Uhr MEZ",
-     "Outlook, Teams, Copilot gestört",
-     "Mind. 43.000 Meldungen aus 72 Ländern",
-     "Ursache: Fehler in Netzwerk-Gateway",
-     "Kein Cyberangriff laut Microsoft",
-     "Auch OpenAI- und Anthropic-Anbindungen betroffen"
-    ],
-    "wer": [
-     "Vanguard: 9,4 %",
-     "BlackRock: 8,0 %",
-     "State Street: 4,0 %",
-     "Fidelity: 2,8 %",
-     "Big Three zusammen: ca. 21,4 %",
-     "Institutionelle gesamt: ca. 76 %",
-     "Stand: 30.09.2025"
-    ],
-    "markt": [
-     "MSFT am 13.11. bis −3 %",
-     "Schluss 523,88 USD, leicht im Plus",
-     "Steckt in fast jedem Welt- und USA-ETF"
-    ],
-    "quellen": [
-     {
-      "name": "Al Jazeera, 13.11.2026",
-      "url": "https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why"
-     },
-     {
-      "name": "SlashGear, 18.11.2026",
-      "url": "https://www.slashgear.com/2320849/microsoft-november-2026-outage-cause-explained/"
-     },
-     {
-      "name": "NewsBytes, 14.11.2026",
-      "url": "https://www.newsbytesapp.com/news/business/microsoft-shares-recover-close-slightly-up-after-global-outage/tldr"
-     },
-     {
-      "name": "Admiral Markets (Aktionäre)",
-      "url": "https://admiralmarkets.com/education/articles/shares/largest-microsoft-shareholders"
-     }
-    ]
-   },
-   {
-    "nr": 7,
-    "datum": "19.11.2026",
-    "titel": "GTA VI startet (Take-Two)",
-    "status": "bestätigt",
-    "punkte": [
-     "US-Start: heute, Do. 19.11.2026",
-     "Sensor Tower: ca. 17 Mio. Kopien bis 18.11.",
-     "Umsatz bis 18.11.: über 1,65 Mrd. USD",
-     "Metacritic: 99 von 100",
-     "Budget: über 1 Mrd. USD"
-    ],
-    "wer": [
-     "BlackRock: 9,8 % (ca. 18 Mio. Aktien)",
-     "Vanguard, alle Einheiten: ca. 11–12 % (ca. 22 Mio.)",
-     "davon Vanguard Capital Mgmt.: 6,1 %",
-     "State Street: ca. 5,8–6,0 % (ca. 11 Mio.)",
-     "Big Three zusammen: ca. 26,5–27,6 %",
-     "Saudi-Staatsfonds PIF: 6,1 % (Savvy Games)",
-     "Stand: 13F per 30.06.2026"
-    ],
-    "markt": [
-     "TTWO 16.11.: −6,3 % auf 213,47 USD",
-     "TTWO 18.11.: über +6 % auf 216,61 USD",
-     "Seit Jahresbeginn ca. −15 %",
-     "Plattformen: Sony PS5, Microsoft Xbox"
-    ],
-    "quellen": [
-     {
-      "name": "Fox Business/Reuters, 18.11.2026",
-      "url": "https://www.foxbusiness.com/markets/take-two-stock-jumps-over-6-rockstars-long-awaited-gta-vi-arrives-after-13-year-wait"
-     },
-     {
-      "name": "Trefis, 17.11.2026",
-      "url": "https://www.trefis.com/articles/625817/why-did-take-two-stock-fall-6-before-gta-vi/2026-11-17"
-     },
-     {
-      "name": "VCP Scanner (13F Q2 2026)",
-      "url": "https://vcpscanner.com/stock/ttwo/institutional-holders"
-     },
-     {
-      "name": "Finviz/Reuters: PIF-Anteil",
-      "url": "https://finviz.com/news/313482/gta-6-momentum-builds-saudi-pif-moves-take-two-stake-to-gaming-subsidiary-ahead-of-2026-launch"
-     },
-     {
-      "name": "Stockzoa (13F Juni 2026)",
-      "url": "https://stockzoa.com/ticker/ttwo/"
      }
     ]
    },
@@ -2126,16 +2194,16 @@
     ]
    },
    {
-    "datum": "12.11.2026",
-    "titel": "Nvidia: CEO Jensen Huang tritt zurück",
+    "datum": "12.–20.11.2026",
+    "titel": "Nvidia: CEO-Rücktritt, SEC-Prüfung",
     "status": "bestätigt",
     "punkte": [
-     "Rücktritt am Do. 12.11.2026",
-     "Grund: Affäre mit mutmaßlicher chinesischer Spionin",
-     "FBI, Kongress und Nvidia ermitteln",
-     "Interims-CEO: Finanzchefin Colette Kress",
-     "Erster Verwaltungsratschef: Harvey C. Jones",
-     "Börsenwert erstmals seit Juli 2025 unter 4 Bio. USD"
+     "Huang-Rücktritt am 12.11.2026",
+     "SEC prüft Offenlegung (WSJ, 18.11.)",
+     "Reuters 20.11.: Prüfung der Bilanzierung",
+     "Aktie 20.11.: −14,01 % auf 125,53 USD",
+     "Über −40 % seit Oktober-Hoch",
+     "Interims-CEO: Colette Kress"
     ],
     "wer": [
      "Vanguard: 9,36 % (31.12.2025)",
@@ -2144,22 +2212,27 @@
      "Big Three zusammen: ca. 21,6 %"
     ],
     "markt": [
-     "Nvidia ca. 7–8 % im S&P 500 (Einschätzung)",
-     "Kursverlust in %: nicht erhoben",
+     "NVDA 20.11.: −14,01 % (The Closing Print)",
+     "Woche ca. −23 %",
+     "SOX 20.11.: über −10 % (Bloomberg via WTJ)",
      "Betrifft fast jeden Welt-, USA- und Tech-ETF"
     ],
     "quellen": [
      {
+      "name": "The Closing Print, 20.11.2026",
+      "url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+     },
+     {
+      "name": "The Star nach WSJ, 18.11.2026",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/18/nvidia-facing-sec-probe-after-huang039s-resignation-wsj-reports"
+     },
+     {
+      "name": "InvestmentNews",
+      "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
+     },
+     {
       "name": "Al Jazeera, 12.11.2026",
       "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
-     },
-     {
-      "name": "NPR, 12.11.2026",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6038865/ceo-jensen-huang-resigns-from-chip-giant-nvidia"
-     },
-     {
-      "name": "Trendlyne (Aktionäre)",
-      "url": "https://us.trendlyne.com/us/equity/ownership/1554267/NVDA/latest/nvidia-corp/"
      }
     ],
     "nr": 9
@@ -2227,7 +2300,7 @@
    {
     "nr": 3,
     "firma": "Nvidia",
-    "ereignis": "12.11.: Huang-Rücktritt",
+    "ereignis": "12.11.: Huang-Rücktritt; 20.11.: SEC-Bericht, −14 %",
     "behauptung": "ca. 20 %",
     "geprueft": "ca. 21,6 %",
     "rechnung": "9,36+8,04+4,18 (Stichtage gemischt)",
@@ -2307,12 +2380,12 @@
     "richtung": "Index",
     "name": "S&P 500",
     "ticker": "SPX",
-    "veraenderung_pct": -2.02,
-    "grund": "7.175,83 Punkte; 6. Verlusttag in Folge",
+    "veraenderung_pct": -3.7,
+    "grund": "6.910,39 Punkte; 7. Verlusttag; Woche −8,61 %; Korrektur",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Reuters via Investing.com",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; STL.News",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 2,
@@ -2320,12 +2393,12 @@
     "richtung": "Index",
     "name": "Nasdaq Composite",
     "ticker": "IXIC",
-    "veraenderung_pct": -2.25,
-    "grund": "23.879,20 Punkte; Chipwerte −2,4 % (SOX)",
+    "veraenderung_pct": -5.28,
+    "grund": "22.617,73 Punkte; Woche −10,02 %",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Reuters via Investing.com",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; STL.News",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 3,
@@ -2333,12 +2406,12 @@
     "richtung": "Index",
     "name": "Dow Jones",
     "ticker": "DJI",
-    "veraenderung_pct": -2.19,
-    "grund": "49.097,06 Punkte (−1.101 Punkte)",
+    "veraenderung_pct": -1.93,
+    "grund": "48.147,33 Punkte; Woche −8,02 %",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Reuters via Investing.com",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; STL.News",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 4,
@@ -2346,12 +2419,12 @@
     "richtung": "Index",
     "name": "DAX",
     "ticker": "DAX",
-    "veraenderung_pct": -1.06,
-    "grund": "25.463,81 Punkte; tiefster Stand seit über 3 Wochen",
+    "veraenderung_pct": -2.6,
+    "grund": "24.802,78 Punkte; Woche über −7 %; 6. Verlusttag",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "dpa-AFX via ARIVA",
-    "quelle_url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-verluste-us-boersen-12214079"
+    "boersenschluss": "20.11.2026",
+    "quelle": "dpa-AFX via finanzen.at",
+    "quelle_url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-fallt-unter-25-000-punkte-schwache-techs-1036788557"
    },
    {
     "nr": 5,
@@ -2359,12 +2432,12 @@
     "richtung": "Index",
     "name": "Euro Stoxx 50",
     "ticker": "SX5E",
-    "veraenderung_pct": -0.66,
-    "grund": "6.113,86 Punkte; 5. Verlusttag (−4,46 %)",
+    "veraenderung_pct": -2.8,
+    "grund": "ca. 5.942 Punkte (Kursleiste)",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Morningstar/Dow Jones via ad-hoc-news",
-    "quelle_url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-falls-0-66-prozent-as-five-session-slide-deepens/70538109"
+    "boersenschluss": "20.11.2026",
+    "quelle": "dpa-AFX via finanzen.at",
+    "quelle_url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-fallt-unter-25-000-punkte-schwache-techs-1036788557"
    },
    {
     "nr": 6,
@@ -2372,675 +2445,532 @@
     "richtung": "Index",
     "name": "Nikkei 225",
     "ticker": "N225",
-    "veraenderung_pct": -3.95,
-    "grund": "Frühhandel 20.11. (ca. 02:05 MEZ): 56.694,34; Reuters: zeitweise über −4 %, kein Schlusskurs",
+    "veraenderung_pct": -5.06,
+    "grund": "56.437 Punkte; Woche fast −8 %; andere Meldung: 56.509 (−4,94 %)",
     "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "JournalArta; Reuters via MarketScreener",
-    "quelle_url": "https://journalarta.com/en/2026/11/20/nikkei-225-today-tokyo-stocks-slide-3-95-as-wall-streets-ai-selloff-spreads-to-asia/"
+    "boersenschluss": "20.11.2026",
+    "quelle": "Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603021"
    },
    {
     "nr": 7,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Apple",
-    "ticker": "AAPL",
-    "veraenderung_pct": -0.92,
-    "grund": "Kursleiste, Schluss 349,21 USD",
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "Global Payments",
+    "ticker": "GPN",
+    "veraenderung_pct": 9.95,
+    "grund": "Bericht: GTCR erwägt Übernahme (ca. 50 Mrd. USD)",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 8,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Microsoft",
-    "ticker": "MSFT",
-    "veraenderung_pct": -1.97,
-    "grund": "KI-Werte nach ANT-Start schwächer",
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "General Mills",
+    "ticker": "GIS",
+    "veraenderung_pct": 3.65,
+    "grund": "Umschichtung in Basiskonsum",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 9,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Alphabet",
-    "ticker": "GOOGL",
-    "veraenderung_pct": -3.46,
-    "grund": "gilt als Anthropic-Stellvertreter (CNBC)",
+    "markt": "S&P 500",
+    "richtung": "Gewinner",
+    "name": "McCormick",
+    "ticker": "MKC",
+    "veraenderung_pct": 3.43,
+    "grund": "Umschichtung in Basiskonsum",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
     "nr": 10,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Amazon",
-    "ticker": "AMZN",
-    "veraenderung_pct": -3.87,
-    "grund": "gilt als Anthropic-Stellvertreter (CNBC)",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
-   },
-   {
-    "nr": 11,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Meta",
-    "ticker": "META",
-    "veraenderung_pct": -3.27,
-    "grund": "Kursleiste, Schluss 596,22 USD",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
-   },
-   {
-    "nr": 12,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Nvidia",
-    "ticker": "NVDA",
-    "veraenderung_pct": -3.3,
-    "grund": "6. Verlusttag in Folge (Reuters)",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
-   },
-   {
-    "nr": 13,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Tesla",
-    "ticker": "TSLA",
-    "veraenderung_pct": -2.43,
-    "grund": "Kursleiste, Schluss 374,41 USD",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "StockTitan; Investing.com-Kursleiste",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
-   },
-   {
-    "nr": 14,
-    "markt": "Mag7 und ANT",
-    "richtung": "Tagesveränderung",
-    "name": "Anthropic",
-    "ticker": "ANT",
-    "veraenderung_pct": 17.07,
-    "grund": "Erster Handelstag: Schluss 97,17 USD; % zum Ausgabepreis 83 USD (kein Vortag)",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Reuters via Investing.com",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 15,
-    "markt": "S&P 500",
-    "richtung": "Gewinner",
-    "name": "Palo Alto Networks",
-    "ticker": "PANW",
-    "veraenderung_pct": 6.42,
-    "grund": "Umsatzprognose 2027 erhöht; Kauf Applied Compute (4,5 Mrd. USD)",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 16,
-    "markt": "S&P 500",
-    "richtung": "Gewinner",
-    "name": "Western Digital",
-    "ticker": "WDC",
-    "veraenderung_pct": 2.98,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 17,
-    "markt": "S&P 500",
-    "richtung": "Gewinner",
-    "name": "CrowdStrike",
-    "ticker": "CRWD",
-    "veraenderung_pct": 2.71,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 18,
-    "markt": "S&P 500",
-    "richtung": "Verlierer",
-    "name": "Williams-Sonoma",
-    "ticker": "WSM",
-    "veraenderung_pct": -15.16,
-    "grund": "Vergleichbarer Umsatz +5,1 %, Jahresprognose nur bestätigt",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 19,
-    "markt": "S&P 500",
-    "richtung": "Verlierer",
-    "name": "FMC",
-    "ticker": "FMC",
-    "veraenderung_pct": -8.33,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 20,
-    "markt": "S&P 500",
-    "richtung": "Verlierer",
-    "name": "AMD",
-    "ticker": "AMD",
-    "veraenderung_pct": -7.72,
-    "grund": "Hunterbrook-Fonds meldet Leerverkaufsposition",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 21,
-    "markt": "S&P 500",
-    "richtung": "Verlierer",
-    "name": "Fiserv",
-    "ticker": "FISV",
-    "veraenderung_pct": -6.38,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 22,
-    "markt": "S&P 500",
-    "richtung": "Verlierer",
-    "name": "Universal Health Services",
-    "ticker": "UHS",
-    "veraenderung_pct": -5.96,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; Reuters; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
-   },
-   {
-    "nr": 23,
     "markt": "S&P 500",
     "richtung": "nicht erhoben",
-    "name": "Gewinner Platz 4–5",
+    "name": "Plätze 4–5 Gewinner",
     "ticker": "–",
     "veraenderung_pct": null,
     "grund": "Nicht belegt",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
+    "boersenschluss": "20.11.2026",
     "quelle": "–",
     "quelle_url": ""
    },
    {
-    "nr": 24,
-    "markt": "Nasdaq 100",
-    "richtung": "Gewinner",
-    "name": "PDD Holdings",
-    "ticker": "PDD",
-    "veraenderung_pct": 11.04,
-    "grund": "Q3-Umsatz 108,3 Mrd. RMB, zum Vorjahr unverändert",
+    "nr": 11,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Sandisk",
+    "ticker": "SNDK",
+    "veraenderung_pct": -16.05,
+    "grund": "Speicherwerte mit KI-Hardware verkauft",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
-    "nr": 25,
-    "markt": "Nasdaq 100",
-    "richtung": "Gewinner",
-    "name": "Palo Alto Networks",
-    "ticker": "PANW",
-    "veraenderung_pct": 6.42,
-    "grund": "Umsatzprognose 2027 erhöht",
+    "nr": 12,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Bloom Energy",
+    "ticker": "BE",
+    "veraenderung_pct": -15.3,
+    "grund": "KI-Stromversorger mit Rechenzentren verkauft",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
-    "nr": 26,
-    "markt": "Nasdaq 100",
-    "richtung": "Gewinner",
-    "name": "CrowdStrike",
-    "ticker": "CRWD",
-    "veraenderung_pct": 2.71,
-    "grund": "Grund nicht erhoben",
+    "nr": 13,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Nvidia",
+    "ticker": "NVDA",
+    "veraenderung_pct": -14.01,
+    "grund": "Reuters: SEC prüft Bilanzierung",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
    },
    {
-    "nr": 27,
+    "nr": 14,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "Micron",
+    "ticker": "MU",
+    "veraenderung_pct": -13.9,
+    "grund": "Speicherwerte, KI-Abverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 15,
+    "markt": "S&P 500",
+    "richtung": "Verlierer",
+    "name": "AMD",
+    "ticker": "AMD",
+    "veraenderung_pct": -13.2,
+    "grund": "KI-Chipwerte verkauft",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 16,
+    "markt": "Nasdaq 100",
+    "richtung": "Index",
+    "name": "Nasdaq 100",
+    "ticker": "NDX",
+    "veraenderung_pct": null,
+    "grund": "Tag nicht erhoben; Woche ca. −10 % (CNBC)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "CNBC via World Today Journal",
+    "quelle_url": "https://world-today-journal.com/wall-street-ends-worst-week-since-pandemic-sox-plunges-nvidia-down-40-from-peak/"
+   },
+   {
+    "nr": 17,
+    "markt": "Nasdaq 100",
+    "richtung": "nicht erhoben",
+    "name": "Gewinner",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Nicht belegt",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "–",
+    "quelle_url": ""
+   },
+   {
+    "nr": 18,
+    "markt": "Nasdaq 100",
+    "richtung": "Verlierer",
+    "name": "Nvidia",
+    "ticker": "NVDA",
+    "veraenderung_pct": -14.01,
+    "grund": "Reuters: SEC prüft Bilanzierung",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; Investrade",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 19,
+    "markt": "Nasdaq 100",
+    "richtung": "Verlierer",
+    "name": "Micron",
+    "ticker": "MU",
+    "veraenderung_pct": -13.9,
+    "grund": "Speicherwerte, KI-Abverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; Investrade",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 20,
     "markt": "Nasdaq 100",
     "richtung": "Verlierer",
     "name": "AMD",
     "ticker": "AMD",
-    "veraenderung_pct": -7.72,
-    "grund": "Hunterbrook-Leerverkaufsposition",
+    "veraenderung_pct": -13.2,
+    "grund": "KI-Chipwerte verkauft",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; Investrade",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 21,
+    "markt": "Nasdaq 100",
+    "richtung": "Verlierer",
+    "name": "Intuit",
+    "ticker": "INTU",
+    "veraenderung_pct": -12.8,
+    "grund": "Jahresprognose gesenkt; Mailchimp-Verkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; Investrade",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 22,
+    "markt": "Nasdaq 100",
+    "richtung": "Verlierer",
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "veraenderung_pct": -12.2,
+    "grund": "Bericht: Google kürzt TPU-Lieferungen (Kuo)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "The Closing Print; Investrade",
+    "quelle_url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/"
+   },
+   {
+    "nr": 23,
+    "markt": "DAX",
+    "richtung": "Gewinner",
+    "name": "Fresenius Medical Care",
+    "ticker": "FME",
+    "veraenderung_pct": 2.4,
+    "grund": "CEO kaufte Aktien (ca. 500.000 USD)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Dow Jones via MarketScreener",
+    "quelle_url": "https://de.marketscreener.com/boerse-nachrichten/xetra-schluss-dax-ausverkauf-gewinnt-an-fahrt-25-000er-marke-faellt-ce785ed3da80f222"
+   },
+   {
+    "nr": 24,
+    "markt": "DAX",
+    "richtung": "nicht erhoben",
+    "name": "Weitere Gewinner",
+    "ticker": "–",
+    "veraenderung_pct": null,
+    "grund": "Nicht belegt",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "–",
+    "quelle_url": ""
+   },
+   {
+    "nr": 25,
+    "markt": "DAX",
+    "richtung": "Verlierer",
+    "name": "Scout24",
+    "ticker": "G24",
+    "veraenderung_pct": -8.0,
+    "grund": "JPMorgan senkt Empfehlung (KI-Risiko)",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "dpa-AFX via finanzen.at",
+    "quelle_url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-fallt-unter-25-000-punkte-schwache-techs-1036788557"
+   },
+   {
+    "nr": 26,
+    "markt": "DAX",
+    "richtung": "Verlierer",
+    "name": "Infineon",
+    "ticker": "IFX",
+    "veraenderung_pct": -7.9,
+    "grund": "Tech-Ausverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "dpa-AFX via finanzen.at",
+    "quelle_url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-fallt-unter-25-000-punkte-schwache-techs-1036788557"
+   },
+   {
+    "nr": 27,
+    "markt": "DAX",
+    "richtung": "Verlierer",
+    "name": "Siemens Energy",
+    "ticker": "ENR",
+    "veraenderung_pct": -6.6,
+    "grund": "Tech-/Sektor-Ausverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "dpa-AFX via finanzen.at",
+    "quelle_url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-frankfurt-schluss-dax-fallt-unter-25-000-punkte-schwache-techs-1036788557"
    },
    {
     "nr": 28,
-    "markt": "Nasdaq 100",
+    "markt": "DAX",
     "richtung": "Verlierer",
-    "name": "DoorDash",
-    "ticker": "DASH",
-    "veraenderung_pct": -5.8,
+    "name": "Hochtief",
+    "ticker": "HOT",
+    "veraenderung_pct": -5.0,
     "grund": "Grund nicht erhoben",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "Dow Jones via MarketScreener",
+    "quelle_url": "https://de.marketscreener.com/boerse-nachrichten/xetra-schluss-dax-ausverkauf-gewinnt-an-fahrt-25-000er-marke-faellt-ce785ed3da80f222"
    },
    {
     "nr": 29,
-    "markt": "Nasdaq 100",
+    "markt": "Euro Stoxx 50",
     "richtung": "Verlierer",
-    "name": "Amazon",
-    "ticker": "AMZN",
-    "veraenderung_pct": -3.87,
-    "grund": "Anthropic-Stellvertreter (CNBC)",
+    "name": "ASML",
+    "ticker": "ASML",
+    "veraenderung_pct": -9.3,
+    "grund": "Chip-Ausverkauf",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Investing.com-Kursleiste; StockTitan (Indexzuordnung eigene)",
-    "quelle_url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    "boersenschluss": "20.11.2026",
+    "quelle": "World Today Journal",
+    "quelle_url": "https://world-today-journal.com/wall-street-ends-worst-week-since-pandemic-sox-plunges-nvidia-down-40-from-peak/"
    },
    {
     "nr": 30,
-    "markt": "Nasdaq 100",
+    "markt": "Euro Stoxx 50",
     "richtung": "nicht erhoben",
     "name": "Weitere Plätze",
     "ticker": "–",
     "veraenderung_pct": null,
     "grund": "Vollständige Top 5 nicht belegt",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
+    "boersenschluss": "20.11.2026",
     "quelle": "–",
     "quelle_url": ""
    },
    {
     "nr": 31,
-    "markt": "DAX",
-    "richtung": "Gewinner",
-    "name": "Deutsche Bank",
-    "ticker": "DBK",
-    "veraenderung_pct": 0.35,
-    "grund": "Laut Händlern keine neuen Belastungen in Dokumenten",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 32,
-    "markt": "DAX",
-    "richtung": "Gewinner",
-    "name": "Siemens",
-    "ticker": "SIE",
-    "veraenderung_pct": 0.34,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 33,
-    "markt": "DAX",
-    "richtung": "Gewinner",
-    "name": "Infineon",
-    "ticker": "IFX",
-    "veraenderung_pct": 0.28,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 34,
-    "markt": "DAX",
-    "richtung": "Gewinner",
-    "name": "Airbus",
-    "ticker": "AIR",
-    "veraenderung_pct": 0.18,
-    "grund": "Starke Zahlen von Babcock",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 35,
-    "markt": "DAX",
-    "richtung": "Gewinner",
-    "name": "Qiagen",
-    "ticker": "QIA",
-    "veraenderung_pct": 0.11,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 36,
-    "markt": "DAX",
-    "richtung": "Verlierer",
-    "name": "Fresenius Medical Care",
-    "ticker": "FME",
-    "veraenderung_pct": -4.77,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 37,
-    "markt": "DAX",
-    "richtung": "Verlierer",
-    "name": "SAP",
-    "ticker": "SAP",
-    "veraenderung_pct": -3.28,
-    "grund": "4. Verlusttag, seitdem über −12 % (dpa-AFX: −3,6 %)",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 38,
-    "markt": "DAX",
-    "richtung": "Verlierer",
-    "name": "Fresenius",
-    "ticker": "FRE",
-    "veraenderung_pct": -3.09,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 39,
-    "markt": "DAX",
-    "richtung": "Verlierer",
-    "name": "Rheinmetall",
-    "ticker": "RHM",
-    "veraenderung_pct": -2.5,
-    "grund": "Negativer Kommentar von Bernstein",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 40,
-    "markt": "DAX",
-    "richtung": "Verlierer",
-    "name": "Bayer",
-    "ticker": "BAYN",
-    "veraenderung_pct": -2.25,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "aktiencheck.de (KI-erstellter Schlussbericht); dpa-AFX",
-    "quelle_url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein"
-   },
-   {
-    "nr": 41,
-    "markt": "Euro Stoxx 50",
-    "richtung": "Gewinner",
-    "name": "ASML",
-    "ticker": "ASML",
-    "veraenderung_pct": 2.2,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Trading Economics via ad-hoc-news (Stand vor Schluss)",
-    "quelle_url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-ends-lower-as-risk-aversion-returns/70537701"
-   },
-   {
-    "nr": 42,
-    "markt": "Euro Stoxx 50",
-    "richtung": "Verlierer",
-    "name": "SAP",
-    "ticker": "SAP",
-    "veraenderung_pct": -3.5,
-    "grund": "Fortsetzung der Verluste",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Trading Economics via ad-hoc-news (Stand vor Schluss)",
-    "quelle_url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-ends-lower-as-risk-aversion-returns/70537701"
-   },
-   {
-    "nr": 43,
-    "markt": "Euro Stoxx 50",
-    "richtung": "Verlierer",
-    "name": "Sanofi",
-    "ticker": "SAN",
-    "veraenderung_pct": -3.0,
-    "grund": "„knapp 3 %“ laut Quelle",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Trading Economics via ad-hoc-news (Stand vor Schluss)",
-    "quelle_url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-ends-lower-as-risk-aversion-returns/70537701"
-   },
-   {
-    "nr": 44,
-    "markt": "Euro Stoxx 50",
-    "richtung": "Verlierer",
-    "name": "Bayer",
-    "ticker": "BAYN",
-    "veraenderung_pct": -3.0,
-    "grund": "„knapp 3 %“ laut Quelle",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Trading Economics via ad-hoc-news (Stand vor Schluss)",
-    "quelle_url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-ends-lower-as-risk-aversion-returns/70537701"
-   },
-   {
-    "nr": 45,
-    "markt": "Euro Stoxx 50",
-    "richtung": "Verlierer",
-    "name": "Prosus",
-    "ticker": "PRX",
-    "veraenderung_pct": -1.5,
-    "grund": "Grund nicht erhoben",
-    "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Trading Economics via ad-hoc-news (Stand vor Schluss)",
-    "quelle_url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-ends-lower-as-risk-aversion-returns/70537701"
-   },
-   {
-    "nr": 46,
-    "markt": "Euro Stoxx 50",
+    "markt": "Nikkei 225",
     "richtung": "nicht erhoben",
-    "name": "Weitere Plätze",
+    "name": "Gewinner",
     "ticker": "–",
     "veraenderung_pct": null,
-    "grund": "Vollständige Top 5 nicht belegt",
+    "grund": "Nicht belegt",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
+    "boersenschluss": "20.11.2026",
     "quelle": "–",
     "quelle_url": ""
    },
    {
-    "nr": 47,
-    "markt": "Nikkei 225",
-    "richtung": "Gewinner",
-    "name": "Tokio Marine",
-    "ticker": "8766",
-    "veraenderung_pct": 2.61,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 48,
-    "markt": "Nikkei 225",
-    "richtung": "Gewinner",
-    "name": "Sompo",
-    "ticker": "8630",
-    "veraenderung_pct": 1.81,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 49,
-    "markt": "Nikkei 225",
-    "richtung": "Gewinner",
-    "name": "MS&AD",
-    "ticker": "8725",
-    "veraenderung_pct": 1.62,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 50,
-    "markt": "Nikkei 225",
-    "richtung": "Gewinner",
-    "name": "Otsuka Holdings",
-    "ticker": "4578",
-    "veraenderung_pct": 0.82,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 51,
-    "markt": "Nikkei 225",
-    "richtung": "Gewinner",
-    "name": "Nomura Research Institute",
-    "ticker": "4307",
-    "veraenderung_pct": 0.81,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 52,
+    "nr": 32,
     "markt": "Nikkei 225",
     "richtung": "Verlierer",
     "name": "SoftBank Group",
     "ticker": "9984",
     "veraenderung_pct": -14.5,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
+    "grund": "KI-Abverkauf; andere Meldung −14,16 %",
     "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
+    "boersenschluss": "20.11.2026",
+    "quelle": "Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603021"
    },
    {
-    "nr": 53,
-    "markt": "Nikkei 225",
-    "richtung": "Verlierer",
-    "name": "Fujikura",
-    "ticker": "5803",
-    "veraenderung_pct": -11.72,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 54,
-    "markt": "Nikkei 225",
-    "richtung": "Verlierer",
-    "name": "Furukawa Electric",
-    "ticker": "5801",
-    "veraenderung_pct": -11.67,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
-    "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
-   },
-   {
-    "nr": 55,
+    "nr": 33,
     "markt": "Nikkei 225",
     "richtung": "Verlierer",
     "name": "Mitsui Kinzoku",
     "ticker": "5706",
-    "veraenderung_pct": -11.42,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
+    "veraenderung_pct": -13.24,
+    "grund": "Grund nicht erhoben",
     "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
+    "boersenschluss": "20.11.2026",
+    "quelle": "Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603003"
    },
    {
-    "nr": 56,
+    "nr": 34,
     "markt": "Nikkei 225",
     "richtung": "Verlierer",
-    "name": "Ibiden",
-    "ticker": "4062",
-    "veraenderung_pct": -10.67,
-    "grund": "Intraday 20.11., Grund nicht erhoben; nur Zusammenfassung, Volltext nicht frei",
+    "name": "Furukawa Electric",
+    "ticker": "5801",
+    "veraenderung_pct": -12.75,
+    "grund": "Grund nicht erhoben",
     "volumen_vs_30t": null,
-    "boersenschluss": "20.11.2026 (intraday)",
-    "quelle": "Reuters via MarketScreener",
-    "quelle_url": "https://www.marketscreener.com/news/japan-s-nikkei-falls-more-than-4-after-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2de81f325"
+    "boersenschluss": "20.11.2026",
+    "quelle": "Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603003"
    },
    {
-    "nr": 57,
+    "nr": 35,
+    "markt": "Nikkei 225",
+    "richtung": "Verlierer",
+    "name": "Kioxia",
+    "ticker": "285A",
+    "veraenderung_pct": -11.7,
+    "grund": "KI-Abverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603021"
+   },
+   {
+    "nr": 36,
+    "markt": "Nikkei 225",
+    "richtung": "Verlierer",
+    "name": "Advantest",
+    "ticker": "6857",
+    "veraenderung_pct": -10.3,
+    "grund": "KI-Abverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Trading Economics",
+    "quelle_url": "https://tradingeconomics.com/japan/stock-market/news/603021"
+   },
+   {
+    "nr": 37,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Apple",
+    "ticker": "AAPL",
+    "veraenderung_pct": -1.9,
+    "grund": "342,56 USD; 19.11.: −0,92 %",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 38,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Microsoft",
+    "ticker": "MSFT",
+    "veraenderung_pct": -2.8,
+    "grund": "484,52 USD; 19.11.: −1,97 %",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 39,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Alphabet",
+    "ticker": "GOOG",
+    "veraenderung_pct": -2.6,
+    "grund": "264,00 USD; 19.11.: −3,46 %",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 40,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "veraenderung_pct": -4.1,
+    "grund": "246,82 USD; KI- und Mega-Cap-Abverkauf",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 41,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Meta",
+    "ticker": "META",
+    "veraenderung_pct": -5.9,
+    "grund": "560,84 USD; 19.11.: −3,27 %",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 42,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Nvidia",
+    "ticker": "NVDA",
+    "veraenderung_pct": -14.01,
+    "grund": "125,53 USD; SEC-Bericht; über −40 % seit Okt.-Hoch",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 43,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Tesla",
+    "ticker": "TSLA",
+    "veraenderung_pct": -7.6,
+    "grund": "345,82 USD; 19.11.: −2,43 %",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 44,
+    "markt": "Mag7 und ANT",
+    "richtung": "Tagesveränderung",
+    "name": "Anthropic",
+    "ticker": "ANT",
+    "veraenderung_pct": -8.5,
+    "grund": "88,91 USD; Tief 83,05 USD",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com (Kursleiste/Artikel); The Closing Print",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 45,
     "markt": "Volumen",
     "richtung": "Volumen",
-    "name": "US-Börsen gesamt",
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "veraenderung_pct": -4.1,
+    "grund": "72,1 Mio. Aktien vs. Ø 3 Monate 40,2 Mio. (×1,79); 30-Tage-Schnitt nicht erhoben",
+    "volumen_vs_30t": null,
+    "boersenschluss": "20.11.2026",
+    "quelle": "Fool.com",
+    "quelle_url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-amazon-shares-slide-on-ai-and-mega-cap-tech-sell-off/"
+   },
+   {
+    "nr": 46,
+    "markt": "Volumen",
+    "richtung": "nicht erhoben",
+    "name": "Einzelwerte ≥2× 30-Tage-Schnitt",
     "ticker": "–",
     "veraenderung_pct": null,
-    "grund": "20,83 Mrd. Aktien vs. Ø 20 Tage 19,00 Mrd. (×1,10); Einzelwerte ≥2× 30-Tage-Schnitt nicht erhoben",
+    "grund": "Nicht belegt",
     "volumen_vs_30t": null,
-    "boersenschluss": "19.11.2026",
-    "quelle": "Reuters via Investing.com",
-    "quelle_url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+    "boersenschluss": "20.11.2026",
+    "quelle": "–",
+    "quelle_url": ""
    }
   ],
   "leitzinsen": [
